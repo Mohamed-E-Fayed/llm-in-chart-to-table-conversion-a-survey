@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{dsouza2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e1001f782189214a347c0548251060ac}{%
+           family={DSouza},
+           familyi={D\bibinitperiod},
+           given={Ashlyn},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8fcef3e757d76eb420d991484f5fb06a}{%
+           family={Gandhi},
+           familyi={G\bibinitperiod},
+           given={Kavish},
+           giveni={K\bibinitperiod}}}%
+        {{hash=94e99d6e72eb2da55c033b77c03900be}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{fullhash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{bibnamehash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{authorbibnamehash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{authornamehash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{authorfullhash}{7c4b850a4c7e97169a4659a5949996fd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Ingestion Engine Project Report, Fall 2022}
+      \field{year}{2022}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

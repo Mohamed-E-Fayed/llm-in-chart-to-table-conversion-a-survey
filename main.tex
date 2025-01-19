@@ -1,0 +1,122 @@
+\documentclass[
+	%a4paper, % Use A4 paper size
+	letterpaper, % Use US letter paper size
+]{jdf}
+
+\addbibresource{references.bib}
+
+\author{Mohamed Essam Moustafa Kamel Fayed, Bruce Walker}
+\email{mohamed.fayed@gatech.edu,  bruce.walker@psych.gatech.edu}
+\title{Graph Ingestion Engine (Fall 2024)}
+
+\begin{document}
+%\lsstyle
+
+\maketitle
+
+\begin{abstract}
+Multimodal     Large Language Models have shown impressive visual capabilities in many Visual Question Answering tasks.
+In this paper, we aim to test them on Chart-to-Table task.
+%TODO: our priliminary investigations results are...
+     \end{abstract}
+
+     \tableofcontents
+
+\section{Introduction}
+\section{Related Work}
+Extracting data points from charts has witnessed attention from research community.
+There has been work to summarize charts content end-to-end.
+Another direction was related to converting charts to tables.
+Recently, there has been efforts to analyze the performance of Large Visual e Models (LVMs) in many all of those tasks.
+In our work, we aim to pay closer attention to Chart-to-Table task.
+\section{Methodology}\label{sect:methodology}
+\subsection{Datasets}
+\subsection{Models}
+\begin{itemize}
+         \item Gemini 1.5 Flash
+         \item ChartGemma
+         \item Deplot
+              \end{itemize}
+\subsection{Evaluation}
+\begin{itemize}
+    \item Relative Mapping Similarity (RMS)
+    \item Qualitative
+              \end{itemize}
+
+\section{Results and Discussion}\label{sect:qualitative-analysis}
+\subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
+For the sample we analyzed, there has been no errors in recognizing text in the images, e.g. columns names.
+However, table~\ref{tab:charggemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.
+\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
+\footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
+For both models, the tables layouts were perfectly generated into table in json format for Gemini and markdown for ChartGemma.
+
+\subsection{Values Extraction}\label{ssect:values-extraction}
+For PlotQA and ICPR22 samples, it is frequent to find errors like:
+\begin{enumerate}
+         \item rounding errors, e.g. $15.42->15 and 15.6->15$.
+         \item Precision Errors: we have noticed that the model can not predict more than 3 digits for each value, e.g. $126765000.0->156000000$.
+         \item In case of near values, e.g. $24.18, 24.09$, there might be some errors, e.g. predicting $23$ instead of $24$.
+             For that kind of error, it may result in changing trend, e.g. steady performance may seam as decreasing.
+             \footnote{It is worth noting that we have not seen cases where increasing is replaced by decreasing trends or vice versa.}
+             \item Gemini can differntiate outputs based on scale, e.g. $156000000 \& 50.2$ for instance.
+                 However, ChartGemma sometimes change scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where the model returned values multiplied by 10.
+              \end{enumerate}
+
+              In the following subsubsections, we illustrate issues related to each kind of graphs.
+
+\subsubsection{Bar Charts}\label{sssect:bar-errors}
+\begin{enumerate}
+    \item Tables~\ref{tab:chartgemma-plotqa-vbar-21673} and~\ref{tab:gemini-plotqa-vbar-21673} show that both models are very good in extracting data points from bar charts.
+        \footnote{A small notice, that needs more examples to approve/disapprove, is that ChartGemma has lower margin of error while having less precision. The numbers of Canada, for instance, are correctly approximated to 52. This may indicate almost steady value, which sounds reasonable conclusion for that country, especially when looking to the whole graph at a glance.}
+              \end{enumerate}
+              \subsubsection{Line Charts}\label{sssect:line-errors}
+              \begin{enumerate}
+         \item There are some graphs, like~\ref{fig:icpr22-line-6339}, the Gemini API just fails with no clear response message (till now).
+             However, it is suspected that the very large number of data points might be the reason.
+         \item Table~\ref{tab:chartgemma-plotqa-line-20049} shows that ChartGemma may fail in extracting data points from slightly complex graphs.
+             It fails in both extracting correct values as well as mapping them to the correct label.
+                            \end{enumerate}
+              Tables~\ref{tab:gemini-plotqa-vbar-25905} and~\ref{tab:chartgemma-plotqa-vbar-25905} include Gemini 1.5 Flash and ChartGemma predictions for figure~\ref{fig:plotqa-vbar-25905} respectively.
+\begin{figure}
+     \includegraphics{test-sample/plotqa/images/vertical-bar/25905.png}
+     \caption{Vertical Bar Chart example from PlotQA testset.}\label{fig:plotqa-vbar-25905}
+      \end{figure}
+\input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/25905.tex}
+\input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/25905.tex}
+
+\begin{figure}
+     \includegraphics{test-sample/icpr22/images/line/PMC6339093___05.jpg}
+     \caption{Example for charts that causes the API to fail.}
+     \label{fig:icpr22-line-6339}
+      \end{figure}
+\begin{figure}
+     \includegraphics{test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg}
+     \caption{A good example for graph in the wild that causes Gemini 1.5 Flash to fail.}
+     \label{fig:icpr22-line-5882}
+      \end{figure}
+\begin{figure}
+     \includegraphics{test-sample/plotqa/images/line/21673.png}
+     \caption{Example for Line Chart from PlotQA testset \# 21673 about Portfolio Investment}
+     \label{fig:plotqa-line-21673}
+      \end{figure}
+\input{test-sample/plotqa/jsons/line/21673.tex}
+\input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.tex}
+\input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21673.tex}
+
+\begin{figure}
+     \includegraphics{test-sample/plotqa/images/line/20049=4-lines.png}
+     \caption{PlotQA \# 20049: Line chart containing 4 lines.}\label{fig:plotqa-line-20049}
+      \end{figure}
+      \input{test-sample/plotqa/jsons/line/20049.tex}
+      \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20049.tex}
+      \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20049-4-lines.tex}
+
+\section{Conclusion and Recommendations}\label{sect:conclusion}
+In this report, we document our quanitative analysis for LLMs behavior in Chart-to-Table task.
+Based on the selected sample, we observed that the model can accurately recognize the layout of the graph, but it is not very precise in recognizing small differences in values.
+For future work, we recommend combining both LLMs and Computer Vision algorithms to complement each other in accurately converting charts into tables.
+\footnote{Based on my expertise in using LLaMA 3.1 8B Instruct, we can convert among formats with almost no errors, e.g. convert prints from python code in latex table. It correctly follows instruction of to round numerical values or copy them as is.}
+\section{References}
+\printbibliography[heading=none]
+\end{document}
