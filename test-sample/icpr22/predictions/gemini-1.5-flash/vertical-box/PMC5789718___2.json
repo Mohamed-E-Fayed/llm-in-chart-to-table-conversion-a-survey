@@ -1,0 +1,1 @@
+[{"Group": "Control", "Min": 25, "Max": 40}, {"Group": "PEEP 1", "Min": 33, "Max": 47}, {"Group": "PEEP 9", "Min": 27, "Max": 54}, {"Group": "Hypoxemia", "Min": 17, "Max": 31}, {"Group": "Hyperoxemia", "Min": 29, "Max": 41}, {"Group": "Hypocapnia", "Min": 22, "Max": 35}, {"Group": "Hypercapnia", "Min": 13, "Max": 41}]

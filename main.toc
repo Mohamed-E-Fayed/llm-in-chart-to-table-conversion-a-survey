@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Related Work}{1}{section.2}%
+\contentsline {section}{\numberline {3}Methodology}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Datasets}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Models}{1}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Evaluation}{1}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Results and Discussion}{1}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Text Recognition}{1}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Values Extraction}{2}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusion and Recommendations}{2}{section.5}%
+\contentsline {section}{\numberline {6}References}{6}{section.6}%
