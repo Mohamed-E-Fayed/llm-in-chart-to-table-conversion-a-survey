@@ -25,9 +25,10 @@ In this paper, we aim to test them on Chart-to-Table task.
 \section{Introduction}
 \section{Related Work}
 Extracting data points from charts has witnessed attention from research community.
-There has been work to summarize charts content end-to-end.
+There has been work to summarize charts end-to-end.
 Another direction was related to converting charts to tables.
-Recently, there has been efforts to analyze the performance of Large Visual e Models (LVMs) in many all of those tasks.
+There has been a lot of efforts in summarizing charts, answering questions~\cite{masry2022chartqa,masry2024chartgemma} and converting them into tables~\cite{liu2022deplot}.
+Recently, there has been efforts to analyze the performance of Large Visual Models (LVMs) in many all of those tasks.
 In our work, we aim to pay closer attention to Chart-to-Table task.
 \section{Methodology}\label{sect:methodology}
 \subsection{Datasets}
@@ -61,6 +62,8 @@ For PlotQA and ICPR22 samples, it is frequent to find errors like:
              \footnote{It is worth noting that we have not seen cases where increasing is replaced by decreasing trends or vice versa.}
              \item Gemini can differntiate outputs based on scale, e.g. $156000000 \& 50.2$ for instance.
                  However, ChartGemma sometimes change scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where the model returned values multiplied by 10.
+             \item Occasionally, both models swap two columns as shown in table~\ref{tab:gemini-plotqa-line-18806}.
+                 As a result, RMS score is significantly lower (f1=0.34) than its fixed version (f1=0.83).
               \end{enumerate}
 
               In the following subsubsections, we illustrate issues related to each kind of graphs.
@@ -105,12 +108,14 @@ For PlotQA and ICPR22 samples, it is frequent to find errors like:
 \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21673.tex}
 
 \begin{figure}
-     \includegraphics{test-sample/plotqa/images/line/20049=4-lines.png}
+     \includegraphics{test-sample/plotqa/images/line/20049-4-lines.png}
      \caption{PlotQA \# 20049: Line chart containing 4 lines.}\label{fig:plotqa-line-20049}
       \end{figure}
       \input{test-sample/plotqa/jsons/line/20049.tex}
       \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20049.tex}
       \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20049-4-lines.tex}
+
+\input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.tex}
 
 \section{Conclusion and Recommendations}\label{sect:conclusion}
 In this report, we document our quanitative analysis for LLMs behavior in Chart-to-Table task.

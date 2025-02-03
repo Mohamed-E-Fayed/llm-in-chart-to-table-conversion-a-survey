@@ -1,0 +1,12 @@
+cp ~/data/charts/PlotQA/test/tables/6263.csv  csvs/horizontal-bar/
+cp ~/data/charts/PlotQA/test/tables/8988.csv  csvs/horizontal-bar/
+cp ~/data/charts/PlotQA/test/tables/13932.csv   csvs/horizontal-bar/
+cp ~/data/charts/PlotQA/test/tables/17316.csv csvs/line/
+cp ~/data/charts/PlotQA/test/tables/18806.csv  csvs/line/18806-3-lines.csv
+cp ~/data/charts/PlotQA/test/tables/19545.csv  csvs/line/
+cp ~/data/charts/PlotQA/test/tables/20049.csv   csvs/line/20049-4-lines.csv
+cp ~/data/charts/PlotQA/test/tables/20226.csv    csvs/line/20226-4-lines.csv
+cp ~/data/charts/PlotQA/test/tables/21673.csv csvs/line/
+cp ~/data/charts/PlotQA/test/tables/25905.csv  csvs/vertical-bar/
+cp ~/data/charts/PlotQA/test/tables/28308.csv   csvs/vertical-bar/
+cp ~/data/charts/PlotQA/test/tables/32640.csv    csvs/vertical-bar/

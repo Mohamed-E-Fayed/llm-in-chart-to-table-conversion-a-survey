@@ -1,0 +1,3 @@
+- true_dir=plotqa/csvs/
+- pred_dir=plotqa/predictions/gemini-1.5-flash/1st_prompt/
+- scores_csv=plotqa/predictions/gemini-1.5-flash/1st_prompt/rms_scores.csv

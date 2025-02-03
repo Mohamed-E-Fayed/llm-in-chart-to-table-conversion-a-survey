@@ -1,0 +1,2 @@
+true_dir: /path/to/ground/truth
+pred_dir: /path/to/predictions

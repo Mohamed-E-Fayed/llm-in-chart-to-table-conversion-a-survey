@@ -19,38 +19,169 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{dsouza2022}{article}{}
-      \name{author}{3}{}{%
-        {{hash=e1001f782189214a347c0548251060ac}{%
-           family={DSouza},
-           familyi={D\bibinitperiod},
-           given={Ashlyn},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8fcef3e757d76eb420d991484f5fb06a}{%
-           family={Gandhi},
-           familyi={G\bibinitperiod},
-           given={Kavish},
+    \entry{liu2022deplot}{article}{}
+      \name{author}{10}{}{%
+        {{hash=653e326d5d6c25927f0043db9259836f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fangyu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f8486a726284df95a0bab46ae3bc7fda}{%
+           family={Eisenschlos},
+           familyi={E\bibinitperiod},
+           given={Julian\bibnamedelima Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=255b738f05bd3c29f3a1dcb4cd7b6bb7}{%
+           family={Piccinno},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ac7ab81d4733f0e2614c6868ad446fc}{%
+           family={Krichene},
+           familyi={K\bibinitperiod},
+           given={Syrine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b090010749046d291b8976cf37772224}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Chenxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
            giveni={K\bibinitperiod}}}%
-        {{hash=94e99d6e72eb2da55c033b77c03900be}{%
-           family={Walker},
-           familyi={W\bibinitperiod},
-           given={Bruce},
-           giveni={B\bibinitperiod}}}%
+        {{hash=e5bfa941bcdbfecb5f3e42bb6ac9eb5f}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Mandar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=63d99bafe6679fb5e11e960687f909b1}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wenhu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c4d16f6b44a9b643eaf17e43b626a15e}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=dcc6c509647e0708f61bb3e013570515}{%
+           family={Altun},
+           familyi={A\bibinitperiod},
+           given={Yasemin},
+           giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{7c4b850a4c7e97169a4659a5949996fd}
-      \strng{fullhash}{7c4b850a4c7e97169a4659a5949996fd}
-      \strng{bibnamehash}{7c4b850a4c7e97169a4659a5949996fd}
-      \strng{authorbibnamehash}{7c4b850a4c7e97169a4659a5949996fd}
-      \strng{authornamehash}{7c4b850a4c7e97169a4659a5949996fd}
-      \strng{authorfullhash}{7c4b850a4c7e97169a4659a5949996fd}
+      \strng{namehash}{e720aab0bd5167a2b91f448024135a30}
+      \strng{fullhash}{241c3aade26ae2aeb7d853fa980c2275}
+      \strng{bibnamehash}{241c3aade26ae2aeb7d853fa980c2275}
+      \strng{authorbibnamehash}{241c3aade26ae2aeb7d853fa980c2275}
+      \strng{authornamehash}{e720aab0bd5167a2b91f448024135a30}
+      \strng{authorfullhash}{241c3aade26ae2aeb7d853fa980c2275}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Graph Ingestion Engine Project Report, Fall 2022}
+      \field{journaltitle}{arXiv preprint arXiv:2212.10505}
+      \field{title}{Deplot: One-shot visual language reasoning by plot-to-table translation}
       \field{year}{2022}
+    \endentry
+    \entry{masry2022chartqa}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d9969b82a9bd6e43d63bb4695b0da9f4}{%
+           family={Masry},
+           familyi={M\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6a5bc25523db9ebe13310a9b8fec4e7c}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Do\bibnamedelima Xuan},
+           giveni={D\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=75c42e5f0c3773397e29077fc99b9900}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Jia\bibnamedelima Qing},
+           giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=bc9e8da4d88a783135ef12ff3dccff70}{%
+           family={Joty},
+           familyi={J\bibinitperiod},
+           given={Shafiq},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9130769957787e035fa07a35615cc30c}{%
+           family={Hoque},
+           familyi={H\bibinitperiod},
+           given={Enamul},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{fullhash}{f6f4f380fedabda8c440a52ed58feb02}
+      \strng{bibnamehash}{f6f4f380fedabda8c440a52ed58feb02}
+      \strng{authorbibnamehash}{f6f4f380fedabda8c440a52ed58feb02}
+      \strng{authornamehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{authorfullhash}{f6f4f380fedabda8c440a52ed58feb02}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2203.10244}
+      \field{title}{Chartqa: A benchmark for question answering about charts with visual and logical reasoning}
+      \field{year}{2022}
+    \endentry
+    \entry{masry2024chartgemma}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d9969b82a9bd6e43d63bb4695b0da9f4}{%
+           family={Masry},
+           familyi={M\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e52bb3b47cadc5fa9d8e7cf3aba3c1a9}{%
+           family={Thakkar},
+           familyi={T\bibinitperiod},
+           given={Megh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=db146e329c7f0c6c506020a3a4e65b3b}{%
+           family={Bajaj},
+           familyi={B\bibinitperiod},
+           given={Aayush},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a9fe8045b21ed8121f9aad31f53fb82d}{%
+           family={Kartha},
+           familyi={K\bibinitperiod},
+           given={Aaryaman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9130769957787e035fa07a35615cc30c}{%
+           family={Hoque},
+           familyi={H\bibinitperiod},
+           given={Enamul},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bc9e8da4d88a783135ef12ff3dccff70}{%
+           family={Joty},
+           familyi={J\bibinitperiod},
+           given={Shafiq},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{fullhash}{f03d8e82cdc74db56ea6f9eb62d19a5a}
+      \strng{bibnamehash}{f03d8e82cdc74db56ea6f9eb62d19a5a}
+      \strng{authorbibnamehash}{f03d8e82cdc74db56ea6f9eb62d19a5a}
+      \strng{authornamehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{authorfullhash}{f03d8e82cdc74db56ea6f9eb62d19a5a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2407.04172}
+      \field{title}{ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild}
+      \field{year}{2024}
     \endentry
   \enddatalist
 \endrefsection

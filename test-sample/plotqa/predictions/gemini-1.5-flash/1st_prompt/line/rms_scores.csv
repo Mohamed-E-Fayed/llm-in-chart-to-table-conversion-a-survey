@@ -1,0 +1,7 @@
+,pred_file,rms_precision,rms_recall,rms_f1
+0,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/17316.json,1.0,1.0,1.0
+1,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.json,0.3438540160680327,0.3438540160680327,0.3438540160680327
+2,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/19545.json,0.0673015478042323,0.0673015478042323,0.0673015478042323
+3,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20049.json,0.9851629681658662,0.9851629681658662,0.9851629681658662
+4,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20226.json,0.13447017097500122,0.13447017097500122,0.13447017097500122
+5,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.json,0.234985299595622,0.234985299595622,0.234985299595622
