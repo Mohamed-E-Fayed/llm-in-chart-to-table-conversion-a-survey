@@ -1,0 +1,3 @@
+- true_dir=plotqa/csvs/line/
+- pred_dir=plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/
+- scores_csv=plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/rms_scores.csv

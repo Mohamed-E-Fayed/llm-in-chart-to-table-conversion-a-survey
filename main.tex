@@ -5,9 +5,9 @@
 
 \addbibresource{references.bib}
 
-\author{Mohamed Essam Moustafa Kamel Fayed, Bruce Walker}
-\email{mohamed.fayed@gatech.edu,  bruce.walker@psych.gatech.edu}
-\title{Graph Ingestion Engine (Fall 2024)}
+\author{Mohamed Fayed, Kruthik Ravikanti, Bruce Walker}
+\email{mohamed.fayed@gatech.edu, kravikanti3@gatech.edu, bruce.walker@psych.gatech.edu}
+\title{Chart-to-Table Conversion: A Survey}
 
 \begin{document}
 %\lsstyle
@@ -15,28 +15,48 @@
 \maketitle
 
 \begin{abstract}
-Multimodal     Large Language Models have shown impressive visual capabilities in many Visual Question Answering tasks.
-In this paper, we aim to test them on Chart-to-Table task.
-%TODO: our priliminary investigations results are...
+    Multimodal     Large Language Models (MLLMs) have shown impressive visual capabilities in many Visual Question Answering tasks.
+In this paper, we aim to survey the recent advancements in Chart-to-Table task, score the performance of some MLLMs and highlight their strengths and weaknesses.
+Our quantitative and qualitative analysis shows that there is a room for improvmenet in Chart-to-Table conversion.
      \end{abstract}
 
      \tableofcontents
 
-\section{Introduction}
-\section{Related Work}
-Extracting data points from charts has witnessed attention from research community.
-There has been work to summarize charts end-to-end.
-Another direction was related to converting charts to tables.
+\section{Introduction}\label{sect:intro}
+Chart-to-Table is the task of extracting data points from an image of a chart into a table usually in markdown\cite{liu2022deplot;masry2024chartgemma}.
+This task is important in the process of digitizing those charts into more space efficient format of text.
+Moreover, tables are more accessible mean of communicating data to people with disabilities who count on screen readers in interacting with digital world.
+
+%\section{Related Work}
 There has been a lot of efforts in summarizing charts, answering questions~\cite{masry2022chartqa,masry2024chartgemma} and converting them into tables~\cite{liu2022deplot}.
-Recently, there has been efforts to analyze the performance of Large Visual Models (LVMs) in many all of those tasks.
+Recently, there has been efforts to analyze the performance of Multimodal Large Language Models (MLLMs) in many all of those tasks.
 In our work, we aim to pay closer attention to Chart-to-Table task.
+Our main contributions are:
+\begin{enumerate}
+         \item Survey recent advancements in Chart-to-Table task,
+         \item Do quantitative analysis for some models on different benchmark datasets,
+         \item Do fine-grained qualitative analysis on various kinds of charts, and
+         \item highlight strengths, weaknesses and rooms for improvement of those models in performing this task
+              \end{enumerate}
 \section{Methodology}\label{sect:methodology}
 \subsection{Datasets}
-\subsection{Models}
+In our analysis, we focus on reporting scores on testsets of ICPR22~\cite{rousseau2023pattern} and PlotQA~\cite{methani2020plotqa} datasets.
+ICPR22 testset~\cite{rousseau2023pattern} is gathered from research papers published on PubMed Central website.\footnote{\href{https://pmc.ncbi.nlm.nih.gov}{https://pmc.ncbi.nlm.nih.gov}}
+Those publications are in biomedical and life sciences domains.
+It contains 443 charts splitted into 5 types: Line Charts, Horizontal and Vertical Bar Charts, Scatter Plot and Vertical Box Plot.
+
+PlotQA~\cite{methani2020plotqa} was made by gathering data from various online sources, such as World Bank and Open Data, generate plots out of these data points, and ask annotators questions about those provided charts.
+In our work, we focus on the data points used in constructing the charts only.
+Its test set contains 33657 charts divided equally among dotted line charts, line charts, and vertical and horizontal bar charts.
+In our analysis, due to limitations on API calls and time constraints, we ran computed scores for 3000 randomly selected charts.
+
+\subsection{Models}\label{ssect:models}
+For our analysis, we selected the following models:
 \begin{itemize}
-         \item Gemini 1.5 Flash
-         \item ChartGemma
-         \item Deplot
+    \item Gemini 1.5 Flash~\cite{team2024gemini}: A general purpose lightweight MLLM.
+         \item ChartGemma~\cite{masry2024chartgemma}: A specialized model in chart summarization, question answering and reasoning about charts.
+             It utilizes PaliGemma~\cite{beyer2024paligemma} as its backbone, and was tuned on Visual Chart Instructions dataset.
+         \item Deplot~\cite{liu2022deplot}: An encoder-decoder model based on Matcha~\cite{liu2022matcha} that is specialized in converting charts into tables.
               \end{itemize}
 \subsection{Evaluation}
 \begin{itemize}
@@ -45,6 +65,7 @@ In our work, we aim to pay closer attention to Chart-to-Table task.
               \end{itemize}
 
 \section{Results and Discussion}\label{sect:qualitative-analysis}
+\subsection{Relative Mapping Similarity Scores}\label{ssect:rms}
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
 For the sample we analyzed, there has been no errors in recognizing text in the images, e.g. columns names.
 However, table~\ref{tab:charggemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.
@@ -60,8 +81,8 @@ For PlotQA and ICPR22 samples, it is frequent to find errors like:
          \item In case of near values, e.g. $24.18, 24.09$, there might be some errors, e.g. predicting $23$ instead of $24$.
              For that kind of error, it may result in changing trend, e.g. steady performance may seam as decreasing.
              \footnote{It is worth noting that we have not seen cases where increasing is replaced by decreasing trends or vice versa.}
-             \item Gemini can differntiate outputs based on scale, e.g. $156000000 \& 50.2$ for instance.
-                 However, ChartGemma sometimes change scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where the model returned values multiplied by 10.
+             \item Gemini can differentiate outputs based on scale, e.g. $156000000 \& 50.2$ for instance.
+                 However, both models sometimes change scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where ChartGemma returned values multiplied by 10.
              \item Occasionally, both models swap two columns as shown in table~\ref{tab:gemini-plotqa-line-18806}.
                  As a result, RMS score is significantly lower (f1=0.34) than its fixed version (f1=0.83).
               \end{enumerate}

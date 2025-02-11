@@ -1,0 +1,13 @@
+,pred_file,rms_precision,rms_recall,rms_f1
+0,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/13932.json,0.969230280476301,0.969230280476301,0.969230280476301
+1,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/6263.json,0.26433795511324537,0.2114703640905963,0.23496707121177365
+2,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/8988.json,0.9862021909707744,0.9862021909707744,0.9862021909707744
+3,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/17316.json,1.0,1.0,1.0
+4,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.json,0.3438540160680327,0.3438540160680327,0.3438540160680327
+5,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/19545.json,0.0673015478042323,0.0673015478042323,0.0673015478042323
+6,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20049.json,0.9851629681658662,0.9851629681658662,0.9851629681658662
+7,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20226.json,0.13447017097500122,0.13447017097500122,0.13447017097500122
+8,plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.json,0.234985299595622,0.234985299595622,0.234985299595622
+9,plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/25905.json,0.9709146527694421,0.9709146527694421,0.9709146527694421
+10,plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/28308.json,0.9862864761269531,0.9862864761269531,0.9862864761269531
+11,plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/32640.json,0.027395166702305036,0.027395166702305036,0.027395166702305036

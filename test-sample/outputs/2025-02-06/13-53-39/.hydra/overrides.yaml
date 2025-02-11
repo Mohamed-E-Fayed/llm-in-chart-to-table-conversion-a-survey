@@ -1,0 +1,3 @@
+- true_dir=plotqa/csvs/vertical-bar/
+- pred_dir=plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/
+- scores_csv=plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/rms_scores.csv

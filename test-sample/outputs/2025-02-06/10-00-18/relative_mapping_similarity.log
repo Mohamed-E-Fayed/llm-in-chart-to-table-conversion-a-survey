@@ -1,0 +1,4 @@
+[2025-02-06 10:00:18,333][root][INFO] - overall scores are: 
+{'rms_precision': 0.461, 'rms_recall': 0.461, 'rms_f1': 0.461}
+[2025-02-06 10:00:18,337][root][INFO] - saving scores to plotqa/predictions/gemini-1.5-flash/1st_prompt/line/rms_scores.csv
+[2025-02-06 10:00:18,342][root][INFO] - saving overall scores to plotqa/predictions/gemini-1.5-flash/1st_prompt/line/rms_scores.overall.csv

@@ -19,6 +19,47 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{methani2020plotqa}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ade65cf8ece2292cfe64fd3461c15d53}{%
+           family={Methani},
+           familyi={M\bibinitperiod},
+           given={Nitesh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=767b32d77af708512e686f170f7dbfed}{%
+           family={Ganguly},
+           familyi={G\bibinitperiod},
+           given={Pritha},
+           giveni={P\bibinitperiod}}}%
+        {{hash=620c69e905e599a451eba3f56f8e43f0}{%
+           family={Khapra},
+           familyi={K\bibinitperiod},
+           given={Mitesh\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7a520395dba3ba7589dc303f1bde21b8}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Pratyush},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{418d886d24604d2e5511c6933e60e6e8}
+      \strng{fullhash}{ed134dd4af23b07a79d312bcb15f7d21}
+      \strng{bibnamehash}{ed134dd4af23b07a79d312bcb15f7d21}
+      \strng{authorbibnamehash}{ed134dd4af23b07a79d312bcb15f7d21}
+      \strng{authornamehash}{418d886d24604d2e5511c6933e60e6e8}
+      \strng{authorfullhash}{ed134dd4af23b07a79d312bcb15f7d21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision}
+      \field{title}{Plotqa: Reasoning over scientific plots}
+      \field{year}{2020}
+      \field{pages}{1527\bibrangedash 1536}
+      \range{pages}{10}
+    \endentry
     \entry{liu2022deplot}{article}{}
       \name{author}{10}{}{%
         {{hash=653e326d5d6c25927f0043db9259836f}{%
@@ -78,14 +119,82 @@
       \strng{authorbibnamehash}{241c3aade26ae2aeb7d853fa980c2275}
       \strng{authornamehash}{e720aab0bd5167a2b91f448024135a30}
       \strng{authorfullhash}{241c3aade26ae2aeb7d853fa980c2275}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2212.10505}
       \field{title}{Deplot: One-shot visual language reasoning by plot-to-table translation}
+      \field{year}{2022}
+    \endentry
+    \entry{liu2022matcha}{article}{}
+      \name{author}{9}{}{%
+        {{hash=653e326d5d6c25927f0043db9259836f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fangyu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=255b738f05bd3c29f3a1dcb4cd7b6bb7}{%
+           family={Piccinno},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ac7ab81d4733f0e2614c6868ad446fc}{%
+           family={Krichene},
+           familyi={K\bibinitperiod},
+           given={Syrine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b090010749046d291b8976cf37772224}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Chenxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e5bfa941bcdbfecb5f3e42bb6ac9eb5f}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Mandar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dcc6c509647e0708f61bb3e013570515}{%
+           family={Altun},
+           familyi={A\bibinitperiod},
+           given={Yasemin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c4d16f6b44a9b643eaf17e43b626a15e}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f8486a726284df95a0bab46ae3bc7fda}{%
+           family={Eisenschlos},
+           familyi={E\bibinitperiod},
+           given={Julian\bibnamedelima Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e720aab0bd5167a2b91f448024135a30}
+      \strng{fullhash}{c5e2ba1c9cd5d20c43185dd22118997d}
+      \strng{bibnamehash}{c5e2ba1c9cd5d20c43185dd22118997d}
+      \strng{authorbibnamehash}{c5e2ba1c9cd5d20c43185dd22118997d}
+      \strng{authornamehash}{e720aab0bd5167a2b91f448024135a30}
+      \strng{authorfullhash}{c5e2ba1c9cd5d20c43185dd22118997d}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2212.09662}
+      \field{title}{Matcha: Enhancing visual language pretraining with math reasoning and chart derendering}
       \field{year}{2022}
     \endentry
     \entry{masry2022chartqa}{article}{}
@@ -132,6 +241,109 @@
       \field{journaltitle}{arXiv preprint arXiv:2203.10244}
       \field{title}{Chartqa: A benchmark for question answering about charts with visual and logical reasoning}
       \field{year}{2022}
+    \endentry
+    \entry{rousseau2023pattern}{book}{}
+      \name{author}{2}{}{%
+        {{hash=aa9c913cb991c0d4c3a32bb678547bab}{%
+           family={Rousseau},
+           familyi={R\bibinitperiod},
+           given={Jean-Jacques},
+           giveni={J\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=c61b8c58b09a911013d44abb624c4925}{%
+           family={Kapralos},
+           familyi={K\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{9644e48283470d5db9f92cc6a193684c}
+      \strng{fullhash}{9644e48283470d5db9f92cc6a193684c}
+      \strng{bibnamehash}{9644e48283470d5db9f92cc6a193684c}
+      \strng{authorbibnamehash}{9644e48283470d5db9f92cc6a193684c}
+      \strng{authornamehash}{9644e48283470d5db9f92cc6a193684c}
+      \strng{authorfullhash}{9644e48283470d5db9f92cc6a193684c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pattern Recognition, Computer Vision, and Image Processing. ICPR 2022 International Workshops and Challenges: Montreal, QC, Canada, August 21--25, 2022, Proceedings, Part I}
+      \field{volume}{13643}
+      \field{year}{2023}
+    \endentry
+    \entry{beyer2024paligemma}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=691741bd2b633db83517eb795e58b5db}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1bf15c2cb4838798ddd152fa64877e31}{%
+           family={Pinto},
+           familyi={P\bibinitperiod},
+           given={André\bibnamedelima Susano},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e2fcb96349558e1118f3ebcd8e69bb20}{%
+           family={Salz},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb0e8b168eb2c285ccada26468f51772}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aee836cccc276212bdcc665adb77c575}{%
+           family={Alabdulmohsin},
+           familyi={A\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod}}}%
+        {{hash=88c66285b29188b33fc558b50facc935}{%
+           family={Tschannen},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2e770854a20b7f4dccce09d4a11f0188}{%
+           family={Bugliarello},
+           familyi={B\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3528c48d50684fe0f222dcfd6882246}
+      \strng{fullhash}{de8bafd8256ea52a3cacf5061ccb41eb}
+      \strng{bibnamehash}{de8bafd8256ea52a3cacf5061ccb41eb}
+      \strng{authorbibnamehash}{de8bafd8256ea52a3cacf5061ccb41eb}
+      \strng{authornamehash}{f3528c48d50684fe0f222dcfd6882246}
+      \strng{authorfullhash}{de8bafd8256ea52a3cacf5061ccb41eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2407.07726}
+      \field{title}{Paligemma: A versatile 3b vlm for transfer}
+      \field{year}{2024}
     \endentry
     \entry{masry2024chartgemma}{article}{}
       \name{author}{6}{}{%
@@ -183,7 +395,79 @@
       \field{title}{ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild}
       \field{year}{2024}
     \endentry
+    \entry{team2024gemini}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a55b7d5d1274a0ed751da98de34bedbf}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Gemini},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1c5b83cefd7033a528994276b9c00e87}{%
+           family={Georgiev},
+           familyi={G\bibinitperiod},
+           given={Petko},
+           giveni={P\bibinitperiod}}}%
+        {{hash=10b650fb870aa3a91b0efdf940be0674}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Ving\bibnamedelima Ian},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=60ccf47f4b0541b2b92f96f1a1d6e2c5}{%
+           family={Burnell},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c731704fcf676b7f2214af08b66ae85c}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Libin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=063ab7a6cd2185bf685fa080e90e9685}{%
+           family={Gulati},
+           familyi={G\bibinitperiod},
+           given={Anmol},
+           giveni={A\bibinitperiod}}}%
+        {{hash=21b1a5e51b98a911d0f6b2c826dc0e09}{%
+           family={Tanzer},
+           familyi={T\bibinitperiod},
+           given={Garrett},
+           giveni={G\bibinitperiod}}}%
+        {{hash=917cc9d59f6ad3c51ab0377febd20143}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2fc2d2f09ed5cbb6b04ff2f80c4f1ecd}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Zhufeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f3983593afc8fff60516540069aade36}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shibo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{98e7dab7d66dd231a15b4f965ba90923}
+      \strng{fullhash}{5e39e75350e888ab0406912a5ee35824}
+      \strng{bibnamehash}{5e39e75350e888ab0406912a5ee35824}
+      \strng{authorbibnamehash}{5e39e75350e888ab0406912a5ee35824}
+      \strng{authornamehash}{98e7dab7d66dd231a15b4f965ba90923}
+      \strng{authorfullhash}{5e39e75350e888ab0406912a5ee35824}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2403.05530}
+      \field{title}{Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context}
+      \field{year}{2024}
+    \endentry
   \enddatalist
+  \missing{liu2022deplot;masry2024chartgemma}
 \endrefsection
 \endinput
 

@@ -1,7 +1,7 @@
-name,x,y
-Debt,Lao PDR,126765000.0
-Debt,Lebanon,2760257000.0
-Debt,Lesotho,-12427000.0
-Debt,Liberia,-575000.0
-Debt,Macedonia,35546000.0
-Debt,Madagascar,131857000.0
+Country,Debt
+Lao PDR,126765000.0
+Lebanon,2760257000.0
+Lesotho,-12427000.0
+Liberia,-575000.0
+Macedonia,35546000.0
+Madagascar,131857000.0

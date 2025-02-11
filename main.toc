@@ -1,14 +1,14 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Related Work}{2}{section.2}%
-\contentsline {section}{\numberline {3}Methodology}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Datasets}{2}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Models}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Evaluation}{2}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Text Recognition}{2}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Values Extraction}{3}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Bar Charts}{3}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Line Charts}{3}{subsubsection.4.2.2}%
-\contentsline {section}{\numberline {5}Conclusion and Recommendations}{9}{section.5}%
-\contentsline {section}{\numberline {6}References}{9}{section.6}%
+\contentsline {section}{\numberline {2}Methodology}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Datasets}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Models}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Evaluation}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Results and Discussion}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Relative Mapping Similarity Scores}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Text Recognition}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Values Extraction}{3}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Bar Charts}{4}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Line Charts}{4}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}Conclusion and Recommendations}{10}{section.4}%
+\contentsline {section}{\numberline {5}References}{10}{section.5}%

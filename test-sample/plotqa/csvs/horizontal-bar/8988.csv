@@ -1,19 +1,7 @@
-name,x,y
-2009,111.0,Congo (Democratic)
-2009,135.0,Congo (Republic)
-2009,62.0,Costa Rica
-2009,55.0,Cote d'Ivoire
-2009,70.0,Croatia
-2009,207.0,Cyprus
-2010,111.0,Congo (Democratic)
-2010,135.0,Congo (Republic)
-2010,62.0,Costa Rica
-2010,55.0,Cote d'Ivoire
-2010,70.0,Croatia
-2010,207.0,Cyprus
-2011,111.0,Congo (Democratic)
-2011,135.0,Congo (Republic)
-2011,62.0,Costa Rica
-2011,55.0,Cote d'Ivoire
-2011,70.0,Croatia
-2011,207.0,Cyprus
+Country,2009,2010,2011
+Congo (Democratic),111.0,111.0,111.0
+Congo (Republic),135.0,135.0,135.0
+Costa Rica,62.0,62.0,62.0
+Cote d'Ivoire,55.0,55.0,55.0
+Croatia,70.0,70.0,70.0
+Cyprus,207.0,207.0,207.0

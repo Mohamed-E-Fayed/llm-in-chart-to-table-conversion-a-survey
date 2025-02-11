@@ -1,0 +1,7 @@
+,pred_file,rms_precision,rms_recall,rms_f1
+0,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/17316.json,0.908134642356241,0.908134642356241,0.908134642356241
+1,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/18806-3-lines.json,0.614964840014597,0.614964840014597,0.614964840014597
+2,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/19545.json,0.0,0.0,0.0
+3,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20049-4-lines.json,0.37505402114855824,0.37505402114855824,0.3750540211485583
+4,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20226-4-lines.json,0.003035262174449271,0.002276446630836953,0.0026016532923850894
+5,plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21673.json,0.0,0.0,0.0

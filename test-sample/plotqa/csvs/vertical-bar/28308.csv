@@ -1,7 +1,3 @@
-name,x,y
-Armenia,Competing against unregistered firms,44.6
-Armenia,Formally registered,96.2
-Cabo Verde,Competing against unregistered firms,44.5
-Cabo Verde,Formally registered,81.3
-Samoa,Competing against unregistered firms,63.6
-Samoa,Formally registered,88.4
+Firms,Armenia,Cabo Verde,Samoa
+Competing against unregistered firms,44.6,44.5,63.6
+Formally registered,96.2,81.3,88.4

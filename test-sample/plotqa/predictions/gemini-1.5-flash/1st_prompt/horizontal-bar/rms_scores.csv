@@ -1,0 +1,4 @@
+,pred_file,rms_precision,rms_recall,rms_f1
+0,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/13932.json,0.969230280476301,0.969230280476301,0.969230280476301
+1,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/6263.json,0.26433795511324537,0.2114703640905963,0.23496707121177365
+2,plotqa/predictions/gemini-1.5-flash/1st_prompt/horizontal-bar/8988.json,0.9862021909707744,0.9862021909707744,0.9862021909707744
