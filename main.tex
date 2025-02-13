@@ -23,7 +23,7 @@ Our quantitative and qualitative analysis shows that there is a room for improvm
      \tableofcontents
 
 \section{Introduction}\label{sect:intro}
-Chart-to-Table is the task of extracting data points from an image of a chart into a table usually in markdown\cite{liu2022deplot;masry2024chartgemma}.
+Chart-to-Table is the task of extracting data points from an image of a chart into a table usually in markdown\cite{liu2022deplot,masry2024chartgemma}.
 This task is important in the process of digitizing those charts into more space efficient format of text.
 Moreover, tables are more accessible mean of communicating data to people with disabilities who count on screen readers in interacting with digital world.
 
@@ -40,15 +40,22 @@ Our main contributions are:
               \end{enumerate}
 \section{Methodology}\label{sect:methodology}
 \subsection{Datasets}
-In our analysis, we focus on reporting scores on testsets of ICPR22~\cite{rousseau2023pattern} and PlotQA~\cite{methani2020plotqa} datasets.
-ICPR22 testset~\cite{rousseau2023pattern} is gathered from research papers published on PubMed Central website.\footnote{\href{https://pmc.ncbi.nlm.nih.gov}{https://pmc.ncbi.nlm.nih.gov}}
+In our analysis, we focus on reporting scores on testsets of ICPR22~\cite{rousseau2023pattern} and PlotQA~\cite{methani2020plotqa}.
+For qualitative analysis, we selected a sample of graphs of each type.
+We refer to this testset as Test-Sample.
+
+ICPR22 testset~\cite{rousseau2023pattern} was gathered from research papers published on PubMed Central website.\footnote{\href{https://pmc.ncbi.nlm.nih.gov}{https://pmc.ncbi.nlm.nih.gov}}
 Those publications are in biomedical and life sciences domains.
 It contains 443 charts splitted into 5 types: Line Charts, Horizontal and Vertical Bar Charts, Scatter Plot and Vertical Box Plot.
 
 PlotQA~\cite{methani2020plotqa} was made by gathering data from various online sources, such as World Bank and Open Data, generate plots out of these data points, and ask annotators questions about those provided charts.
 In our work, we focus on the data points used in constructing the charts only.
 Its test set contains 33657 charts divided equally among dotted line charts, line charts, and vertical and horizontal bar charts.
-In our analysis, due to limitations on API calls and time constraints, we ran computed scores for 3000 randomly selected charts.
+In our analysis, due to limitations on API calls and time constraints, we ran computed scores for 1500 randomly selected charts.
+
+Test-Sample: A sample of graphs of each kind from PlotQA and ICPR22 testsets.
+We randomly selected a small set of graphs, then added a couple selected so that we have a variety of tables' sizes.
+All of charts mentioned in this report are belonging to this testset.
 
 \subsection{Models}\label{ssect:models}
 For our analysis, we selected the following models:
@@ -56,16 +63,33 @@ For our analysis, we selected the following models:
     \item Gemini 1.5 Flash~\cite{team2024gemini}: A general purpose lightweight MLLM.
          \item ChartGemma~\cite{masry2024chartgemma}: A specialized model in chart summarization, question answering and reasoning about charts.
              It utilizes PaliGemma~\cite{beyer2024paligemma} as its backbone, and was tuned on Visual Chart Instructions dataset.
-         \item Deplot~\cite{liu2022deplot}: An encoder-decoder model based on Matcha~\cite{liu2022matcha} that is specialized in converting charts into tables.
+         \item Deplot~\cite{liu2022deplot}: 
               \end{itemize}
 \subsection{Evaluation}
-\begin{itemize}
-    \item Relative Mapping Similarity (RMS)
-    \item Qualitative
-              \end{itemize}
+To evaluate the models, we computed Relative Mapping Similarity score~\cite{liu2022deplot} on PlotQA and ICPR22 tetsets, and did qualitative analysis on our test-sample.
+
+\paragraph{Relative Mapping Similarity (RMS)~\cite{liu2022deplot}} is a score that computes how two tables are similar according to the following considerations:
+        \begin{enumerate}
+                 \item Compares reference column to predicted one with lowest edit distance in column's name,
+                 \item Compute numerical error among values within the two columns, and
+                 \item Combines both normalized edit distance and similarity among values into a single value indicating the similarity between the two tables.
+                      \end{enumerate}
 
 \section{Results and Discussion}\label{sect:qualitative-analysis}
-\subsection{Relative Mapping Similarity Scores}\label{ssect:rms}
+%\subsection{Relative Mapping Similarity Scores}\label{ssect:rms}
+%TODO: add scores to the table.
+RMS scores are reported in table~\ref{tab:rms-scores}.
+In the following subsections, we record our observations resulting in those RMS scores.
+\begin{table}
+     \begin{tabular}{ |c|c|c|c| }
+         Model & PlotQA & ICPR22 & Test-Sample \\
+         Gemini 1.5 Flash & & & \\
+         ChartGemma & & & \\
+         Deplot & & & \\
+     \end{tabular}
+     \caption{RMS scores for all models on each on of the testsets.}
+     \label{tab:rms-scores}
+      \end{table}
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
 For the sample we analyzed, there has been no errors in recognizing text in the images, e.g. columns names.
 However, table~\ref{tab:charggemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.

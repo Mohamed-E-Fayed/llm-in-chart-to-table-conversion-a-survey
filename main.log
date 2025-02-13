@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  11 FEB 2025 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  13 FEB 2025 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,15 +1207,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                liu2022deplot;masry2024chartgemma
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 15
@@ -1274,98 +1266,82 @@ some MLLMs
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-
-LaTeX Warning: Citation 'liu2022deplot;masry2024chartgemma' on page 1 undefined
- on input line 26.
-
-
-LaTeX Warning: Citation 'liu2022deplot;masry2024chartgemma' on page 1 undefined
- on input line 26.
-
-
-Overfull \hbox (108.13008pt too wide) in paragraph at lines 26--29
-\T1/pplj/m/n/11 (-10) ta-ble usu-ally in markdown[], [].
- []
-
-[1
+ [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 47.
 
-Package biblatex Warning: Field 'extrayear' is deprecated.
-(biblatex)                Please use 'extradate' instead.
-(biblatex)                Using 'extradate' now.
-
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 44.
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-56.
+63.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 
 LaTeX Warning: Reference `tab:charggemma-plotqa-line-21673' on page 3 undefined
- on input line 71.
+ on input line 95.
 
 [3]
 
 LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-21673' on page 4 undefined
- on input line 94.
+ on input line 118.
 
 
 LaTeX Warning: Reference `tab:gemini-plotqa-vbar-21673' on page 4 undefined on 
-input line 94.
+input line 118.
 
+[4]
 
-LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-25905' on page 4 undefined
- on input line 104.
+LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-25905' on page 5 undefined
+ on input line 128.
 
-<test-sample/plotqa/images/vertical-bar/25905.png, id=115, 706.64pt x 702.625pt
+<test-sample/plotqa/images/vertical-bar/25905.png, id=127, 706.64pt x 702.625pt
 >
 File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/25905.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
- on input line 106.
+ on input line 130.
 (pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
 5.tex)
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
 l-bar/25905.tex)
-Overfull \hbox (1245.17398pt too wide) in paragraph at lines 104--111
+Overfull \hbox (1245.17398pt too wide) in paragraph at lines 128--135
 \T1/pplj/m/n/11 (-10) re-spec-tively.   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--111
+Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
-[4]
-<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=135, 81.906pt x 78.2925
+<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=129, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
 )
 <use test-sample/icpr22/images/line/PMC6339093___05.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC6339093___05.jpg  us
-ed on input line 113.
+ed on input line 137.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=136, 160.4394pt x 1
+[5] [6 <./test-sample/plotqa/images/vertical-bar/25905.png>]
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=149, 160.4394pt x 1
 38.0357pt>
 File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
  jpg)
 <use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
-  used on input line 118.
+  used on input line 142.
 (pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=137, 1119.18124pt x 652.4375pt>
+<test-sample/plotqa/images/line/21673.png, id=150, 1119.18124pt x 652.4375pt>
 File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
 <use test-sample/plotqa/images/line/21673.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
-t line 123.
+t line 147.
 (pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
- (./test-sample/plotqa/jsons/line/21673.tex
+
+(./test-sample/plotqa/jsons/line/21673.tex
 Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 [][] 
  []
@@ -1374,12 +1350,12 @@ Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
 673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=138, 1259.70625pt x 702.6
+<test-sample/plotqa/images/line/20049-4-lines.png, id=151, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/20049-4-lines.png  used
- on input line 132.
+ on input line 156.
 (pdftex.def)             Requested size: 397.48233pt x 221.70328pt.
  (./test-sample/plotqa/jsons/line/20049.tex
 Overfull \hbox (775.16301pt too wide) in paragraph at lines 2--12
@@ -1395,10 +1371,10 @@ Overfull \hbox (355.35078pt too wide) in paragraph at lines 2--13
 [][] 
  []
 
-) [5 <./test-sample/plotqa/images/vertical-bar/25905.png>] [6 <./test-sample/ic
-pr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/PMC5882
-956___1_HTML.jpg>] [7 <./test-sample/plotqa/images/line/21673.png>] [8 <./test-
-sample/plotqa/images/line/20049-4-lines.png>] [9] [10] [11] (./main.aux)
+) [7 <./test-sample/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr
+22/images/line/PMC5882956___1_HTML.jpg>] [8 <./test-sample/plotqa/images/line/2
+1673.png>] [9 <./test-sample/plotqa/images/line/20049-4-lines.png>] [10]
+[11] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1408,7 +1384,7 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A668EED936DEAAF25A629E844A63956D;1713.
+(rerunfilecheck)             Checksum: 1E001170C5AB2ECB9B6ABA35F21B3BC2;1476.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1418,13 +1394,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 15 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30176 strings out of 474116
- 584006 string characters out of 5743682
- 1950187 words of memory out of 5000000
- 51690 multiletter control sequences out of 15000+600000
- 644434 words of font info for 364 fonts, out of 8000000 for 9000
+ 30168 strings out of 474116
+ 583773 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 51685 multiletter control sequences out of 15000+600000
+ 644153 words of font info for 360 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,131p,997b,2424s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,131p,997b,2426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /euler/eufm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
 ts/euler/eufm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfo
@@ -1437,10 +1413,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (11 pages, 518338 bytes).
+Output written on main.pdf (11 pages, 521239 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 103042 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 103034 words of extra memory for PDF output out of 106986 (max. 10000000)
 

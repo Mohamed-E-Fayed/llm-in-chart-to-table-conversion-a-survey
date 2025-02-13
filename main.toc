@@ -5,10 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Models}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Evaluation}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Results and Discussion}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Relative Mapping Similarity Scores}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Text Recognition}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Values Extraction}{3}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Bar Charts}{4}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Line Charts}{4}{subsubsection.3.3.2}%
-\contentsline {section}{\numberline {4}Conclusion and Recommendations}{10}{section.4}%
-\contentsline {section}{\numberline {5}References}{10}{section.5}%
+\contentsline {subsection}{\numberline {3.1}Text Recognition}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Values Extraction}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Bar Charts}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Line Charts}{5}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Conclusion and Recommendations}{7}{section.4}%
+\contentsline {section}{\numberline {5}References}{11}{section.5}%

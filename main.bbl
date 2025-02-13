@@ -119,82 +119,14 @@
       \strng{authorbibnamehash}{241c3aade26ae2aeb7d853fa980c2275}
       \strng{authornamehash}{e720aab0bd5167a2b91f448024135a30}
       \strng{authorfullhash}{241c3aade26ae2aeb7d853fa980c2275}
-      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2212.10505}
       \field{title}{Deplot: One-shot visual language reasoning by plot-to-table translation}
-      \field{year}{2022}
-    \endentry
-    \entry{liu2022matcha}{article}{}
-      \name{author}{9}{}{%
-        {{hash=653e326d5d6c25927f0043db9259836f}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Fangyu},
-           giveni={F\bibinitperiod}}}%
-        {{hash=255b738f05bd3c29f3a1dcb4cd7b6bb7}{%
-           family={Piccinno},
-           familyi={P\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=6ac7ab81d4733f0e2614c6868ad446fc}{%
-           family={Krichene},
-           familyi={K\bibinitperiod},
-           given={Syrine},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b090010749046d291b8976cf37772224}{%
-           family={Pang},
-           familyi={P\bibinitperiod},
-           given={Chenxi},
-           giveni={C\bibinitperiod}}}%
-        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Kenton},
-           giveni={K\bibinitperiod}}}%
-        {{hash=e5bfa941bcdbfecb5f3e42bb6ac9eb5f}{%
-           family={Joshi},
-           familyi={J\bibinitperiod},
-           given={Mandar},
-           giveni={M\bibinitperiod}}}%
-        {{hash=dcc6c509647e0708f61bb3e013570515}{%
-           family={Altun},
-           familyi={A\bibinitperiod},
-           given={Yasemin},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=c4d16f6b44a9b643eaf17e43b626a15e}{%
-           family={Collier},
-           familyi={C\bibinitperiod},
-           given={Nigel},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f8486a726284df95a0bab46ae3bc7fda}{%
-           family={Eisenschlos},
-           familyi={E\bibinitperiod},
-           given={Julian\bibnamedelima Martin},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{e720aab0bd5167a2b91f448024135a30}
-      \strng{fullhash}{c5e2ba1c9cd5d20c43185dd22118997d}
-      \strng{bibnamehash}{c5e2ba1c9cd5d20c43185dd22118997d}
-      \strng{authorbibnamehash}{c5e2ba1c9cd5d20c43185dd22118997d}
-      \strng{authornamehash}{e720aab0bd5167a2b91f448024135a30}
-      \strng{authorfullhash}{c5e2ba1c9cd5d20c43185dd22118997d}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2212.09662}
-      \field{title}{Matcha: Enhancing visual language pretraining with math reasoning and chart derendering}
       \field{year}{2022}
     \endentry
     \entry{masry2022chartqa}{article}{}
@@ -467,7 +399,6 @@
       \field{year}{2024}
     \endentry
   \enddatalist
-  \missing{liu2022deplot;masry2024chartgemma}
 \endrefsection
 \endinput
 

@@ -1,17 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[26] biber-darwin:340> INFO - === Tue Feb 11, 2025, 23:47:15
-[32] Biber.pm:419> INFO - Reading 'main.bcf'
-[63] Biber.pm:979> INFO - Found 9 citekeys in bib section 0
-[69] Biber.pm:4419> INFO - Processing section 0
-[73] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[73] bibtex.pm:1713> INFO - LaTeX decoding ...
-[78] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[131] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[131] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[131] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[131] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[137] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[141] bbl.pm:763> INFO - Output to main.bbl
-[141] Biber.pm:131> WARN - I didn't find a database entry for 'liu2022deplot;masry2024chartgemma' (section 0)
-[141] Biber.pm:133> INFO - WARNINGS: 1
+[34] biber-darwin:340> INFO - === Thu Feb 13, 2025, 14:35:36
+[42] Biber.pm:419> INFO - Reading 'main.bcf'
+[87] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[94] Biber.pm:4419> INFO - Processing section 0
+[98] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[99] bibtex.pm:1713> INFO - LaTeX decoding ...
+[106] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[158] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[159] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[159] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[159] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[164] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[168] bbl.pm:763> INFO - Output to main.bbl
