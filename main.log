@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  19 FEB 2025 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  20 FEB 2025 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1277,11 +1277,12 @@ Package biblatex Warning: Field 'extrayear' is deprecated.
 
 [2]
 LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 71.
+ [3]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
 83.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [3]
+)
 
 LaTeX Warning: Reference `tab:charggemma-plotqa-line-21673' on page 4 undefined
  on input line 98.
@@ -1408,11 +1409,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 15 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30238 strings out of 474116
- 585578 string characters out of 5743682
+ 30248 strings out of 474116
+ 585658 string characters out of 5743682
  1950187 words of memory out of 5000000
  51733 multiletter control sequences out of 15000+600000
- 645001 words of font info for 372 fonts, out of 8000000 for 9000
+ 645563 words of font info for 380 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,9n,131p,997b,2430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
@@ -1427,7 +1428,7 @@ cal/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (12 pages, 524806 bytes).
+Output written on main.pdf (12 pages, 524906 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
