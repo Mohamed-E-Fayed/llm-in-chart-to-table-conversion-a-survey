@@ -70,6 +70,17 @@ Similarly,~\cite{masry2024chartgemma} fine-tuned PaliGemma~\cite{beyer2024palige
 Another key distinguishing contribution was the method of instruction following data generation.
 They generated for predefined tasks, such as Chain of Thought and Chart-to-Tables in form of markdown, and open-ended tasks, such as justifying trends in charts and describing visual elements.
 
+There has been many metrics for evaluating Chart-to-Table conversion.
+Relative Number Similarity Score~\cite{masry2022chartqa}, also known as Relaxed Accuracy Measure, is about  computing highest accuracy of generated numbers relative to ground truth.
+However, it has two main drawbacks:
+\begin{enumerate}
+         \item It does not consider the position of numbers within the table, and
+         \item It ignores textual errors.
+              \end{enumerate}
+To overcome those limitations, Relative Mapping Similarity (RMS)~\cite{liu2022deplot} computes edit distance between columns names, compute accuracy of values within columns of least edit distances and compute F1-score.
+\footnote{our RMS implementation can be found \href{https://github.gatech.edu/mfayed8/GIE-metrics}{here}.}
+
+
 \section{Methodology}\label{sect:methodology}
 \subsection{Datasets}
 In our analysis, we focus on reporting scores on testsets of ICPR22~\cite{rousseau2023pattern} and PlotQA~\cite{methani2020plotqa} datasets.
