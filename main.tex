@@ -46,13 +46,18 @@ Our main contributions are:
 
        It all begins with computer vision (CV) based methods. Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends. These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions. Furthermore, rule-based approaches were often unsuccessful due to complex charts that had overlapping elements or non-standard layouts/ As a result, researchers pursued more robust techniques that could better generalize across diverse chart designs. 
 
-    Fast forward, researchers gave deep learning a try. Models such as ChartSense and ChartOCR utilized convolutional neural networks (CNNs) to classify types of charts and extract available data with higher accuracies. However, these methods needed extensive labeled datasets and lacked generalization across different chart formats. Although CNNs did improve feature extraction, they still struggled with tasks demanding contextual understanding, such as contrasting similar visual elements. To resolve this, researchers started to integrate transformers and multimodal models which allowed for better alignment between textual and visual elements of charts.
+    Fast forward, researchers gave deep learning a try.
+    Systems such as ChartSense~\cite{jung2017chartsense} and ChartOCR~\cite{luo2021chartocr} utilized convolutional neural networks (CNNs) to classify types of charts and extract available data with higher accuracies.
+    However, these methods needed extensive labeled datasets and lacked generalization across different chart formats.
+    Although CNNs did improve feature extraction, they still struggled with tasks demanding contextual understanding, such as contrasting similar visual elements.
+    To resolve this, researchers started to integrate transformers and multimodal models which allowed for better alignment between textual and visual elements of charts.
     
 Pretraining and Large Language Models attracted researchers.
 ~\cite{masry2023unichart} gathered a large dataset of 6.9M questions and charts, and used it to pre-train UniChart model.
 Another group of researchers~\cite{liu2022matcha} introduced Matcha model, which was a fine-tuned version of Pix2Struct~\cite{lee2023pix2struct} on many tasks including Chart-to-Table.
 Later on,~\cite{liu2022deplot} continued pre-training it on Chart-to-Table only to create Deplot.
 They forwarded the generated table, human query and an example to FlanPaLM 540B~\cite{chung2024scaling} to answer complex queries.
+~\cite{cheng2023chartreader} took a different approach by training a transforers based chart componenet detection and combine it with extended pretrained T5~\cite{raffel2020exploring} or TaPas~\cite{herzig2020tapas} models.
 
 MLLMs has made significant progress in many tasks and Chart-to-Table was no exception.
 One direction is about utilizing general domain LLMs without any tuning.

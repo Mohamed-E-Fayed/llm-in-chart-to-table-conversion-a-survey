@@ -1,15 +1,15 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Chart-to-Table in Literature}{2}{section.2}%
-\contentsline {section}{\numberline {3}Methodology}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Datasets}{3}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Methodology}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Datasets}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Models}{4}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Evaluation}{4}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Relative Mapping Similarity Scores}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Text Recognition}{4}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Values Extraction}{4}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Bar Charts}{5}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Line Charts}{5}{subsubsection.4.3.2}%
-\contentsline {section}{\numberline {5}Conclusion and Recommendations}{11}{section.5}%
-\contentsline {section}{\numberline {6}References}{11}{section.6}%
+\contentsline {section}{\numberline {4}Results and Discussion}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Relative Mapping Similarity Scores}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Text Recognition}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Values Extraction}{5}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Bar Charts}{6}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Line Charts}{6}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Conclusion and Recommendations}{8}{section.5}%
+\contentsline {section}{\numberline {6}References}{12}{section.6}%

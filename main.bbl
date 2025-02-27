@@ -19,6 +19,106 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{jung2017chartsense}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=c343a145aa146b70a23de766046d8eee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Daekyoung},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cccfd3d505bd2141313c5720cd57bbd8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjae},
+           giveni={W\bibinitperiod}}}%
+        {{hash=59c1a4d4a38a0d54063cd637e3c77d2e}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Hyunjoo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=64dad99324f89afe7f19a3bf5b4c49f6}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Jeong-in},
+           giveni={J\bibinithyphendelim i\bibinitperiod}}}%
+        {{hash=676dc38f9d5c05da09549d1d5e56f703}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Bongshin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7a00139be63ad0add632c343d8c6eb92}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Bohyoung},
+           giveni={B\bibinitperiod}}}%
+        {{hash=86987632669ccd24bfdfb36919f898e4}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Jinwook},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6feb98e97ec3f70eedc6f11f07314847}
+      \strng{fullhash}{a4f807a7aa39a4b567615fffbd4d17c1}
+      \strng{bibnamehash}{a4f807a7aa39a4b567615fffbd4d17c1}
+      \strng{authorbibnamehash}{a4f807a7aa39a4b567615fffbd4d17c1}
+      \strng{authornamehash}{6feb98e97ec3f70eedc6f11f07314847}
+      \strng{authorfullhash}{a4f807a7aa39a4b567615fffbd4d17c1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the CHI Conference on Human Factors in Computing Systems}
+      \field{title}{Chartsense: Interactive data extraction from chart images}
+      \field{year}{2017}
+      \field{pages}{6706\bibrangedash 6717}
+      \range{pages}{12}
+    \endentry
+    \entry{herzig2020tapas}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cde9a54b0ff79db63ecfd26ab18b05fe}{%
+           family={Herzig},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38a0b02f59fd23964d0e50b449bcecfe}{%
+           family={Nowak},
+           familyi={N\bibinitperiod},
+           given={Pawe{ł}\bibnamedelima Krzysztof},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c2ad285eb682bccdfe2685694db2188f}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=255b738f05bd3c29f3a1dcb4cd7b6bb7}{%
+           family={Piccinno},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f8486a726284df95a0bab46ae3bc7fda}{%
+           family={Eisenschlos},
+           familyi={E\bibinitperiod},
+           given={Julian\bibnamedelima Martin},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5b57eaede96beae220a8e69347abf07}
+      \strng{fullhash}{eabe23c933ab2717d9bff662f6c0a0f9}
+      \strng{bibnamehash}{eabe23c933ab2717d9bff662f6c0a0f9}
+      \strng{authorbibnamehash}{eabe23c933ab2717d9bff662f6c0a0f9}
+      \strng{authornamehash}{f5b57eaede96beae220a8e69347abf07}
+      \strng{authorfullhash}{eabe23c933ab2717d9bff662f6c0a0f9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2004.02349}
+      \field{title}{TaPas: Weakly supervised table parsing via pre-training}
+      \field{year}{2020}
+    \endentry
     \entry{methani2020plotqa}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=ade65cf8ece2292cfe64fd3461c15d53}{%
@@ -59,6 +159,115 @@
       \field{year}{2020}
       \field{pages}{1527\bibrangedash 1536}
       \range{pages}{10}
+    \endentry
+    \entry{raffel2020exploring}{article}{}
+      \name{author}{9}{}{%
+        {{hash=81a5a94e2388c149a73a86381db45e07}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=243c03e5ae8031582d6af9fcbc70f629}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bfca12eba160cc79988e61b7fb6ded42}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a2da348cbbad750c6fe76dda9c35ffcd}{%
+           family={Narang},
+           familyi={N\bibinitperiod},
+           given={Sharan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2ce97dc1ae3d554bd748423ad06453df}{%
+           family={Matena},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83a9e81d976cada23775106b303c4247}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yanqi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=be6f1b6df7f1ddfafad18806238fa391}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=570360613a16cb233115feb5f8b4e526}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{93aba8e9bb746e2d8ac216494b952014}
+      \strng{fullhash}{21f7721b75bba06d59f9d5ce222a34a5}
+      \strng{bibnamehash}{21f7721b75bba06d59f9d5ce222a34a5}
+      \strng{authorbibnamehash}{21f7721b75bba06d59f9d5ce222a34a5}
+      \strng{authornamehash}{93aba8e9bb746e2d8ac216494b952014}
+      \strng{authorfullhash}{21f7721b75bba06d59f9d5ce222a34a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of machine learning research}
+      \field{number}{140}
+      \field{title}{Exploring the limits of transfer learning with a unified text-to-text transformer}
+      \field{volume}{21}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 67}
+      \range{pages}{67}
+    \endentry
+    \entry{luo2021chartocr}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=2ee457aa5e9a05078b5aace148af3432}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Junyu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d8895e2e4ed2b68b1252a6e1b831200}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zekun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8c602984748ea7ccc520193ced210fe2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jinpeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bc6dfe0750848d77d639c1de6b9934e4}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chin-Yew},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2b2383993788a8da81a3ebe0dadea51}
+      \strng{fullhash}{6d69efe8f2abb8f7e73428ef1f2ade93}
+      \strng{bibnamehash}{6d69efe8f2abb8f7e73428ef1f2ade93}
+      \strng{authorbibnamehash}{6d69efe8f2abb8f7e73428ef1f2ade93}
+      \strng{authornamehash}{d2b2383993788a8da81a3ebe0dadea51}
+      \strng{authorfullhash}{6d69efe8f2abb8f7e73428ef1f2ade93}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF winter conference on applications of computer vision}
+      \field{title}{Chartocr: Data extraction from charts images via a deep hybrid framework}
+      \field{year}{2021}
+      \field{pages}{1917\bibrangedash 1925}
+      \range{pages}{9}
     \endentry
     \entry{liu2022deplot}{article}{}
       \name{author}{10}{}{%
@@ -241,6 +450,42 @@
       \field{journaltitle}{arXiv preprint arXiv:2203.10244}
       \field{title}{Chartqa: A benchmark for question answering about charts with visual and logical reasoning}
       \field{year}{2022}
+    \endentry
+    \entry{cheng2023chartreader}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=357b52368d6ccdb8329cf0c240ed6b4b}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Zhi-Qi},
+           giveni={Z\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=fee70a513d072238b3042235a07b6cfa}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=ddedb070845b48604ecd5eee385cd637}{%
+           family={Hauptmann},
+           familyi={H\bibinitperiod},
+           given={Alexander\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \strng{fullhash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \strng{bibnamehash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \strng{authorbibnamehash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \strng{authornamehash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \strng{authorfullhash}{9de8838ece5837b7bce41e2cf7aa2a87}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF International Conference on Computer Vision}
+      \field{title}{Chartreader: A unified framework for chart derendering and comprehension without heuristic rules}
+      \field{year}{2023}
+      \field{pages}{22202\bibrangedash 22213}
+      \range{pages}{12}
     \endentry
     \entry{lee2023pix2struct}{inproceedings}{}
       \name{author}{10}{}{%
