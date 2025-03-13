@@ -57,7 +57,7 @@ Pretraining and Large Language Models attracted researchers.
 Another group of researchers~\cite{liu2022matcha} introduced Matcha model, which was a fine-tuned version of Pix2Struct~\cite{lee2023pix2struct} on many tasks including Chart-to-Table.
 Later on,~\cite{liu2022deplot} continued pre-training it on Chart-to-Table only to create Deplot.
 They forwarded the generated table, human query and an example to FlanPaLM 540B~\cite{chung2024scaling} to answer complex queries.
-~\cite{cheng2023chartreader} took a different approach by training a transforers based chart componenet detection and combine it with extended pretrained T5~\cite{raffel2020exploring} or TaPas~\cite{herzig2020tapas} models.
+~\cite{cheng2023chartreader} took a different approach by training a transformers based chart component detection and combine it with extended pretrained T5~\cite{raffel2020exploring} or TaPas~\cite{herzig2020tapas} models.
 
 MLLMs has made significant progress in many tasks and Chart-to-Table was no exception.
 One direction is about utilizing general domain LLMs without any tuning.
@@ -71,6 +71,13 @@ Another key distinguishing contribution was the method of instruction following 
 They generated for predefined tasks, such as Chain of Thought and Chart-to-Tables in form of markdown, and open-ended tasks, such as justifying trends in charts and describing visual elements.
 
 There has been many metrics for evaluating Chart-to-Table conversion.
+In~\cite{luo2021chartocr}, they introduced different metric for each kind of chart:
+\begin{enumerate}
+         \item For Bar Charts, defined a custom distance function for pairwise point comparison and find minimum cost between prediction and ground truth,
+         \item For Line charts, it is handled as continuous similarity problem.œœ
+             For each predicted line, it computes the pointwise error between it and each ground truth line, and choose the minimal value.
+         \item For Pie Charts, they consider its scoring as sequence matching problem, thus solved using dynamic programming.
+              \end{enumerate}
 Relative Number Similarity Score~\cite{masry2022chartqa}, also known as Relaxed Accuracy Measure, is about  computing highest accuracy of generated numbers relative to ground truth.
 However, it has two main drawbacks:
 \begin{enumerate}
@@ -79,6 +86,7 @@ However, it has two main drawbacks:
               \end{enumerate}
 To overcome those limitations, Relative Mapping Similarity (RMS)~\cite{liu2022deplot} computes edit distance between columns names, compute accuracy of values within columns of least edit distances and compute F1-score.
 \footnote{our RMS implementation can be found \href{https://github.gatech.edu/mfayed8/GIE-metrics}{here}.}
+For further details about the For further implementation details, please check appendix~\ref{app:metrics}
 
 
 \section{Methodology}\label{sect:methodology}
@@ -188,4 +196,8 @@ For future work, we recommend combining both LLMs and Computer Vision algorithms
 \footnote{Based on my expertise in using LLaMA 3.1 8B Instruct, we can convert among formats with almost no errors, e.g. convert prints from python code in latex table. It correctly follows instruction of to round numerical values or copy them as is.}
 \section{References}
 \printbibliography[heading=none]
-\end{document}
+
+\appendix
+\section{Evaluation Metrics}\label{app:metrics}
+
+\end{document
