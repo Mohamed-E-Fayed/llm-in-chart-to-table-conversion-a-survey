@@ -3,6 +3,8 @@
 	letterpaper, % Use US letter paper size
 ]{jdf}
 
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 \addbibresource{references.bib}
 
 \author{Mohamed Fayed, Kruthik Ravikanti, Bruce Walker}
@@ -194,10 +196,39 @@ In this report, we document our quanitative analysis for LLMs behavior in Chart-
 Based on the selected sample, we observed that the model can accurately recognize the layout of the graph, but it is not very precise in recognizing small differences in values.
 For future work, we recommend combining both LLMs and Computer Vision algorithms to complement each other in accurately converting charts into tables.
 \footnote{Based on my expertise in using LLaMA 3.1 8B Instruct, we can convert among formats with almost no errors, e.g. convert prints from python code in latex table. It correctly follows instruction of to round numerical values or copy them as is.}
+
+\section{Limitations}\label{sect:limitations}
+One limitation of our analysis is testing pre-trained models exclusively and did not test models like ChartOCR.
+All those models are not directly comparable and have no existing weights and implementation to easily test.
+This has been left for future work.
+
 \section{References}
 \printbibliography[heading=none]
 
 \appendix
 \section{Evaluation Metrics}\label{app:metrics}
+\subsection{Relative Mapping Similarity (RMS)}\label{app:rms-algorithm}
+\begin{algorithm}
+    \begin{algorithmic}[1]
+ \Require $prp$ (Predicted Table), $t$ (Ground Truth Table)
+        \Ensure $rms\_precision, rms\_recall, rms\_f1$
 
-\end{document
+        Compute Normalized Edit Distance between $p_r || p_c$ and $t_r || t_c$
+    , where $||$ is concatenation operator.
+        Compute pairwise similarities matrix
+        make binarized similarities matrix by inserting 1 in place of highest similarities and zeros otherwise.
+        \For $p_i$ in p.values:
+        \For $t_j$ in t.values:
+        $d_{theta_{ij}} = min(1, \frac{|p_i - t_j|}{|t_j|})$
+        $d_{tao_{theta_{ij}}} = (1-Normalized Edit Distance) * (1-d_{theta})$
+        \EndFor
+        \EndFor
+        $RMS_{precision} = \sum_{i} \sum_j d_{tao_{theta_{ij}}} / len(p)$
+        $RMS_{recall} = \sum_{i} \sum_j d_{tao_{theta_{ij}}} / len(t)$
+        $RMS_{f1} = 2 * \frac{RMS_{precision} * RMS_{recall}}{RMS_{precision} + RMS_{recall}}$
+    \end{algorithmic}
+\end{algorithm}
+\subsection{ChartOCR Bar Chart Metric}
+\subsection{ChartOCR Line Chart Metric}
+\subsection{ChartOCR Pie Chart Metric}
+\end{document}

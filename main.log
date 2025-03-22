@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  27 FEB 2025 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  22 MAR 2025 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,39 +1065,73 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 343.
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count459
+\float@exts=\toks35
+\float@box=\box72
+\@float@everytoks=\toks36
+\@floatcapt=\box73
+)
+\@float@every@algorithm=\toks37
+\c@algorithm=\count460
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count461
+\c@ALG@rem=\count462
+\c@ALG@nested=\count463
+\ALG@tlm=\skip149
+\ALG@thistlm=\skip150
+\c@ALG@Lnr=\count464
+\c@ALG@blocknr=\count465
+\c@ALG@storecount=\count466
+\c@ALG@tmpcounter=\count467
+\ALG@tmplength=\skip151
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-(./main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-2.
+4.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    ... okay on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1133,17 +1167,17 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 12.
+Package hyperref Info: Link coloring ON on input line 14.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 12.
-Package microtype Info: Applying patch `item' on input line 12.
-Package microtype Info: Applying patch `toc' on input line 12.
-Package microtype Info: Applying patch `eqnum' on input line 12.
-Package microtype Info: Applying patch `footnote' on input line 12.
-Package microtype Info: Applying patch `verbatim' on input line 12.
+LaTeX Info: Redefining \microtypecontext on input line 14.
+Package microtype Info: Applying patch `item' on input line 14.
+Package microtype Info: Applying patch `toc' on input line 14.
+Package microtype Info: Applying patch `eqnum' on input line 14.
+Package microtype Info: Applying patch `footnote' on input line 14.
+Package microtype Info: Applying patch `verbatim' on input line 14.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1260.
@@ -1151,7 +1185,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 12.
+LaTeX Info: Redefining \showhyphens on input line 14.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: Adjustment of interword spacing enabled.
 Package microtype Info: Using default spacing set `alltext-nott'.
@@ -1162,21 +1196,22 @@ Package microtype Info: Using default kerning set `alltext'.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count459
+\scratchcounter=\count468
 \scratchdimen=\dimen260
-\scratchbox=\box72
-\nofMPsegments=\count460
-\nofMParguments=\count461
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count462
+\scratchbox=\box74
+\nofMPsegments=\count469
+\nofMParguments=\count470
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count471
 \MPscratchDim=\dimen261
-\MPnumerator=\count463
-\makeMPintoPDFobject=\count464
-\everyMPtoPDFconversion=\toks36
+\MPnumerator=\count472
+\makeMPintoPDFobject=\count473
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1192,7 +1227,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 12.
+or `english'. on input line 14.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1208,15 +1243,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 12.
-Package biblatex Info: Reference segment=0 on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 15
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 17
 .
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 15.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 15
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 17
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeur.fd
@@ -1225,7 +1260,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 15
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 17
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeus.fd
@@ -1235,13 +1270,13 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+zeuex on input line 1
-5.
+7.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-15.
+17.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1257,97 +1292,98 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (2.04898pt too wide) in paragraph at lines 17--21
+Overfull \hbox (2.04898pt too wide) in paragraph at lines 19--23
 \T1/pplj/m/n/11 (-10) ments in Chart-to-Table task, score the per-for-mance of 
 some MLLMs
  []
 
-(./main.toc)
+(./main.toc [1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
 Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Please use 'extradate' instead.
 (biblatex)                Using 'extradate' now.
 
-
-Overfull \hbox (2.79282pt too wide) in paragraph at lines 49--54
+[2]
+Overfull \hbox (2.79282pt too wide) in paragraph at lines 51--56
 []\T1/pplj/m/n/11 (-10) Fast for-ward, re-searchers gave deep learn-ing a try. 
 Sys-tems such as Chart-Sense Jung
  []
 
-[2] [3]
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 81.
+[3]
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 90.
+ [4]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-99.
+109.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-[4]
 
 LaTeX Warning: Reference `tab:charggemma-plotqa-line-21673' on page 5 undefined
- on input line 114.
+ on input line 124.
 
 [5]
 
 LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-21673' on page 6 undefined
- on input line 137.
+ on input line 147.
 
 
 LaTeX Warning: Reference `tab:gemini-plotqa-vbar-21673' on page 6 undefined on 
-input line 137.
+input line 147.
 
+[6]
 
-LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-25905' on page 6 undefined
- on input line 147.
+LaTeX Warning: Reference `tab:chartgemma-plotqa-vbar-25905' on page 7 undefined
+ on input line 157.
 
-<test-sample/plotqa/images/vertical-bar/25905.png, id=139, 706.64pt x 702.625pt
+<test-sample/plotqa/images/vertical-bar/25905.png, id=183, 706.64pt x 702.625pt
 >
 File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/25905.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
- on input line 149.
+ on input line 159.
 (pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
 5.tex)
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
 l-bar/25905.tex)
-Overfull \hbox (1245.17398pt too wide) in paragraph at lines 147--154
+Overfull \hbox (1245.17398pt too wide) in paragraph at lines 157--164
 \T1/pplj/m/n/11 (-10) re-spec-tively.   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--154
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
-<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=141, 81.906pt x 78.2925
+<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=185, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
 )
 <use test-sample/icpr22/images/line/PMC6339093___05.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC6339093___05.jpg  us
-ed on input line 156.
+ed on input line 166.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=142, 160.4394pt x 1
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=186, 160.4394pt x 1
 38.0357pt>
 File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
  jpg)
 <use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
-  used on input line 161.
+  used on input line 171.
 (pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=143, 1119.18124pt x 652.4375pt>
+<test-sample/plotqa/images/line/21673.png, id=187, 1119.18124pt x 652.4375pt>
 File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
 <use test-sample/plotqa/images/line/21673.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
-t line 166.
+t line 176.
 (pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
 (./test-sample/plotqa/jsons/line/21673.tex
 Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
@@ -1358,12 +1394,12 @@ Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
 673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=144, 1259.70625pt x 702.6
+<test-sample/plotqa/images/line/20049-4-lines.png, id=188, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/20049-4-lines.png  used
- on input line 175.
+ on input line 185.
 (pdftex.def)             Requested size: 397.48233pt x 221.70328pt.
  (./test-sample/plotqa/jsons/line/20049.tex
 Overfull \hbox (775.16301pt too wide) in paragraph at lines 2--12
@@ -1379,28 +1415,35 @@ Overfull \hbox (355.35078pt too wide) in paragraph at lines 2--13
 [][] 
  []
 
-) [6] [7 <./test-sample/plotqa/images/vertical-bar/25905.png>] [8 <./test-sampl
-e/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/PMC
-5882956___1_HTML.jpg> <./test-sample/plotqa/images/line/21673.png>] [9 <./test-
-sample/plotqa/images/line/20049-4-lines.png>] [10]
-Overfull \hbox (10.67169pt too wide) in paragraph at lines 190--190
+) [7] [8 <./test-sample/plotqa/images/vertical-bar/25905.png> <./test-sample/ic
+pr22/images/line/PMC6339093___05.jpg>] [9 <./test-sample/icpr22/images/line/PMC
+5882956___1_HTML.jpg> <./test-sample/plotqa/images/line/21673.png>] [10 <./test
+-sample/plotqa/images/line/20049-4-lines.png>] [11]
+Overfull \hbox (10.67169pt too wide) in paragraph at lines 206--206
 [][]\T1/pplj/m/n/11 (-10) Herzig, Jonathan, Nowak, Paweª Krzysztof, Müller, Tho
 mas, Pic-cinno, Francesco,
  []
 
 
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 190--190
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 206--206
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
-[11]
-Overfull \hbox (6.89139pt too wide) in paragraph at lines 190--190
+[12]
+Overfull \hbox (6.89139pt too wide) in paragraph at lines 206--206
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
-[12] [13] (./main.aux)
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
+[]\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
+ \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
+ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
+ []
+
+[14] [15] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1410,39 +1453,44 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 13BE38A83828971E89A4D4D2DE32C7D8;1903.
+(rerunfilecheck)             Checksum: B5751CD1682943F27D0D48E27E7B1875;2963.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 15 ({)
+### simple group (level 1) entered at line 17 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30306 strings out of 474116
- 586902 string characters out of 5743682
- 1956187 words of memory out of 5000000
- 51761 multiletter control sequences out of 15000+600000
- 646702 words of font info for 396 fonts, out of 8000000 for 9000
+ 30972 strings out of 474116
+ 597328 string characters out of 5743682
+ 1955187 words of memory out of 5000000
+ 52376 multiletter control sequences out of 15000+600000
+ 653928 words of font info for 419 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,131p,997b,2435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,131p,997b,2763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/euler/eufm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
-ts/euler/eufm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfo
-nts/euler/eurm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
-fonts/euler/eurm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fp
-l/fplbij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplbj
-8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/tex
-live/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (13 pages, 530541 bytes).
+/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/eu
+ler/euex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+euler/eufm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfont
+s/euler/eufm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
+ts/euler/eurm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsf
+onts/euler/eurm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
+fonts/euler/eusm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/a
+msfonts/euler/eusm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+fpl/fplbij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fpl
+bj8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/t
+exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (15 pages, 567170 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
- 103050 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 107194 words of extra memory for PDF output out of 128383 (max. 10000000)
 
