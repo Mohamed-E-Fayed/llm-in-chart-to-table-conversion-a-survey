@@ -5,6 +5,7 @@
 
 \usepackage{algorithm}
 \usepackage{algpseudocode}
+\usepackage{array}
 \addbibresource{references.bib}
 
 \author{Mohamed Fayed, Kruthik Ravikanti, Bruce Walker}
@@ -118,7 +119,23 @@ For our analysis, we selected the following models:
        \end{itemize}
 
 \section{Results and Discussion}\label{sect:qualitative-analysis}
-\subsection{Relative Mapping Similarity Scores}\label{ssect:rms}
+\subsection{Scores}\label{ssect:rms}
+In this section, we report the results of testing the models.
+While testing them, we noticed that they have issues in generating correctly parseable markdowns/jsons.
+So, we also report Success Rate for each model, such that $Success Rate = count of correctly parsed charts/count of predicted charts within the testset by selected model$.
+
+We reported the results on availably generated charts.
+We were able to generate around 7000 charts from PlotQA using Gemini 1.5 Flash.
+We hypothesized that its size is very large and we should not find significant difference between scores on 3k and 33k.
+So, we computed scores for 3k, 4k, 5k and 6k charts to see whether there is a significant need to infere on all 33k images for Deplot and ChartGemma.
+As shown in table~\ref{tab:plotqa-scores-for-various-sizes}, there is negligible difference relative to variations among scores among models.
+\input{plotqa-scores-for-various-sizes}
+
+Table~\ref{tab:final-scores} shows that Gemini has the highest success rate among all models and ChartGemma has the lowest Success Rate and RMS scores.
+%TODO: continue the below table (within the file)
+\input{scores}
+
+\input{scores}
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
 For the sample we analyzed, there has been no errors in recognizing text in the images, e.g. columns names.
 However, table~\ref{tab:charggemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.

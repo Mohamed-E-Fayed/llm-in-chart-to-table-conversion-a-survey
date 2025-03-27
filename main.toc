@@ -1,21 +1,21 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Chart-to-Table in Literature}{2}{section.2}%
-\contentsline {section}{\numberline {3}Methodology}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Datasets}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Methodology}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Datasets}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Models}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Evaluation}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Relative Mapping Similarity Scores}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Text Recognition}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Values Extraction}{6}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Bar Charts}{6}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Line Charts}{7}{subsubsection.4.3.2}%
-\contentsline {section}{\numberline {5}Conclusion and Recommendations}{12}{section.5}%
-\contentsline {section}{\numberline {6}Limitations}{12}{section.6}%
-\contentsline {section}{\numberline {7}References}{12}{section.7}%
-\contentsline {section}{\numberline {A}Evaluation Metrics}{14}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{14}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}ChartOCR Bar Chart Metric}{14}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}ChartOCR Line Chart Metric}{14}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}ChartOCR Pie Chart Metric}{14}{subsection.A.4}%
+\contentsline {section}{\numberline {4}Results and Discussion}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Scores}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Text Recognition}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Values Extraction}{7}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Bar Charts}{7}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Line Charts}{8}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Conclusion and Recommendations}{13}{section.5}%
+\contentsline {section}{\numberline {6}Limitations}{13}{section.6}%
+\contentsline {section}{\numberline {7}References}{13}{section.7}%
+\contentsline {section}{\numberline {A}Evaluation Metrics}{15}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{15}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}ChartOCR Bar Chart Metric}{15}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}ChartOCR Line Chart Metric}{15}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}ChartOCR Pie Chart Metric}{15}{subsection.A.4}%
