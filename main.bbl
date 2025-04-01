@@ -75,6 +75,29 @@
       \field{pages}{6706\bibrangedash 6717}
       \range{pages}{12}
     \endentry
+    \entry{pace2017partnership}{article}{}
+      \name{author}{1}{}{%
+        {{hash=34c3bb3f4c72ebeb5b5cc749dbfa2989}{%
+           family={PACE},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \strng{fullhash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \strng{bibnamehash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \strng{authorbibnamehash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \strng{authornamehash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \strng{authorfullhash}{34c3bb3f4c72ebeb5b5cc749dbfa2989}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Partnership for an advanced computing environment (PACE)}
+      \field{year}{2017}
+    \endentry
     \entry{herzig2020tapas}{article}{}
       \name{author}{5}{}{%
         {{hash=cde9a54b0ff79db63ecfd26ab18b05fe}{%

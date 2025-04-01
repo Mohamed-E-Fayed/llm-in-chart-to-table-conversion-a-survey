@@ -138,7 +138,7 @@ Table~\ref{tab:final-scores} shows that Gemini has the highest success rate amon
 \input{scores}
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
 For the sample we analyzed, there has been no errors in recognizing text in the images, e.g. columns names.
-However, table~\ref{tab:charggemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.
+However, table~\ref{tab:chartgemma-plotqa-line-21673} shows that ChartGemma has a tendency to labelize even if there are no labels in the input image.
 \footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
 \footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
 For both models, the tables layouts were perfectly generated into table in json format for Gemini and markdown for ChartGemma.
@@ -161,7 +161,7 @@ For PlotQA and ICPR22 samples, it is frequent to find errors like:
 
 \subsubsection{Bar Charts}\label{sssect:bar-errors}
 \begin{enumerate}
-  \item Tables~\ref{tab:chartgemma-plotqa-vbar-21673} and~\ref{tab:gemini-plotqa-vbar-21673} show that both models are very good in extracting data points from bar charts.
+  \item Tables~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show that both models are very good in extracting data points from bar charts.
     \footnote{A small notice, that needs more examples to approve/disapprove, is that ChartGemma has lower margin of error while having less precision. The numbers of Canada, for instance, are correctly approximated to 52. This may indicate almost steady value, which sounds reasonable conclusion for that country, especially when looking to the whole graph at a glance.}
        \end{enumerate}
        \subsubsection{Line Charts}\label{sssect:line-errors}
@@ -218,6 +218,9 @@ For future work, we recommend combining both LLMs and Computer Vision algorithms
 One limitation of our analysis is testing pre-trained models exclusively and did not test models like ChartOCR.
 All those models are not directly comparable and have no existing weights and implementation to easily test.
 This has been left for future work.
+
+\section{Acknowledgments}
+This research was supported in part through research cyberinfrastructure resources and services provided by the Partnership for an Advanced Computing Environment (PACE)~\cite{pace2017partnership} at the Georgia Institute of Technology, Atlanta, Georgia, USA.
 
 \section{References}
 \printbibliography[heading=none]

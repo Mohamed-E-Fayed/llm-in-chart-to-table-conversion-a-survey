@@ -2428,6 +2428,8 @@
     <bcf:citekey order="58" intorder="1">beyer2024paligemma</bcf:citekey>
     <bcf:citekey order="59" intorder="1">liu2022deplot</bcf:citekey>
     <bcf:citekey order="60" intorder="1">liu2022deplot</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">pace2017partnership</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">pace2017partnership</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">
