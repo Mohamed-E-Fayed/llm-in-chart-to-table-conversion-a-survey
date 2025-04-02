@@ -98,6 +98,42 @@
       \field{title}{Partnership for an advanced computing environment (PACE)}
       \field{year}{2017}
     \endentry
+    \entry{poco2017reverse}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=7b25d4d1e4390a279d1606628fa71dac}{%
+           family={Poco},
+           familyi={P\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c1fc05b7156dc351ceebcc7f14fe27ee}{%
+           family={Heer},
+           familyi={H\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \strng{fullhash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \strng{bibnamehash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \strng{authorbibnamehash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \strng{authornamehash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \strng{authorfullhash}{7d8a85e5acc43a35fd932e8a872ebe71}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer graphics forum}
+      \field{number}{3}
+      \field{title}{Reverse-engineering visualizations: Recovering visual encodings from chart images}
+      \field{volume}{36}
+      \field{year}{2017}
+      \field{pages}{353\bibrangedash 363}
+      \range{pages}{11}
+    \endentry
     \entry{herzig2020tapas}{article}{}
       \name{author}{5}{}{%
         {{hash=cde9a54b0ff79db63ecfd26ab18b05fe}{%
@@ -291,6 +327,45 @@
       \field{year}{2021}
       \field{pages}{1917\bibrangedash 1925}
       \range{pages}{9}
+    \endentry
+    \entry{sreevalsan2021tensor}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e261370bf17d85cd2471851418a0732d}{%
+           family={Sreevalsan-Nair},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={Jaya},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f156b936a7bb9257b59331615d47b539}{%
+           family={Dadhich},
+           familyi={D\bibinitperiod},
+           given={Komal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=22ae25c03ce0d056d7382f9bcb031827}{%
+           family={Daggubati},
+           familyi={D\bibinitperiod},
+           given={Siri\bibnamedelima Chandana},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \strng{fullhash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \strng{bibnamehash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \strng{authorbibnamehash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \strng{authornamehash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \strng{authorfullhash}{04b25329fbefd8e7b587b78df56b9ed0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Topological Methods in Data Analysis and Visualization VI: Theory, Applications, and Software}
+      \field{title}{Tensor fields for data extraction from chart images: bar charts and scatter plots}
+      \field{year}{2021}
+      \field{pages}{219\bibrangedash 241}
+      \range{pages}{23}
     \endentry
     \entry{liu2022deplot}{article}{}
       \name{author}{10}{}{%

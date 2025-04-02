@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  1 APR 2025 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  2 APR 2025 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1427,13 +1427,13 @@ Overfull \hbox (10.67169pt too wide) in paragraph at lines 226--226
 mas, Pic-cinno, Francesco,
  []
 
-
+[13]
 Overfull \hbox (0.82553pt too wide) in paragraph at lines 226--226
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
-[13]
+
 Overfull \hbox (2.9494pt too wide) in paragraph at lines 226--226
 \T1/pplj/m/n/11 (-10) A uni-fied frame-work for chart deren-der-ing and com-pre
 -hen-sion with-out heuris-
@@ -1445,14 +1445,14 @@ Overfull \hbox (6.89139pt too wide) in paragraph at lines 226--226
 p-tive, retrieval-augmented
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 245--249
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
  []
 
-[15] [16] (./main.aux)
+[16] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1472,11 +1472,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 18 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31014 strings out of 474116
- 598123 string characters out of 5743682
+ 31032 strings out of 474116
+ 598566 string characters out of 5743682
  1953187 words of memory out of 5000000
- 52391 multiletter control sequences out of 15000+600000
- 654785 words of font info for 429 fonts, out of 8000000 for 9000
+ 52402 multiletter control sequences out of 15000+600000
+ 655066 words of font info for 433 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,131p,997b,2763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
@@ -1496,10 +1496,10 @@ local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/t
 exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 573054 bytes).
+Output written on main.pdf (16 pages, 574290 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 109 named destinations out of 1000 (max. 500000)
  107202 words of extra memory for PDF output out of 128383 (max. 10000000)
 
