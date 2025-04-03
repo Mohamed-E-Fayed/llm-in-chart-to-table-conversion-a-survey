@@ -47,13 +47,21 @@ Our main contributions are:
        Others have worked on Chart Question Answering and Chart Summarization.
        In this work, we focus on Chart-to-Table Conversion.
 
-    It all begins with computer vision (CV)-based methods. Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}. These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions. Furthermore, rule-based approaches were often unsuccessful due to complex charts that had overlapping elements or non-standard layouts~\cite{poco2017reverse}. As a result, researchers pursued more robust techniques that could better generalize across diverse chart designs.
+    It all begins with computer vision (CV)-based methods.
+    Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}.
+    These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions.
+    Furthermore, rule-based approaches were often unsuccessful due to complex charts that had overlapping elements or non-standard layouts~\cite{poco2017reverse}.
+    As a result, researchers pursued more robust techniques that could better generalize across diverse chart designs.
 
     Fast forward, researchers gave deep learning a try.
-    Systems such as ChartSense~\cite{jung2017chartsense} and ChartOCR~\cite{luo2021chartocr} utilized convolutional neural networks (CNNs) to classify types of charts and extract available data with higher accuracies. For instance, ChartOCR combined rule-based methods with deep CNNs to balance generalization and accuracy, achieving strong performance across multiple chart types~\cite{luo2021chartocr}.
+    Systems such as ChartSense~\cite{jung2017chartsense} and ChartOCR~\cite{luo2021chartocr} utilized convolutional neural networks (CNNs) to classify types of charts and extract available data with higher accuracies.
+    For instance, ChartOCR combined rule-based methods with deep CNNs to balance generalization and accuracy, achieving strong performance across multiple chart types~\cite{luo2021chartocr}.
+    Other researchers~\cite{li2022chart} focused on extracting underlying data points for camera photos of line charts using custom architecture based on Faster-RCNN~\cite{ren2015faster}.
+    They gathered synthetic and real datasets for line charts to improve the performance of their model.
+    Their approach shows promising direction in utilizing synthetic data in improving models on real world test images.
     However, these methods needed extensive labeled datasets and lacked generalization across different chart formats.
-    Although CNNs did improve feature extraction, they still struggled with tasks demanding contextual understanding, such as contrasting similar visual elements.
-    To resolve this, researchers started to integrate transformers and multimodal models which allowed for better alignment between textual and visual elements of charts.
+    %Although CNNs did improve feature extraction, they still struggled with tasks demanding contextual understanding, such as contrasting similar visual elements.
+    %To resolve this, researchers started to integrate transformers and multimodal models which allowed for better alignment between textual and visual elements of charts.
     
 Pretraining and Large Language Models attracted researchers.
 ~\cite{masry2023unichart} gathered a large dataset of 6.9M questions and charts, and used it to pre-train UniChart model.

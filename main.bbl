@@ -19,6 +19,46 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{ren2015faster}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{fullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{bibnamehash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{authorbibnamehash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{authornamehash}{f086ca4da3e532e8a41cb758ea461825}
+      \strng{authorfullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Faster r-cnn: Towards real-time object detection with region proposal networks}
+      \field{volume}{28}
+      \field{year}{2015}
+    \endentry
     \entry{jung2017chartsense}{inproceedings}{}
       \name{author}{7}{}{%
         {{hash=c343a145aa146b70a23de766046d8eee}{%
@@ -366,6 +406,45 @@
       \field{year}{2021}
       \field{pages}{219\bibrangedash 241}
       \range{pages}{23}
+    \endentry
+    \entry{li2022chart}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9a0526790f0b0635083986aa653bb2d5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shufan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=577c57b48bd256a4c082f61f3476e273}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Congxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3a222dd7c69b2302ad7593aedc97a73}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Linkai},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9bdd78444a4160b1ea7bf5a729808445}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Haoshuai},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{41eddda84a29be5f6f6d3b262db3fd59}
+      \strng{fullhash}{ea8b60f34999439e304bf34c719d4bdd}
+      \strng{bibnamehash}{ea8b60f34999439e304bf34c719d4bdd}
+      \strng{authorbibnamehash}{ea8b60f34999439e304bf34c719d4bdd}
+      \strng{authornamehash}{41eddda84a29be5f6f6d3b262db3fd59}
+      \strng{authorfullhash}{ea8b60f34999439e304bf34c719d4bdd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2211.14362}
+      \field{title}{Chart-RCNN: Efficient Line Chart Data Extraction from Camera Images}
+      \field{year}{2022}
     \endentry
     \entry{liu2022deplot}{article}{}
       \name{author}{10}{}{%
