@@ -2366,26 +2366,24 @@
     <bcf:citekey order="1" intorder="2">masry2024chartgemma</bcf:citekey>
     <bcf:citekey order="2" intorder="1">liu2022deplot</bcf:citekey>
     <bcf:citekey order="2" intorder="2">masry2024chartgemma</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">masry2022chartqa</bcf:citekey>
-    <bcf:citekey order="3" intorder="2">masry2024chartgemma</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">masry2022chartqa</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">masry2024chartgemma</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">liu2022deplot</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">liu2022deplot</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">sreevalsan2021tensor</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">sreevalsan2021tensor</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">poco2017reverse</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">poco2017reverse</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">jung2017chartsense</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">jung2017chartsense</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">luo2021chartocr</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">luo2021chartocr</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">luo2021chartocr</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">luo2021chartocr</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">li2022chart</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">li2022chart</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">ren2015faster</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">ren2015faster</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">sreevalsan2021tensor</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">sreevalsan2021tensor</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">poco2017reverse</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">poco2017reverse</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">jung2017chartsense</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">jung2017chartsense</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">luo2021chartocr</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">luo2021chartocr</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">luo2021chartocr</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">luo2021chartocr</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">kumar2022chartparser</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">kumar2022chartparser</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">li2022chart</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">li2022chart</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">ren2015faster</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">ren2015faster</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">vaswani2017attention</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">vaswani2017attention</bcf:citekey>
     <bcf:citekey order="21" intorder="1">masry2023unichart</bcf:citekey>
     <bcf:citekey order="22" intorder="1">masry2023unichart</bcf:citekey>
     <bcf:citekey order="23" intorder="1">liu2022matcha</bcf:citekey>
@@ -2438,8 +2436,10 @@
     <bcf:citekey order="68" intorder="1">beyer2024paligemma</bcf:citekey>
     <bcf:citekey order="69" intorder="1">liu2022deplot</bcf:citekey>
     <bcf:citekey order="70" intorder="1">liu2022deplot</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">pace2017partnership</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">pace2017partnership</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">liu2022deplot</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">liu2022deplot</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">pace2017partnership</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">pace2017partnership</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

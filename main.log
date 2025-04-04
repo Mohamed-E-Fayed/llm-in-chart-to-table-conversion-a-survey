@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  3 APR 2025 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  4 APR 2025 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1099,43 +1099,44 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip151
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks38
+\verbatim@line=\toks39
+\verbatim@in@stream=\read4
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux
-
-LaTeX Warning: Label `tab:final-scores' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-5.
+6.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1171,17 +1172,17 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 15.
-Package microtype Info: Applying patch `item' on input line 15.
-Package microtype Info: Applying patch `toc' on input line 15.
-Package microtype Info: Applying patch `eqnum' on input line 15.
-Package microtype Info: Applying patch `footnote' on input line 15.
-Package microtype Info: Applying patch `verbatim' on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 16.
+Package microtype Info: Applying patch `item' on input line 16.
+Package microtype Info: Applying patch `toc' on input line 16.
+Package microtype Info: Applying patch `eqnum' on input line 16.
+Package microtype Info: Applying patch `footnote' on input line 16.
+Package microtype Info: Applying patch `verbatim' on input line 16.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1260.
@@ -1189,7 +1190,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 15.
+LaTeX Info: Redefining \showhyphens on input line 16.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: Adjustment of interword spacing enabled.
 Package microtype Info: Using default spacing set `alltext-nott'.
@@ -1210,12 +1211,12 @@ Package caption Info: End \AtBeginDocument code.
 \scratchbox=\box74
 \nofMPsegments=\count469
 \nofMParguments=\count470
-\everyMPshowfont=\toks38
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count471
 \MPscratchDim=\dimen261
 \MPnumerator=\count472
 \makeMPintoPDFobject=\count473
-\everyMPtoPDFconversion=\toks39
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1231,7 +1232,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 15.
+or `english'. on input line 16.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1247,15 +1248,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 18
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 19
 .
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 18.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 18
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 19.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 19
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeur.fd
@@ -1264,7 +1265,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 18
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 19
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeus.fd
@@ -1274,13 +1275,13 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+zeuex on input line 1
-8.
+9.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-18.
+19.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1296,53 +1297,108 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (2.04898pt too wide) in paragraph at lines 20--24
-\T1/pplj/m/n/11 (-10) ments in Chart-to-Table task, score the per-for-mance of 
-some MLLMs
- []
-
-(./main.toc [1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}])
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
 
 Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Please use 'extradate' instead.
 (biblatex)                Using 'extradate' now.
 
-[2]
-Overfull \hbox (2.79282pt too wide) in paragraph at lines 56--65
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+Overfull \hbox (2.79282pt too wide) in paragraph at lines 74--80
 []\T1/pplj/m/n/11 (-10) Fast for-ward, re-searchers gave deep learn-ing a try. 
 Sys-tems such as Chart-Sense Jung
  []
 
 [3]
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 99.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 125.
  [4]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-118.
+154.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-Overfull \hbox (412.00703pt too wide) in paragraph at lines 131--134
-\T1/pplj/m/n/11 (-10) So, we also re-port Suc-cess Rate for each model, such th
-at $\U/zeur/m/n/11 SuccessRate \U/zeus/m/n/11 ½ \U/zeur/m/n/11 countofcorrectly
-parsedcharts=countofpredictedchartswithinthetestsetbyselectedmodel$\T1/pplj/m/n
-/11 (-10) . 
+[5]
+LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
+ input line 168.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF
+.fd
+File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
+ceCodePro-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 9.70087pt on input line 168.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceCodePro-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (306.79681pt too wide) in paragraph at lines 169--169
+[]    \T1/SourceCodePro-TLF/m/n/11 "System Message:     You are an EXPERT in sc
+ientific visualizations analysis and chart understanding and description.[] 
  []
 
-[5] (./plotqa-scores-for-various-sizes.tex) (./scores.tex) (./scores.tex
-[6]) [7]
-<test-sample/plotqa/images/vertical-bar/25905.png, id=200, 706.64pt x 702.625pt
+
+Overfull \hbox (411.56601pt too wide) in paragraph at lines 170--170
+[]    \T1/SourceCodePro-TLF/m/n/11 You should help people with disabilities in 
+giving an overview of the chart and converting the chart into its original data
+ point form.[] 
+ []
+
+
+Overfull \hbox (225.30966pt too wide) in paragraph at lines 171--171
+[]        \T1/SourceCodePro-TLF/m/n/11 prompt: For the following image, tell me
+ the name of x and y axes, and the values of the each axis.[] 
+ []
+
+
+Overfull \hbox (39.05331pt too wide) in paragraph at lines 173--173
+[]        \T1/SourceCodePro-TLF/m/n/11 {x_axis_name: x_axis_vavlues_list, y_xis
+_name: y_axis_values_list}"[] 
+ []
+
+
+Overfull \hbox (12.36978pt too wide) in paragraph at lines 177--178
+\T1/pplj/m/n/11 (-10) To com-pare among those mod-els, we com-pute Rel-a-tive M
+ap-ping Sim-i-lar-ity (RMS) Liu
+ []
+
+
+Overfull \hbox (162.67885pt too wide) in paragraph at lines 181--184
+\U/zeur/m/n/11 SuccessRate\U/zeus/m/n/11 ¨\U/zeur/m/n/11 SR\U/zeus/m/n/11 © ½ \
+U/zeur/m/n/11 countofcorrectlyparsedcharts=countofpredictedchartswithinthetests
+etbyselectedmodel$\T1/pplj/m/n/11 (-10) . 
+ []
+
+[6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
+c}] (./plotqa-scores-for-various-sizes.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--32
+[][] []
+ []
+
+) (./scores.tex) [7] [8]
+<test-sample/plotqa/images/vertical-bar/32640.png, id=199, 1042.89626pt x 652.4
+375pt>
+File: test-sample/plotqa/images/vertical-bar/32640.png Graphic file (type png)
+<use test-sample/plotqa/images/vertical-bar/32640.png>
+Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
+ on input line 242.
+(pdftex.def)             Requested size: 397.48228pt x 248.66551pt.
+
+(./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/3264
+0.tex)
+(./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
+l-bar/32640.tex)
+(./test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex) [9] [10 <./tes
+t-sample/plotqa/images/vertical-bar/32640.png>]
+<test-sample/plotqa/images/vertical-bar/25905.png, id=239, 706.64pt x 702.625pt
 >
 File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/25905.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
- on input line 184.
+ on input line 260.
 (pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
@@ -1353,30 +1409,33 @@ Overfull \hbox (1178.66582pt too wide) in paragraph at lines 2--14
 [][] 
  []
 
-)
-<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=202, 81.906pt x 78.2925
+) (./test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex)
+<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=240, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
 )
 <use test-sample/icpr22/images/line/PMC6339093___05.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC6339093___05.jpg  us
-ed on input line 191.
+ed on input line 268.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=203, 160.4394pt x 1
+
+(./test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex)
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=241, 160.4394pt x 1
 38.0357pt>
 File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
  jpg)
 <use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
-  used on input line 196.
+  used on input line 274.
 (pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=204, 1119.18124pt x 652.4375pt>
+<test-sample/plotqa/images/line/21673.png, id=242, 1119.18124pt x 652.4375pt>
 File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
 <use test-sample/plotqa/images/line/21673.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
-t line 201.
+t line 279.
 (pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
- (./test-sample/plotqa/jsons/line/21673.tex
+
+(./test-sample/plotqa/jsons/line/21673.tex
 Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 [][] 
  []
@@ -1384,15 +1443,16 @@ Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 ) (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.tex)
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
-673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=205, 1259.70625pt x 702.6
+673.tex) (./test-sample/plotqa/predictions/deplot/line/21673.tex)
+<test-sample/plotqa/images/line/20049-4-lines.png, id=243, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/20049-4-lines.png  used
- on input line 210.
+ on input line 289.
 (pdftex.def)             Requested size: 397.48233pt x 221.70328pt.
- (./test-sample/plotqa/jsons/line/20049.tex
+
+(./test-sample/plotqa/jsons/line/20049.tex
 Overfull \hbox (775.16301pt too wide) in paragraph at lines 2--12
 [][] 
  []
@@ -1408,98 +1468,156 @@ Overfull \hbox (355.35078pt too wide) in paragraph at lines 2--13
 
 
 Underfull \hbox (badness 1603) in paragraph at lines 13--13
-[]\T1/pplj/b/it/8.5/20ls (+10) Table 12^^V|[]\T1/pplj/m/n/8.5/20ls (+10) Exampl
+[]\T1/pplj/b/it/8.5/20ls (+10) Table 17^^V|[]\T1/pplj/m/n/8.5/20ls (+10) Exampl
 e for Gem-ini Flash pre-dic-tions where it
  []
 
-) [8] [9 <./test-sample/plotqa/images/vertical-bar/25905.png>] [10 <./test-samp
-le/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/PM
-C5882956___1_HTML.jpg> <./test-sample/plotqa/images/line/21673.png>] [11 <./tes
-t-sample/plotqa/images/line/20049-4-lines.png>] [12] [13]
-Overfull \hbox (10.93463pt too wide) in paragraph at lines 234--234
+)
+<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=244, 663.47874pt x
+ 492.84125pt>
+File: test-sample/icpr22/images/scatter/PMC2279396___g002.jpg Graphic file (typ
+e jpg)
+<use test-sample/icpr22/images/scatter/PMC2279396___g002.jpg>
+Package pdftex.def Info: test-sample/icpr22/images/scatter/PMC2279396___g002.jp
+g  used on input line 302.
+(pdftex.def)             Requested size: 397.48288pt x 295.25581pt.
+ [11] [12 <./test-sample/plotqa/images/vertical-bar/25905.png>] [13 <./test-sam
+ple/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/P
+MC5882956___1_HTML.jpg>] [14] [15 <./test-sample/plotqa/images/line/21673.png>]
+ [16 <./test-sample/plotqa/images/line/20049-4-lines.png>] [17] [18 <./test-sam
+ple/icpr22/images/scatter/PMC2279396___g002.jpg>]
+Overfull \hbox (39.05331pt too wide) in paragraph at lines 310--310
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/deplot/sca
+tter/PMC2279396___g002.csv}[] 
+ []
+
+
+Overfull \hbox (161.28404pt too wide) in paragraph at lines 312--312
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/gemini-1.5
+-flash/1st_prompt/scatter/PMC2279396___g002.csv}[] 
+ []
+
+
+Overfull \hbox (213.66864pt too wide) in paragraph at lines 314--314
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/ahmed-masr
+y/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}[] 
+ []
+
+<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=301, 499.8675
+pt x 448.67625pt>
+File: test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg Graphic file
+ (type jpg)
+<use test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>
+Package pdftex.def Info: test-sample/icpr22/images/vertical-box/PMC1855992___g0
+01.jpg  used on input line 322.
+(pdftex.def)             Requested size: 397.49954pt x 356.79176pt.
+
+Overfull \hbox (73.97638pt too wide) in paragraph at lines 328--328
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/csvs/ve
+rtical-box/PMC1855992___g001.csv}[] 
+ []
+
+
+Overfull \hbox (155.46353pt too wide) in paragraph at lines 330--330
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
+ions/deplot/vertical-box/PMC1855992___g001.csv}[] 
+ []
+
+
+Overfull \hbox (312.61732pt too wide) in paragraph at lines 332--332
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{cat  test-sample/icpr22/pr
+edictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}[] 
+ []
+
+
+Overfull \hbox (330.07886pt too wide) in paragraph at lines 334--334
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
+ions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}[]
+ 
+ []
+
+[19] [20 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
+Overfull \hbox (10.93463pt too wide) in paragraph at lines 353--353
 [][]\T1/pplj/m/n/11 (-10) PACE, M (2017). ^^P  Part-ner-ship for an ad-vanced c
 om-put-ing en-vi-ron-ment (PACE)^^Q.
  []
 
 
-Overfull \hbox (10.67169pt too wide) in paragraph at lines 234--234
+Overfull \hbox (10.67169pt too wide) in paragraph at lines 353--353
 [][]\T1/pplj/m/n/11 (-10) Herzig, Jonathan, Nowak, Paweª Krzysztof, Müller, Tho
 mas, Pic-cinno, Francesco,
  []
 
 
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 234--234
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 353--353
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
-[14]
-Overfull \hbox (2.9494pt too wide) in paragraph at lines 234--234
+[21]
+Overfull \hbox (2.9494pt too wide) in paragraph at lines 353--353
 \T1/pplj/m/n/11 (-10) A uni-fied frame-work for chart deren-der-ing and com-pre
 -hen-sion with-out heuris-
  []
 
-
-Overfull \hbox (6.89139pt too wide) in paragraph at lines 234--234
+[22]
+Overfull \hbox (6.89139pt too wide) in paragraph at lines 353--353
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 253--257
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 372--376
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
  []
 
-[16] (./main.aux)
+[24] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4DDAF8FE4D193C64461053F3D8A203D3;2933.
+(rerunfilecheck)             Checksum: 575463682A5A298A9DB5EE395F5DB23E;4282.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 18 ({)
+### simple group (level 1) entered at line 19 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31055 strings out of 474116
- 599021 string characters out of 5743682
- 1955187 words of memory out of 5000000
- 52412 multiletter control sequences out of 15000+600000
- 655758 words of font info for 442 fonts, out of 8000000 for 9000
+ 31270 strings out of 474116
+ 606737 string characters out of 5743682
+ 1967187 words of memory out of 5000000
+ 52580 multiletter control sequences out of 15000+600000
+ 656599 words of font info for 447 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,131p,997b,2763s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/eu
-ler/euex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-euler/eufm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfont
-s/euler/eufm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
-ts/euler/eurm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsf
-onts/euler/eurm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
-fonts/euler/eusm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/a
-msfonts/euler/eusm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-fpl/fplbij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fpl
-bj8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 576823 bytes).
+ 94i,10n,131p,997b,2491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecod
+epro/SourceCodePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
+lic/amsfonts/euler/euex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/amsfonts/euler/eufm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
+1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2024/texmf-dist/fonts
+/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/fpl/fplbij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/fpl/fplbj8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+fpl/fplrc8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplr
+ij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pf
+b></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (24 pages, 709881 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 500000)
- 107202 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 107793 words of extra memory for PDF output out of 128383 (max. 10000000)
 
