@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  4 APR 2025 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  5 APR 2025 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1537,37 +1537,37 @@ ions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}[]
  []
 
 [19] [20 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
-Overfull \hbox (10.93463pt too wide) in paragraph at lines 353--353
+Overfull \hbox (10.93463pt too wide) in paragraph at lines 358--358
 [][]\T1/pplj/m/n/11 (-10) PACE, M (2017). ^^P  Part-ner-ship for an ad-vanced c
 om-put-ing en-vi-ron-ment (PACE)^^Q.
  []
 
 
-Overfull \hbox (10.67169pt too wide) in paragraph at lines 353--353
+Overfull \hbox (10.67169pt too wide) in paragraph at lines 358--358
 [][]\T1/pplj/m/n/11 (-10) Herzig, Jonathan, Nowak, Paweª Krzysztof, Müller, Tho
 mas, Pic-cinno, Francesco,
  []
 
-
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 353--353
+[21]
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 358--358
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
-[21]
-Overfull \hbox (2.9494pt too wide) in paragraph at lines 353--353
+
+Overfull \hbox (2.9494pt too wide) in paragraph at lines 358--358
 \T1/pplj/m/n/11 (-10) A uni-fied frame-work for chart deren-der-ing and com-pre
 -hen-sion with-out heuris-
  []
 
 [22]
-Overfull \hbox (6.89139pt too wide) in paragraph at lines 353--353
+Overfull \hbox (6.89139pt too wide) in paragraph at lines 358--358
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 372--376
+Underfull \hbox (badness 10000) in paragraph at lines 377--381
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
@@ -1614,7 +1614,7 @@ ij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (24 pages, 709881 bytes).
+Output written on main.pdf (24 pages, 710184 bytes).
 PDF statistics:
  471 PDF objects out of 1000 (max. 8388607)
  393 compressed objects within 4 object streams
