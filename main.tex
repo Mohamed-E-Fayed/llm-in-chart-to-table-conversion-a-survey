@@ -383,8 +383,9 @@ This research was supported in part through research cyberinfrastructure resourc
 % \subsection{ChartOCR Bar Chart Metric}
 % \subsection{ChartOCR Line Chart Metric}
 % \subsection{ChartOCR Pie Chart Metric}
-
-\subsection{ChartOCR Bar Chart Metric}
+\subsection{metrics introduced in ChartOCR}\label{ssect:chartocr-metrics}
+In this subsection, we illustrate metrics introduced by~\cite{luo2021chartocr}.
+\subsubsection{Bar Chart Metric}
 
 Given a predicted bounding box $p = [x_p, y_p, w_p, h_p]$ and a ground truth box $g = [x_g, y_g, w_g, h_g]$, the distance function $D(p, g)$ is defined as:
 
@@ -402,7 +403,7 @@ Construct a pairwise cost matrix $C$ between predicted and ground truth boxes, t
 
 Here $N$ and $M$ are the number of predicted and ground truth boxes respectively.
 
-\subsection{ChartOCR Line Chart Metric}
+\subsubsection{Line Chart Metric}
 
 Let $P = \{(x_1, y_1), \ldots, (x_N, y_N)\}$ be the predicted points and $G = \{(u_1, v_1), \ldots, (u_M, v_M)\}$ be the ground truth. The recall is defined as:
 
@@ -433,7 +434,7 @@ Precision is defined similarly. The final score is the F1-score:
 F1 = \frac{2 \cdot \text{Prec} \cdot \text{Rec}}{\text{Prec} + \text{Rec}}
 \]
 
-\subsection{ChartOCR Pie Chart Metric}
+\subsubsection{Pie Chart Metric}
 
 Let $P = [x_1, \dots, x_N]$ and $G = [y_1, \dots, y_M]$ be the predicted and ground-truth value sequences in clockwise order. The match score is computed via dynamic programming:
 
