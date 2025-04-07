@@ -380,7 +380,76 @@ This research was supported in part through research cyberinfrastructure resourc
         $RMS_{f1} = 2 * \frac{RMS_{precision} * RMS_{recall}}{RMS_{precision} + RMS_{recall}}$
     \end{algorithmic}
 \end{algorithm}
+% \subsection{ChartOCR Bar Chart Metric}
+% \subsection{ChartOCR Line Chart Metric}
+% \subsection{ChartOCR Pie Chart Metric}
+
 \subsection{ChartOCR Bar Chart Metric}
+
+Given a predicted bounding box $p = [x_p, y_p, w_p, h_p]$ and a ground truth box $g = [x_g, y_g, w_g, h_g]$, the distance function $D(p, g)$ is defined as:
+
+\[
+D(p, g) = \min\left(1, \left\lvert \frac{x_p - x_g}{w_g} \right\rvert + \left\lvert \frac{y_p - y_g}{h_g} \right\rvert + \left\lvert \frac{h_p - h_g}{h_g} \right\rvert\right)
+\]
+
+Width $w$ is ignored because it does not affect chart reading.
+
+Construct a pairwise cost matrix $C$ between predicted and ground truth boxes, then solve a minimum cost assignment problem using the Hungarian algorithm. The final score is:
+
+\[
+\text{Score} = 1 - \frac{\text{min cost}}{K}, \quad \text{where } K = \max(N, M)
+\]
+
+Here $N$ and $M$ are the number of predicted and ground truth boxes respectively.
+
 \subsection{ChartOCR Line Chart Metric}
+
+Let $P = \{(x_1, y_1), \ldots, (x_N, y_N)\}$ be the predicted points and $G = \{(u_1, v_1), \ldots, (u_M, v_M)\}$ be the ground truth. The recall is defined as:
+
+\[
+\text{Rec}(P, G) = \frac{1}{u_M - u_1} \sum_{i=1}^{M} \left(1 - \text{Err}(v_i, u_i, P)\right) \cdot \text{Intv}(i, G)
+\]
+
+Where:
+
+\[
+\text{Err}(v_i, u_i, P) = \min\left(1, \left\lvert \frac{v_i - I(P, u_i)}{v_i} \right\rvert\right)
+\]
+
+$I(P, u_i)$ is the interpolated value of $P$ at $x = u_i$. $\text{Intv}(i, G)$ is the interval weight:
+
+\[
+\text{Intv}(i, G) =
+\begin{cases}
+\frac{u_{i+1} - u_i}{2} & \text{if } i = 1 \\
+\frac{u_i - u_{i-1}}{2} & \text{if } i = M \\
+\frac{u_{i+1} - u_{i-1}}{2} & \text{otherwise}
+\end{cases}
+\]
+
+Precision is defined similarly. The final score is the F1-score:
+
+\[
+F1 = \frac{2 \cdot \text{Prec} \cdot \text{Rec}}{\text{Prec} + \text{Rec}}
+\]
+
 \subsection{ChartOCR Pie Chart Metric}
+
+Let $P = [x_1, \dots, x_N]$ and $G = [y_1, \dots, y_M]$ be the predicted and ground-truth value sequences in clockwise order. The match score is computed via dynamic programming:
+
+\[
+\text{score}(i,j) = \max\left(
+\text{score}(i{-}1, j),
+\text{score}(i, j{-}1),
+\text{score}(i{-}1, j{-}1) + 1 - \left\lvert \frac{x_i - y_j}{y_j} \right\rvert
+\right)
+\]
+
+with $\text{score}(0, j) = \text{score}(i, 0) = 0$ for all $i, j$. The final normalized matching score is:
+
+\[
+\text{Score} = \frac{\text{score}(N, M)}{M}
+\]
+
+
 \end{document}
