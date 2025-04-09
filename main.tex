@@ -108,6 +108,8 @@ They generated for predefined tasks, such as Chain of Thought and Chart-to-Table
 
 A unique direction is chart-to-code generation, which aims to provide lossless representations of charts. ChartCoder~\cite{zhao2025chartcoder} is a new model that translates chart images into executable Python code (e.g., using matplotlib). Trained on the newly released Chart2Code-160k dataset containing 160k chart-code pairs across 27 chart types, ChartCoder uses a Code LLM backbone and a Snippet-of-Thought prompting method for step-by-step generation. While intended for re-rendering, the output code preserves all chart data, making it a viable route for Chart-to-Table extraction through code interpretation.
 
+Another recent model, ChartCitor~\cite{goswami2025chartcitor}, focuses on improving how chart question-answering models support their answers with evidence. Instead of just generating answers, ChartCitor uses a group of LLM agents to first extract a table from a chart, then break the answer into smaller claims, and finally find the exact table cells that support those claims. It also connects these cells back to specific parts of the chart using object detection and visual prompts. ChartCitor does not aim to extract full tables, it introduces a useful method for linking visual data to structured output and improves transparency in chart understanding tasks.
+
 \subsection{Chart-to-Table Evaluation}\label{ssect:task-evaluation}
 There has been many metrics for evaluating Chart-to-Table conversion.
 In~\cite{luo2021chartocr}, they introduced different metric for each kind of chart:
