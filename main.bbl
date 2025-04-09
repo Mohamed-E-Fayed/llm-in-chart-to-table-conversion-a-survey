@@ -1397,6 +1397,104 @@
       \field{title}{Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context}
       \field{year}{2024}
     \endentry
+    \entry{goswami2025chartcitor}{article}{}
+      \name{author}{4}{}{%
+        {{hash=31c176106239304356850be19423f1dc}{%
+           family={Goswami},
+           familyi={G\bibinitperiod},
+           given={Kanika},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8abb1b3f6bc55fc32362a1604480de97}{%
+           family={Mathur},
+           familyi={M\bibinitperiod},
+           given={Puneet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e7c042e3ae9e4143e9960410c1aad008}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3fc6c673c89e1621c308fa6ab00d0f06}{%
+           family={Dernoncourt},
+           familyi={D\bibinitperiod},
+           given={Franck},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f635bf19156e2d28e200394a41a91df3}
+      \strng{fullhash}{2d0759ad6d3aebab29d79700608bce55}
+      \strng{bibnamehash}{2d0759ad6d3aebab29d79700608bce55}
+      \strng{authorbibnamehash}{2d0759ad6d3aebab29d79700608bce55}
+      \strng{authornamehash}{f635bf19156e2d28e200394a41a91df3}
+      \strng{authorfullhash}{2d0759ad6d3aebab29d79700608bce55}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2502.00989}
+      \field{title}{ChartCitor: Multi-Agent Framework for Fine-Grained Chart Visual Attribution}
+      \field{year}{2025}
+    \endentry
+    \entry{zhao2025chartcoder}{article}{}
+      \name{author}{8}{}{%
+        {{hash=13e6133448ea4bf2734f1ca0c5210e5f}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xuanle},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7c2e180b442b8d16ab07c40827d15fee}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xianzhen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6a336359cddb96bbe91e58adf66384fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=215c7d91e47bc648dac2d6096241a0e5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=557b5bf05ca404c8f58d52b022bcc787}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shuo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cb0803882fba28a6c7ecb519069a89de}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Wanxiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5b9a54b9d83697231299711961622ab8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhiyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=faa6f5041a22004ca0dd547c03476790}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Maosong},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d31998b8ef0b8d1bb498ffda91485ec}
+      \strng{fullhash}{eb0274ca1fa4300af9ba7009c6570650}
+      \strng{bibnamehash}{eb0274ca1fa4300af9ba7009c6570650}
+      \strng{authorbibnamehash}{eb0274ca1fa4300af9ba7009c6570650}
+      \strng{authornamehash}{6d31998b8ef0b8d1bb498ffda91485ec}
+      \strng{authorfullhash}{eb0274ca1fa4300af9ba7009c6570650}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2501.06598}
+      \field{title}{ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation}
+      \field{year}{2025}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
