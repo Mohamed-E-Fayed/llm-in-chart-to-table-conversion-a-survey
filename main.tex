@@ -106,6 +106,8 @@ Similarly,~\cite{masry2024chartgemma} fine-tuned PaliGemma~\cite{beyer2024palige
 Another key distinguishing contribution was the method of instruction following data generation.
 They generated for predefined tasks, such as Chain of Thought and Chart-to-Tables in form of markdown, and open-ended tasks, such as justifying trends in charts and describing visual elements.
 
+A unique direction is chart-to-code generation, which aims to provide lossless representations of charts. ChartCoder~\cite{zhao2025chartcoder} is a new model that translates chart images into executable Python code (e.g., using matplotlib). Trained on the newly released Chart2Code-160k dataset containing 160k chart-code pairs across 27 chart types, ChartCoder uses a Code LLM backbone and a Snippet-of-Thought prompting method for step-by-step generation. While intended for re-rendering, the output code preserves all chart data, making it a viable route for Chart-to-Table extraction through code interpretation.
+
 \subsection{Chart-to-Table Evaluation}\label{ssect:task-evaluation}
 There has been many metrics for evaluating Chart-to-Table conversion.
 In~\cite{luo2021chartocr}, they introduced different metric for each kind of chart:
