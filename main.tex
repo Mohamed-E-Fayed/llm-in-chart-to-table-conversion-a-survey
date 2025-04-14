@@ -19,10 +19,10 @@
 \maketitle
 
 \begin{abstract}
-  Multimodal   Large Language Models (MLLMs) have shown impressive visual capabilities in many Visual Question Answering tasks.
-    Chart-to-Table Conversion the problem of extracting structured tabular data out of input images, enabling better accessibility and higher storage efficiency.
-In this survey, we aim to review the recent advancements in Chart-to-Table task, analyze existing datasets and benchmark some state-of-the-art models on this task.
-Our quantitative and qualitative analysis highlights strengths and limitations of those approaches in handling complex charts, preserving numerical precision and generalize across various types of charts.
+    Multimodal   Large Language Models (MLLMs) have demonstrated impressive visual capabilities in many Visual Question Answering (VQA) tasks.
+    Chart-to-Table Conversion is the problem of extracting structured tabular data out of input images, enabling better accessibility and higher storage efficiency.
+In this survey, we review the recent advancements in Chart-to-Table task, analyze existing datasets and benchmark some state-of-the-art models.
+Our quantitative and qualitative analysis highlights strengths and limitations of current approaches in handling complex charts, preserving numerical precision and generalizing across various types of charts.
 Our study reveals significant room for improvement in Chart-to-Table Conversion, emphasizing the need for more specialized and robust methods.
    \end{abstract}
 
@@ -30,38 +30,30 @@ Our study reveals significant room for improvement in Chart-to-Table Conversion,
 
 \section{Introduction}\label{sect:intro}
 Data visualization is an essential tool for communicating information efficiently, with charts and graphs playing a fundamental role in various domains, including finance, healthcare, and scientific research.
-Those visualizations are usually saved in form of images, which are consuming a significant amount of disk storage.
-However, extracting structured tabular data from chart images remains a challenging problem, particularly for automated systems.
+These visualizations are usually saved in form of images, and thus require extracting structured tabular data from chart images remains a challenging problem, particularly for automated systems.
 This challenge is especially critical for accessibility, where individuals with visual impairments rely on machine-readable formats to interpret visual information.
 
 Chart-to-Table is the task of extracting data points from an image of a chart into a table usually in markdown\cite{liu2022deplot,masry2024chartgemma}.
-This task was usually tackled via combination of two or more approaches from rule based tecniques, image processing, CNN based deep learning architectures and optical character recognition (OCR).
-Those techniques struggle with diverse chart formats, occlusions and variations in visual styles.
-More recently, this task was tackled via transformer based models and Multimodal LArge Language Models (MLLMs), which provide more robust solutions.
+It was usually tackled via combination of rule-based tecniques, image processing, CNN-based deep learning architectures and optical character recognition (OCR).
+These techniques struggle with diverse chart formats, occlusions and variations in visual styles.
+More recently, this task was tackled via transformer-based models and Multimodal Large Language Models (MLLMs), which provide more robust solutions.
 
 In this survey, we provide a comprehensive review of Chart-to-Table conversion techniques, covering benchmark datasets, model architectures, evaluation metrics, and existing challenges.
-Furthermore, we assess the performance of several state-of-the-art transformers based models, including MLLMs, on this task, highlighting their strengths and weaknesses.
-Our findings suggest that while those models exhibit promising results, significant challenges remain, including generalization across different chart types, handling visual input effectively, and improving numerical fidelity.
+Furthermore, we assess the performance of several state-of-the-art transformers-based models, including MLLMs, on this task, highlighting their strengths and weaknesses.
+Our findings suggest that while these models exhibit promising results, significant challenges remain, including generalization across different chart types, handling visual input effectively, and improving numerical fidelity.
 
-%\section{Related Work}
-% There has been a lot of efforts in summarizing charts, answering questions~\cite{masry2022chartqa,masry2024chartgemma} and converting them into tables~\cite{liu2022deplot}.
-% Recently, there has been efforts to analyze the performance of Multimodal Large Language Models (MLLMs) in many all of those tasks.
-% In our work, we aim to pay closer attention to Chart-to-Table task.
 Our main contributions are:
 \begin{enumerate}
-     \item Survey recent advancements in Chart-to-Table task, to the best of our knowledge, this is the first survey focusing on Chart-to-Table Conversion,
-     \item do comprehensive qualitative and quantitative analysis on various benchmarks covering various common types of charts, and
-     %\item Do quantitative analysis for some models on different benchmark datasets,
-     %\item Do fine-grained qualitative analysis on various kinds of charts, and
+     \item Survey recent advancements in Chart-to-Table task; to the best of our knowledge, this is the first survey focusing on Chart-to-Table Conversion,
+     \item Conduct a comprehensive qualitative and quantitative analysis on various benchmarks covering various common types of charts, and
      \item highlight strengths and limitations  of those models, emphasizing on rooms for improvement in tackling Chart-to-Table Conversion.
        \end{enumerate}
-\section{Chart-to-Table in Literature}\label{sect:literature}
-There has been work in operating in charts in a way or another.
-Some researchers aim at converting charts to tables (Chart-to-Table Conversion).
-Others have worked on Chart Question Answering and Chart Summarization.
-In this work, we focus on Chart-to-Table Conversion.
 
-Chart-to-Table Conversion requires tackling Optical Character Recognition (OCR) and comprehensive Visual Understanding.
+\section{Chart-to-Table in Literature}\label{sect:literature}
+There has been a lot of work related to chart analysis in multiple dimensions.
+Some researchers focused on converting charts to tables (Chart-to-Table Conversion).
+Others concentrated on Chart Question Answering and Chart Summarization.
+In this work, we focus on Chart-to-Table Conversion, which requires tackling Optical Character Recognition (OCR) and comprehensive Visual Understanding.
 In this section, we review related work in Traditional Computer Vision, Deep Learning and Multimodal Large Language Models and how they influenced the evolution of this task.
 
 \subsection{Computer Vision and Deep Learning}\label{ssect:cv-and-dl}
@@ -69,9 +61,9 @@ In this section, we review related work in Traditional Computer Vision, Deep Lea
     Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}.
     These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions.
     Furthermore, rule-based approaches were often unsuccessful due to complex charts that had overlapping elements or non-standard layouts~\cite{poco2017reverse}.
-    As a result, researchers pursued more robust techniques that could better generalize across diverse chart designs.
+    As a result, researchers pursued more robust techniques that could generalize better across diverse chart designs.
 
-    Fast forward, researchers gave deep learning a try.
+    To deal with generalization problem, manny efforts were put towards integrating deep learning solutions.
     Systems such as ChartSense~\cite{jung2017chartsense} and ChartOCR~\cite{luo2021chartocr} utilized convolutional neural networks (CNNs) to classify types of charts and extract available data with higher accuracies.
     For instance, ChartOCR combined rule-based methods with deep CNNs to balance generalization and accuracy, achieving strong performance across multiple chart types~\cite{luo2021chartocr}.
     However, these methods needed extensive labeled datasets and lacked generalization across different chart formats.
@@ -90,20 +82,21 @@ In this section, we review related work in Traditional Computer Vision, Deep Lea
 After the introduction of transformers~\cite{vaswani2017attention}, Pretraining and Fine-tuning paradigm caught researchers attention.
 ~\cite{masry2023unichart} gathered a large dataset of 6.9M questions and charts, and used it to pre-train UniChart model.
 Another group of researchers~\cite{liu2022matcha} introduced Matcha model, which was a fine-tuned version of Pix2Struct~\cite{lee2023pix2struct} on many tasks including Chart-to-Table.
-Later on,~\cite{liu2022deplot} continued pre-training it on Chart-to-Table only to create Deplot.
+Later on,~\cite{liu2022deplot} continued pre-training it on Chart-to-Table only to create DePlot.
 They forwarded the generated table, human query and an example to FlanPaLM 540B~\cite{chung2024scaling} to answer complex queries.
 ~\cite{cheng2023chartreader} took a different approach by training a transformers based chart component detection and combine it with extended pretrained T5~\cite{raffel2020exploring} or TaPas~\cite{herzig2020tapas} models.
 
 \subsection{Multimodal Large Language Models (MLLMs)}\label{ssect:mllm}
-MLLMs has made significant progress in many tasks and Chart-to-Table was no exception.
-One direction is about utilizing general domain LLMs without any tuning.
-This direction includes Prompting and Retrieval Augmented Generation techniques~\cite{cao2024graphinsight, voigt2023vist5} to improve the capabilities of general LLMs on chart related tasks.
+MLLMs have made significant progress in many tasks and Chart-to-Table was no exception.
+One direction is to utilize general domain LLMs without any tuning.
+This direction includes Prompting and Retrieval Augmented Generation techniques~\cite{cao2024graphinsight, voigt2023vist5}, which improve the capabilities of general LLMs on chart related tasks.
+%TODO: add drawbacks to RAG in CTT
 
 Another direction is to fine-tune LLMs on Chart-specific Instruction following datasets.
-~\cite{masry2024chartinstruct} introduced an instruction following dataset and instruction tuned both LLaMA 2 7B~\cite{touvron2023llama} and Flan-T5 XL 3B~\cite{chung2024scaling} on it.
-This instruction tuning strategy was proved to make a generalized model that can handle unseen tasks.
+~\cite{masry2024chartinstruct} introduced an instruction-following dataset and instruction tuned both LLaMA 2 7B~\cite{touvron2023llama} and Flan-T5 XL 3B~\cite{chung2024scaling} on it.
+This instruction tuning strategy proved to make a generalized model that can handle unseen chart related tasks.
 Similarly,~\cite{masry2024chartgemma} fine-tuned PaliGemma~\cite{beyer2024paligemma} to create a 3B ChartGemma.
-Another key distinguishing contribution was the method of instruction following data generation.
+Another key distinguishing contribution was the method of instruction-following data generation.
 They generated for predefined tasks, such as Chain of Thought and Chart-to-Tables in form of markdown, and open-ended tasks, such as justifying trends in charts and describing visual elements.
 
 A unique direction is chart-to-code generation, which aims to provide lossless representations of charts.
@@ -122,12 +115,12 @@ There has been many metrics for evaluating Chart-to-Table conversion.
 In~\cite{luo2021chartocr}, they introduced different metric for each kind of chart:
 \begin{enumerate}
          \item For Bar Charts, defined a custom distance function for pairwise point comparison and find minimum cost between prediction and ground truth,
-         \item For Line charts, it is handled as continuous similarity problem.œœ
+         \item For Line charts, it is handled as continuous similarity problem.
              For each predicted line, it computes the pointwise error between it and each ground truth line, and choose the minimal value.
          \item For Pie Charts, they consider its scoring as sequence matching problem, thus solved using dynamic programming.
               \end{enumerate}
-Relative Number Similarity Score~\cite{masry2022chartqa}, also known as Relaxed Accuracy Measure, is about  computing highest accuracy of generated numbers relative to ground truth.
-However, it has two main drawbacks:
+Relative Number Similarity Score~\cite{masry2022chartqa}, also known as Relaxed Accuracy Measure, is to compute highest accuracy of generated numbers relative to ground truth.
+However, this evaluation approach has two main drawbacks:
 \begin{enumerate}
          \item It does not consider the position of numbers within the table, and
          \item It ignores textual errors.
@@ -138,8 +131,8 @@ To learn more about the algorithm, please check appendix~\ref{app:metrics}
 
 \section{Methodology}\label{sect:methodology}
 \subsection{Datasets}\label{ssect:datasets}
-There has been many datasets introduced for various chart related tasks, with no special attention to Chart-to-Table Conversion.
-Aftersome investigation, we found that some datasets include chart images with their corresponding data points.
+Many datasets were introduced for various chart related tasks, with no special attention to Chart-to-Table Conversion.
+After investigation, we found that some datasets include chart images with their corresponding data points.
 In our analysis, we focus on reporting scores on two of those testsets: ICPR22~\cite{rousseau2023pattern} and PlotQA~\cite{methani2020plotqa}.
 
 \paragraph{ICPR22 testset~\cite{rousseau2023pattern}} was gathered from research papers published on PubMed Central website.\footnote{\href{https://pmc.ncbi.nlm.nih.gov}{https://pmc.ncbi.nlm.nih.gov}}
@@ -147,7 +140,7 @@ Those publications are in biomedical and life sciences domains.
 It contains 443 charts splitted into 5 types: Line Charts, Horizontal and Vertical Bar Charts, Scatter Plot and Vertical Box Plot.
 It represents a source of real-world generated charts, as they were generated by a large set of researchers.
 
-\paragraph{PlotQA~\cite{methani2020plotqa}} was made by gathering data from various online sources, such as World Bank and Open Data, generate plots out of these data points, and ask annotators questions about those provided charts.
+\paragraph{PlotQA~\cite{methani2020plotqa}} was made by scrapping data from various online sources, such as World Bank and Open Data, generate plots out of these data points, and ask annotators questions about those provided charts.
 In our work, we focus on the data points used in constructing the charts only.
 Its test set contains 33657 charts divided equally among dotted line charts, line charts, and vertical and horizontal bar charts.
 We hypothesized that there is no need to test on all $33k$ charts, so we performed comparison among scores for many sample sizes.
@@ -162,19 +155,19 @@ We noticed that larger file sizes are directly correlated to larger count of dat
 \subsection{Models}\label{ssect:models}
 For our study, we tested the following models in zero-shot setting:
 \begin{itemize}
-  \item Gemini 1.5 Flash~\cite{team2024gemini}: A general purpose lightweight MLLM, which is larger than other models in this list.
+  \item Gemini 1.5 Flash~\cite{team2024gemini}: A general purpose lightweight MLLM, which is the largest in this list.
      \item ChartGemma~\cite{masry2024chartgemma}: A specialized model in chart summarization, question answering and reasoning about charts.
        It utilizes PaliGemma 4B~\cite{beyer2024paligemma} as its backbone, and was tuned on Visual Chart Instructions dataset.
-     \item Deplot~\cite{liu2022deplot}: A 282M parameters Vision Encoder-Text Decoder transformer architecture.
+     \item DePlot~\cite{liu2022deplot}: A 282M parameters Vision Encoder-Text Decoder transformer architecture.
          It was trained on Chart-to-Table Conversion task.
        \end{itemize}
        \subsection{Prompts}\label{ssect:prompts}
-       For deDeplot, we used the prompt recommended in its Hugging Face Model Card: "Generate underlying data table of the figure below:".
+       For DePlot, we used the prompt recommended in its Hugging Face Model Card: "Generate underlying data table of the figure below:".
        For ChartGemma, we used a simple prompt of "program of thought: extract data points and formulate them into markdown table.
     Note: all data points should be either integer or float.
     Do not write percentages as '56%', but write them as '0.5"
 
-    For Gemini 1.5 Flash, we used a longer prompt, and if its output is not parseable into json object, we prompt it again to fix its format.
+    For Gemini 1.5 Flash, we used a longer prompt, and if its output is not parse-able into json object, we prompt it again to fix its format.
     The main prompt is: 
 \begin{verbatim}
     "System Message:     You are an EXPERT in scientific visualizations analysis and chart understanding and description.
@@ -197,7 +190,7 @@ We reported the results on a subset of PlotQA charts and all of ICPR22.
 We were able to generate around 7000 charts from PlotQA.
 We hypothesized that the size of 33k test images is very large and we should not find significant difference between scores on 3k and 33k.
 To validate this hypothesis, we computed scores for 3k, 4k, 5k and 6k charts to see whether there is a significant need to infere on all 33k images.
-Additionally, we computed the scores on the entire testset using deplot model.
+Additionally, we computed the scores on the entire testset using DePlot model.
 As shown in table~\ref{tab:plotqa-scores-for-various-sizes}, there are small differences across samples of 4k, 5k and k relative to variations among scores of all models.
 This means that a sample of 4k is sufficient to provide a reliable estimate to model's performance.
 \input{plotqa-scores-for-various-sizes}
@@ -205,24 +198,24 @@ This means that a sample of 4k is sufficient to provide a reliable estimate to m
 \subsection{Discussion}\label{ssect:discussion}
 \input{scores}
 Fianl scores are shown in table~\ref{tab:final-scores}.
-Gemini 1.5 Flash achieved the highest Success Rate (SR), indicating its strong ability to produce well-formatted and parseable outputs.
-However, Deplot outperformed all models in terms of Relative Mapping Similarity (RMS), showcasing its superior alignment with the ground truth table values.
+Gemini 1.5 Flash achieved the highest Success Rate (SR), indicating its strong ability to produce well-formatted and parse-able outputs.
+However, DePlot outperformed all models in terms of Relative Mapping Similarity (RMS), showcasing its superior alignment with the ground truth table values.
 On the other hand, ChartGemma recorded the lowest performance in both SR and RMS.
 
 The relatively high SR of Gemini 1.5 Flash suggests that a powerful text decoder plays a crucial role in generating structured and clean outputs.
-Meanwhile, Deplot’s strong RMS score—despite being a smaller, specialized model—underscores the value of task-specific architectural tuning.
+Meanwhile, DePlot’s strong RMS score—despite being a smaller, specialized model—underscores the value of task-specific architectural tuning.
 These results suggest that instruction fine-tuning (as in ChartGemma) may not be sufficient to achieve high-quality Chart-to-Table conversions without deeper task alignment and robust visual reasoning.
 
-Low scores of all models in ICPR22 testset suggests that it is difficult testset.
-After manual inspection, we noticed that it has many issues causing RMS scores to be low.
-One cause is that many line charts have no labels for their lines.
+The low scores of all models in ICPR22 testset indicate that it is challenging testset.
+Upon manual inspection, we identified many contributors to low RMS scores.
+One major issue is the absence of labels on many line charts.
 Many columns in tables of the testset contain "unnamed data series 0", which has 1 normalized edit distance with whatever models generate as columns names, thus 0 RMS score occurs frequently.
 In a future work, we would also take into account computing RMS both with and without considering normalized edit distance.
 Another reason for those low scores is the failure of all models in properly extracting data from scatter plots and vertical box plots, as illustrated in section~\ref{sssect:scatter} and section~\ref{sssect:box} respectively.
 
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
-For the sample we analyzed, we found a single error in deplot recognizing name of second row in table 28308 in PlotQA.
-Otherwise, all text was correctly recognized by all models.
+As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
+Other than that, all text was correctly recognized by all models.
 However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input image.
 \footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
 \footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
@@ -230,14 +223,14 @@ However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-
 \subsection{Values Extraction}\label{ssect:values-extraction}
 For PlotQA and ICPR22 samples, it is frequent to find errors like:
 \begin{enumerate}
-     \item rounding errors, e.g. $15.42->15 and 15.6->15$.
-     \item Precision Errors: we have noticed that the models can not predict more than 3 digits for Gemini 1.5 Flash and ChartGemma or 4 digits for Deplot per each value, e.g. $126765000.0->156000000$.
+     \item rounding errors, e.g. $15.42->15$ and $15.6->15$.
+     \item Precision Errors: we have noticed that the models can not predict more than 3 digits for Gemini 1.5 Flash and ChartGemma or 4 digits for DePlot per each value, e.g. $126765000.0->156000000$.
      \item In case of near values, e.g. $24.18, 24.09$, there might be some errors, e.g. predicting $23$ instead of $24$.
-       For that kind of error, it may result in changing trend, e.g. steady performance may seam as decreasing.
-       \footnote{It is worth noting that we have not seen cases where increasing is replaced by decreasing trends or vice versa in our Test-Sample.}
+       That kind of error may result in changing trend, e.g. steady performance may seam as decreasing.
+       \footnote{It is worth noting that we have not seen cases where increasing is replaced by decreasing trends or vice versa by any model in our Test-Sample.}
        \item All models can differentiate outputs based on scale, e.g. $156000000 \& 50.2$ for instance.
-all models sometimes change scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where ChartGemma returned values multiplied by 10.
-However, Deplot is more robust to this error.
+all models sometimes mispredict scale, e.g. table~\ref{tab:chartgemma-plotqa-line-21673} where ChartGemma returned values multiplied by $10$ relative to ground truth.
+However, DePlot was found to be the most robust against this error.
        \item Occasionally, ChartGemma and Gemini 1.5 Flash swap two columns as shown in table~\ref{tab:gemini-plotqa-line-18806}.
          As a result, RMS score is significantly lower (f1=$34\%$) than its fixed version (f1=$83\%$).
        \end{enumerate}
@@ -247,7 +240,7 @@ However, Deplot is more robust to this error.
 \subsubsection{Bar Charts}\label{sssect:bar-errors}
 \begin{enumerate}
     \item All models are good in extracting data points of Horizontal and Vertical bar charts.
-        However, Deplot seams better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
+        However, DePlot seams better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
        \end{enumerate}
        \begin{figure}
             \includegraphics{test-sample/plotqa/images/vertical-bar/32640.png}
@@ -262,7 +255,7 @@ However, Deplot is more robust to this error.
   \item Tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show that both models are very good in extracting data points from line charts.
      \item There are some graphs, like~\ref{fig:icpr22-line-6339}, the Gemini API just fails with no clear response message.
        However, it is suspected that the large number of data points might be the reason.
-               It is noticable for the same chart to cause Deplot to repeat some rows as shown in table~\ref{tab:deplot-icpr22-line-6339}.
+               It is noticable for the same chart to cause DePlot to repeat some rows as shown in table~\ref{tab:deplot-icpr22-line-6339}.
      \item Table~\ref{tab:chartgemma-plotqa-line-20049} shows that ChartGemma may fail in extracting data points from slightly complex graphs.
        It fails in both extracting correct values as well as mapping them to the correct label.
               \end{enumerate}
@@ -317,7 +310,7 @@ However, Deplot is more robust to this error.
 \begin{verbatim}
 Ground Truth csv:
 \input{test-sample/icpr22/csvs/scatter/PMC2279396___g002.csv}
-Deplot output csv:
+DePlot output csv:
 \input{test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002.csv}
 Gemini 1.5 Flash output json:
 \input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/scatter/PMC2279396___g002.csv}
@@ -337,7 +330,7 @@ ChartGemma output text:
                \begin{verbatim}
                Ground Truth csv:
                \input{test-sample/icpr22/csvs/vertical-box/PMC1855992___g001.csv}
-               Deplot prediction:
+               DePlot prediction:
                \input{test-sample/icpr22/predictions/deplot/vertical-box/PMC1855992___g001.csv}
                Gemini 1.5 Flash prediction:
                \input{cat  test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}
@@ -348,10 +341,10 @@ ChartGemma output text:
 \section{Conclusion and Recommendations}\label{sect:conclusion}
 In conclusion, our study provides a comprehensive evaluation of the performance of various models on chart-to-table Conversion.
 Our results show that while some models excel in certain types of charts, none of them perform evenly across all chart types.
-This highlights the complexity and diversity of chart-to-table tasks, which require specialized models or very capable large general models.
+This highlights the complexity and diversity of chart-to-table tasks, which requires specialized models or very capable large general models.
 
 Our findings have important implications for researchers and practitioners working on data extraction and analysis.
-They suggest that future research should focus on developing more robust and flexible models that can handle a wide range  of chart types and styles.
+They suggest that future research should focus on developing more flexible models that can handle a wide range  of chart types and styles.
 Additionally, our results emphasize the need for larger and more diverse datasets to train and evaluate these models.
 
 Overall, our study contributes to a deeper understanding of the challenges and opportunities in chart-to-table tasks and provides a foundation for future research in this area. 
@@ -359,8 +352,8 @@ We hope that our findings will fosters further innovation and improvement in dat
 
 \section{Limitations}\label{sect:limitations}
 One limitation of our analysis is testing pre-trained models exclusively and did not test models like ChartOCR.
-All those models are not directly comparable and have no existing weights and implementation to easily test.
-This has been left for future work.
+These models are not directly comparable and lack existing public weights and implementations.
+This aspect has been deferred to future work.
 
 \section{Acknowledgments}
 This research was supported in part through research cyberinfrastructure resources and services provided by the Partnership for an Advanced Computing Environment (PACE)~\cite{pace2017partnership} at the Georgia Institute of Technology, Atlanta, Georgia, USA.
