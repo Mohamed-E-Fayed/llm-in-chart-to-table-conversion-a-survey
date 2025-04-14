@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  15 APR 2025 00:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  15 APR 2025 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,24 +1296,27 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
+) (./main.toc [1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [2]
 
 Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Please use 'extradate' instead.
 (biblatex)                Using 'extradate' now.
 
-[1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+[3]
 LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 62.
- [2]
+ [4]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
 82.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [3]
+)
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
  input line 96.
 
@@ -1359,8 +1362,8 @@ Overfull \hbox (12.36978pt too wide) in paragraph at lines 105--106
 ap-ping Sim-i-lar-ity (RMS) Liu
  []
 
-[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
-c}] [5] [6]
+[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
+c}] [6] [7] [8]
 Overfull \hbox (162.67885pt too wide) in paragraph at lines 189--192
 \U/zeur/m/n/11 SuccessRate\U/zeus/m/n/11 ¨\U/zeur/m/n/11 SR\U/zeus/m/n/11 © ½ \
 U/zeur/m/n/11 countofcorrectlyparsedcharts=countofpredictedchartswithinthetests
@@ -1372,8 +1375,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--32
 [][] []
  []
 
-) (./scores.tex [7] [8]) [9]
-<test-sample/plotqa/images/vertical-bar/32640.png, id=211, 1042.89626pt x 652.4
+) (./scores.tex) [9] [10] [11]
+<test-sample/plotqa/images/vertical-bar/32640.png, id=263, 1042.89626pt x 652.4
 375pt>
 File: test-sample/plotqa/images/vertical-bar/32640.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/32640.png>
@@ -1385,9 +1388,9 @@ Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
 0.tex)
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
 l-bar/32640.tex)
-(./test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex) [10] [11 <./te
-st-sample/plotqa/images/vertical-bar/32640.png>]
-<test-sample/plotqa/images/vertical-bar/25905.png, id=251, 706.64pt x 702.625pt
+(./test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex) [12 <./test-sa
+mple/plotqa/images/vertical-bar/32640.png>] [13]
+<test-sample/plotqa/images/vertical-bar/25905.png, id=296, 706.64pt x 702.625pt
 >
 File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/25905.png>
@@ -1404,7 +1407,7 @@ Overfull \hbox (1178.66582pt too wide) in paragraph at lines 2--14
  []
 
 ) (./test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex)
-<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=252, 81.906pt x 78.2925
+<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=297, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
 )
@@ -1414,7 +1417,7 @@ ed on input line 276.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
 
 (./test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex)
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=253, 160.4394pt x 1
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=298, 160.4394pt x 1
 38.0357pt>
 File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
  jpg)
@@ -1422,7 +1425,7 @@ File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
   used on input line 282.
 (pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=254, 1119.18124pt x 652.4375pt>
+<test-sample/plotqa/images/line/21673.png, id=299, 1119.18124pt x 652.4375pt>
 File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
 <use test-sample/plotqa/images/line/21673.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
@@ -1438,7 +1441,7 @@ Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
 673.tex) (./test-sample/plotqa/predictions/deplot/line/21673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=255, 1259.70625pt x 702.6
+<test-sample/plotqa/images/line/20049-4-lines.png, id=300, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
@@ -1467,7 +1470,7 @@ e for Gem-ini Flash pre-dic-tions where it
  []
 
 )
-<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=256, 663.47874pt x
+<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=301, 663.47874pt x
  492.84125pt>
 File: test-sample/icpr22/images/scatter/PMC2279396___g002.jpg Graphic file (typ
 e jpg)
@@ -1475,11 +1478,11 @@ e jpg)
 Package pdftex.def Info: test-sample/icpr22/images/scatter/PMC2279396___g002.jp
 g  used on input line 310.
 (pdftex.def)             Requested size: 397.48288pt x 295.25581pt.
- [12] [13 <./test-sample/plotqa/images/vertical-bar/25905.png>] [14 <./test-sam
-ple/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/P
-MC5882956___1_HTML.jpg>] [15] [16 <./test-sample/plotqa/images/line/21673.png>]
- [17 <./test-sample/plotqa/images/line/20049-4-lines.png>] [18] [19 <./test-sam
-ple/icpr22/images/scatter/PMC2279396___g002.jpg>]
+ [14 <./test-sample/plotqa/images/vertical-bar/25905.png>] [15 <./test-sample/i
+cpr22/images/line/PMC6339093___05.jpg>] [16] [17 <./test-sample/icpr22/images/l
+ine/PMC5882956___1_HTML.jpg> <./test-sample/plotqa/images/line/21673.png>]
+[18 <./test-sample/plotqa/images/line/20049-4-lines.png>] [19] [20 <./test-samp
+le/icpr22/images/scatter/PMC2279396___g002.jpg>]
 Overfull \hbox (39.05331pt too wide) in paragraph at lines 318--318
 []\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/deplot/sca
 tter/PMC2279396___g002.csv}[] 
@@ -1497,7 +1500,7 @@ Overfull \hbox (213.66864pt too wide) in paragraph at lines 322--322
 y/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}[] 
  []
 
-<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=314, 499.8675
+<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=349, 499.8675
 pt x 448.67625pt>
 File: test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg Graphic file
  (type jpg)
@@ -1530,7 +1533,7 @@ ions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}[]
  
  []
 
-[20] [21 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
+[21] [22 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
 Overfull \hbox (10.93463pt too wide) in paragraph at lines 366--366
 [][]\T1/pplj/m/n/11 (-10) PACE, M (2017). ^^P  Part-ner-ship for an ad-vanced c
 om-put-ing en-vi-ron-ment (PACE)^^Q.
@@ -1542,7 +1545,7 @@ Overfull \hbox (10.67169pt too wide) in paragraph at lines 366--366
 mas, Pic-cinno, Francesco,
  []
 
-[22]
+[23]
 Overfull \hbox (0.82553pt too wide) in paragraph at lines 366--366
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
@@ -1554,20 +1557,20 @@ Overfull \hbox (2.9494pt too wide) in paragraph at lines 366--366
 -hen-sion with-out heuris-
  []
 
-[23]
+[24]
 Overfull \hbox (6.89139pt too wide) in paragraph at lines 366--366
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 385--389
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
  []
 
-[25]
+[26]
 Overfull \hbox (19.55138pt too wide) in paragraph at lines 416--417
 \T1/pplj/m/n/11 (-10) Let $\U/zeur/m/n/11 P \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 x
 []\T1/pplj/m/n/11 (-10) , \U/zeur/m/n/11 y[]\U/zeus/m/n/11 ©\T1/pplj/m/n/11 (-1
@@ -1578,7 +1581,7 @@ U/zeur/m/n/11 G \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 u[]\T1/pplj/m/n/11 (-10) , \U
 /zeur/m/n/11 u[]\T1/pplj/m/n/11 (-10) , \U/zeur/m/n/11 v[]\U/zeus/m/n/11 ©g$
  []
 
-[26] [27] (./main.aux)
+[27] [28] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1594,13 +1597,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 19 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31314 strings out of 474116
- 607586 string characters out of 5743682
- 1967187 words of memory out of 5000000
- 52600 multiletter control sequences out of 15000+600000
+ 31322 strings out of 474116
+ 607670 string characters out of 5743682
+ 1964187 words of memory out of 5000000
+ 52604 multiletter control sequences out of 15000+600000
  659121 words of font info for 458 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,131p,997b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,10n,131p,997b,2783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecod
 epro/SourceCodePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
@@ -1620,10 +1623,10 @@ j8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 728984 bytes).
+Output written on main.pdf (28 pages, 732067 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
- 142 named destinations out of 1000 (max. 500000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
  113953 words of extra memory for PDF output out of 128383 (max. 10000000)
 

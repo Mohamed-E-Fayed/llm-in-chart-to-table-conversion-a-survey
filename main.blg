@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[27] biber-darwin:340> INFO - === Tue Apr 15, 2025, 00:36:12
+[27] biber-darwin:340> INFO - === Tue Apr 15, 2025, 00:47:18
 [33] Biber.pm:419> INFO - Reading 'main.bcf'
-[69] Biber.pm:979> INFO - Found 29 citekeys in bib section 0
-[75] Biber.pm:4419> INFO - Processing section 0
-[80] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[81] bibtex.pm:1713> INFO - LaTeX decoding ...
-[96] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[237] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[237] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[237] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[238] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[257] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[268] bbl.pm:763> INFO - Output to main.bbl
-[268] Biber.pm:131> WARN - Duplicate entry key: 'sreevalsan2021tensor' in file 'references.bib', skipping ...
-[268] Biber.pm:131> WARN - Duplicate entry key: 'poco2017reverse' in file 'references.bib', skipping ...
-[268] Biber.pm:133> INFO - WARNINGS: 2
+[67] Biber.pm:979> INFO - Found 29 citekeys in bib section 0
+[73] Biber.pm:4419> INFO - Processing section 0
+[77] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[78] bibtex.pm:1713> INFO - LaTeX decoding ...
+[93] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[233] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[233] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[253] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[264] bbl.pm:763> INFO - Output to main.bbl
+[264] Biber.pm:131> WARN - Duplicate entry key: 'sreevalsan2021tensor' in file 'references.bib', skipping ...
+[264] Biber.pm:131> WARN - Duplicate entry key: 'poco2017reverse' in file 'references.bib', skipping ...
+[264] Biber.pm:133> INFO - WARNINGS: 2

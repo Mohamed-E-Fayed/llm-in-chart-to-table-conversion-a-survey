@@ -1,22 +1,32 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Chart-to-Table in Literature}{2}{section.2}%
-\contentsline {section}{\numberline {3}Methodology}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Datasets}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Models}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Evaluation}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Scores}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Text Recognition}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Values Extraction}{7}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Bar Charts}{8}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Line Charts}{8}{subsubsection.4.3.2}%
-\contentsline {section}{\numberline {5}Conclusion and Recommendations}{8}{section.5}%
-\contentsline {section}{\numberline {6}Limitations}{13}{section.6}%
-\contentsline {section}{\numberline {7}Acknowledgments}{13}{section.7}%
-\contentsline {section}{\numberline {8}References}{13}{section.8}%
-\contentsline {section}{\numberline {A}Evaluation Metrics}{16}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{16}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}ChartOCR Bar Chart Metric}{16}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}ChartOCR Line Chart Metric}{16}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}ChartOCR Pie Chart Metric}{16}{subsection.A.4}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Methodology}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Paper Selection}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Datasets}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Models}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Prompts}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Evaluation}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Chart-to-Table in Literature}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Computer Vision and Deep Learning}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pretraining and Fine-tuning}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Multimodal Large Language Models (MLLMs)}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Chart-to-Table Evaluation}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results and Discussion}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Scores}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Discussion}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Text Recognition}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Values Extraction}{11}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Bar Charts}{12}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Line Charts}{12}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Scatter Plots}{14}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Box Plots}{21}{subsubsection.4.4.4}%
+\contentsline {section}{\numberline {5}Conclusion and Recommendations}{21}{section.5}%
+\contentsline {section}{\numberline {6}Limitations}{23}{section.6}%
+\contentsline {section}{\numberline {7}Acknowledgments}{23}{section.7}%
+\contentsline {section}{\numberline {8}References}{23}{section.8}%
+\contentsline {section}{\numberline {A}Evaluation Metrics}{26}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{26}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}metrics introduced in ChartOCR}{26}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Bar Chart Metric}{27}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Line Chart Metric}{27}{subsubsection.A.2.2}%
+\contentsline {subsubsection}{\numberline {A.2.3}Pie Chart Metric}{28}{subsubsection.A.2.3}%
