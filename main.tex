@@ -56,6 +56,8 @@ Others concentrated on Chart Question Answering and Chart Summarization.
 In this work, we focus on Chart-to-Table Conversion, which requires tackling Optical Character Recognition (OCR) and comprehensive Visual Understanding.
 In this section, we review related work in Traditional Computer Vision, Deep Learning and Multimodal Large Language Models and how they influenced the evolution of this task.
 
+%TODO: add subsection for datasets
+
 \subsection{Computer Vision and Deep Learning}\label{ssect:cv-and-dl}
     It all begins with computer vision (CV)-based methods.
     Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}.
@@ -159,8 +161,6 @@ For our study, we tested the following models in zero-shot setting:
         {x_axis_name: x_axis_vavlues_list, y_xis_name: y_axis_values_list}"
         \end{verbatim}
 
-\subsection{Evaluation}\label{ssect:method-eval}
-To compare among those models, we compute Relative Mapping Similarity (RMS)~\cite{liu2022deplot} and do qualitative analysis on our Test-Sample testset.
 
 \subsection{Evaluation}\label{ssect:evaluation}
 There has been many metrics for evaluating Chart-to-Table conversion.
@@ -181,6 +181,8 @@ To overcome those limitations, Relative Mapping Similarity (RMS)~\cite{liu2022de
 \footnote{our RMS implementation can be found \href{https://github.gatech.edu/mfayed8/GIE-metrics}{here}.}
 To learn more about the algorithm, please check appendix~\ref{app:metrics}
 
+To compare among those models, we compute Relative Mapping Similarity (RMS)~\cite{liu2022deplot} and do qualitative analysis on our Test-Sample testset.
+
 \paragraph{Success rate:}
 While testing, we noticed that all models suffer in generating markdowns/jsons that can be correctly parsed by pandas with various levels.
 To quantify this behavior, we introduce Success Rate (SR) for each model.
@@ -193,6 +195,8 @@ Success Rate (SR) is the count of correctly parsed charts ($C_{correct}$) divide
 \section{Results and Discussion}\label{sect:results}
 \subsection{Quantitative Analysis}\label{ssect:quantitative}
 \subsubsection{Scores}\label{ssect:rms}
+%TODO: add ablhation for test size 
+% first scores, then ablahtion 
 Table~\ref{tab:final-scores} shows the final scores for all models on PlotQA and ICPR22 testsets.
 We were able to generate around 7000 charts from PlotQA.
 We hypothesized that the size of 33k test images is very large and we should not find significant difference between scores on 3k and 33k.
@@ -202,7 +206,7 @@ As shown in table~\ref{tab:plotqa-scores-for-various-sizes}, there are small dif
 This means that a sample of 4k is sufficient to provide a reliable estimate to model's performance.
 \input{plotqa-scores-for-various-sizes}
 
-\subsubsection{Discussion}\label{ssect:discussion}
+%\subsubsection{Discussion}\label{ssect:discussion}
 \input{scores}
 Fianl scores are shown in table~\ref{tab:final-scores}.
 Gemini 1.5 Flash achieved the highest Success Rate (SR), indicating its strong ability to produce well-formatted and parse-able outputs.
@@ -271,7 +275,7 @@ In the remaining part of this section, we illustrate issues related to each kind
 \input{test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex}
 
 \begin{figure}
-   \includegraphics{test-sample/icpr22/images/line/PMC6339093___05.jpg}
+    \includegraphics[width=10cm]{test-sample/icpr22/images/line/PMC6339093___05.jpg}
    \caption{Example for charts that causes the API to fail.}
    \label{fig:icpr22-line-6339}
    \end{figure}
@@ -300,53 +304,13 @@ In the remaining part of this section, we illustrate issues related to each kind
    \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20049-4-lines.tex}
 
 \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.tex}
-\paragraph{Scatter Plots}\label{par:scatter}
-\begin{enumerate}
-         \item There is no model capable of handling scatter plots correctly!
-          \end{enumerate}
-          \begin{figure}
-               \includegraphics{test-sample/icpr22/images/scatter/PMC2279396___g002.jpg}
-               \caption{Scatter Plot from ICPR22 testset \#2279}
-               \label{fig:icpr22-scatter-2279}
-                \end{figure}
-\begin{verbatim}
-Ground Truth csv:
-\input{test-sample/icpr22/csvs/scatter/PMC2279396___g002.csv}
-DePlot output csv:
-\input{test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002.csv}
-Gemini 1.5 Flash output json:
-\input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/scatter/PMC2279396___g002.csv}
-ChartGemma output text:
-\input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}
-\end{verbatim}
-\paragraph{Box Plots}\label{par:box}
-\begin{enumerate}
-         \item Gemini 1.5 Flash was the only model to correctly extract data points from vertical box plots.
-             However, comparing Gemini 1.5 Flash's output to ground truth table needs custom logic because some graphs have more than one data series.
-              \end{enumerate}
-              \begin{figure}
-                   \includegraphics{test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg}
-                   \caption{Vertical Box Plot from ICPR22 testset \#1855}
-                   \label{fig:icpr22-box-185}
-                    \end{figure}
-               \begin{verbatim}
-               Ground Truth csv:
-               \input{test-sample/icpr22/csvs/vertical-box/PMC1855992___g001.csv}
-               DePlot prediction:
-               \input{test-sample/icpr22/predictions/deplot/vertical-box/PMC1855992___g001.csv}
-               Gemini 1.5 Flash prediction:
-               \input{cat  test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}
-               ChartGemma's  output markdown:
-               \input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}
-               \end{verbatim}
 
-\subsubsection{Text Recognition}\label{sssect:text-recognition}
-As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
-Other than that, all text was correctly recognized by all models.
-However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input figure~\ref{fig:plotqa-line-21673}.
-\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
-\footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
+%TODO: make a note for scatter and verticdal box only and include examples in appendix
 
+\paragraph{Other Types of Charts:}
+ICPR22 testset includes scatter and vertical box plots.
+The performance of all models is very poor in extracting underlying data points in both types.
+Appendix~\ref{app:other-plots} include examples for predictions of all models.
 
 \section{Conclusion and Recommendations}\label{sect:conclusion}
 In conclusion, our study provides a comprehensive evaluation of the performance of various models on chart-to-table Conversion.
@@ -466,5 +430,54 @@ with $\text{score}(0, j) = \text{score}(i, 0) = 0$ for all $i, j$. The final nor
 \text{Score} = \frac{\text{score}(N, M)}{M}
 \]
 
+
+\section{Examples for Failing Plot Types}\label{app:other-plot-types}
+This section includes examples for all chart types that can not be processed by any of tested models.
+\subsection{Scatter Plots}\label{par:scatter}
+\begin{enumerate}
+         \item There is no model capable of handling scatter plots correctly!
+          \end{enumerate}
+          \begin{figure}
+               \includegraphics{test-sample/icpr22/images/scatter/PMC2279396___g002.jpg}
+               \caption{Scatter Plot from ICPR22 testset \#2279}
+               \label{fig:icpr22-scatter-2279}
+                \end{figure}
+\begin{verbatim}
+Ground Truth csv:
+\input{test-sample/icpr22/csvs/scatter/PMC2279396___g002.csv}
+DePlot output csv:
+\input{test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002.csv}
+Gemini 1.5 Flash output json:
+\input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/scatter/PMC2279396___g002.csv}
+ChartGemma output text:
+\input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}
+\end{verbatim}
+\subsection{Box Plots}\label{par:box}
+\begin{enumerate}
+         \item Gemini 1.5 Flash was the only model to correctly extract data points from vertical box plots.
+             However, comparing Gemini 1.5 Flash's output to ground truth table needs custom logic because some graphs have more than one data series.
+              \end{enumerate}
+              \begin{figure}
+                   \includegraphics{test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg}
+                   \caption{Vertical Box Plot from ICPR22 testset \#1855}
+                   \label{fig:icpr22-box-185}
+                    \end{figure}
+               \begin{verbatim}
+               Ground Truth csv:
+               \input{test-sample/icpr22/csvs/vertical-box/PMC1855992___g001.csv}
+               DePlot prediction:
+               \input{test-sample/icpr22/predictions/deplot/vertical-box/PMC1855992___g001.csv}
+               Gemini 1.5 Flash prediction:
+               \input{cat  test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}
+               ChartGemma's  output markdown:
+               \input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}
+               \end{verbatim}
+
+\subsubsection{Text Recognition}\label{sssect:text-recognition}
+As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
+Other than that, all text was correctly recognized by all models.
+However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input figure~\ref{fig:plotqa-line-21673}.
+\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
+\footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
 
 \end{document}

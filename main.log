@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  15 APR 2025 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  15 APR 2025 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1310,15 +1310,15 @@ Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Using 'extradate' now.
 
 [3] [4] [5]
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 120.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 122.
  [6]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-140.
+142.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
- input line 154.
+ input line 156.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF
 .fd
@@ -1326,55 +1326,55 @@ File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 9.70087pt on input line 154.
+(Font)              scaled to size 9.70087pt on input line 156.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (306.79681pt too wide) in paragraph at lines 155--155
+Overfull \hbox (306.79681pt too wide) in paragraph at lines 157--157
 []    \T1/SourceCodePro-TLF/m/n/11 "System Message:     You are an EXPERT in sc
 ientific visualizations analysis and chart understanding and description.[] 
  []
 
 
-Overfull \hbox (411.56601pt too wide) in paragraph at lines 156--156
+Overfull \hbox (411.56601pt too wide) in paragraph at lines 158--158
 []    \T1/SourceCodePro-TLF/m/n/11 You should help people with disabilities in 
 giving an overview of the chart and converting the chart into its original data
  point form.[] 
  []
 
 
-Overfull \hbox (225.30966pt too wide) in paragraph at lines 157--157
+Overfull \hbox (225.30966pt too wide) in paragraph at lines 159--159
 []        \T1/SourceCodePro-TLF/m/n/11 prompt: For the following image, tell me
  the name of x and y axes, and the values of the each axis.[] 
  []
 
 
-Overfull \hbox (39.05331pt too wide) in paragraph at lines 159--159
+Overfull \hbox (39.05331pt too wide) in paragraph at lines 161--161
 []        \T1/SourceCodePro-TLF/m/n/11 {x_axis_name: x_axis_vavlues_list, y_xis
 _name: y_axis_values_list}"[] 
  []
 
-
-Overfull \hbox (12.36978pt too wide) in paragraph at lines 163--164
-\T1/pplj/m/n/11 (-10) To com-pare among those mod-els, we com-pute Rel-a-tive M
-ap-ping Sim-i-lar-ity (RMS) Liu
+[7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
+c}]
+Overfull \hbox (12.36978pt too wide) in paragraph at lines 184--185
+[]\T1/pplj/m/n/11 (-10) To com-pare among those mod-els, we com-pute Rel-a-tive
+ Map-ping Sim-i-lar-ity (RMS) Liu
  []
 
-[7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
-c}] (./plotqa-scores-for-various-sizes.tex
+(./plotqa-scores-for-various-sizes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--32
 [][] []
  []
 
 ) [8] (./scores.tex) [9] [10]
-<test-sample/plotqa/images/vertical-bar/32640.png, id=230, 1042.89626pt x 652.4
+<test-sample/plotqa/images/vertical-bar/32640.png, id=233, 1042.89626pt x 652.4
 375pt>
 File: test-sample/plotqa/images/vertical-bar/32640.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/32640.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
- on input line 248.
+ on input line 252.
 (pdftex.def)             Requested size: 397.48228pt x 248.66551pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/3264
@@ -1383,12 +1383,12 @@ Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
 l-bar/32640.tex)
 (./test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex) [11] [12 <./te
 st-sample/plotqa/images/vertical-bar/32640.png>]
-<test-sample/plotqa/images/vertical-bar/25905.png, id=267, 706.64pt x 702.625pt
+<test-sample/plotqa/images/vertical-bar/25905.png, id=271, 706.64pt x 702.625pt
 >
 File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/25905.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
- on input line 266.
+ on input line 270.
 (pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
@@ -1400,29 +1400,29 @@ Overfull \hbox (1178.66582pt too wide) in paragraph at lines 2--14
  []
 
 ) (./test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex)
-<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=268, 81.906pt x 78.2925
+<test-sample/icpr22/images/line/PMC6339093___05.jpg, id=272, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
 )
 <use test-sample/icpr22/images/line/PMC6339093___05.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC6339093___05.jpg  us
-ed on input line 274.
+ed on input line 278.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
 
 (./test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex)
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=269, 160.4394pt x 1
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=273, 160.4394pt x 1
 38.0357pt>
 File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
  jpg)
 <use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
-  used on input line 280.
+  used on input line 284.
 (pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=270, 1119.18124pt x 652.4375pt>
+<test-sample/plotqa/images/line/21673.png, id=274, 1119.18124pt x 652.4375pt>
 File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
 <use test-sample/plotqa/images/line/21673.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
-t line 285.
+t line 289.
 (pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
 
 (./test-sample/plotqa/jsons/line/21673.tex
@@ -1434,12 +1434,12 @@ Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
 673.tex) (./test-sample/plotqa/predictions/deplot/line/21673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=271, 1259.70625pt x 702.6
+<test-sample/plotqa/images/line/20049-4-lines.png, id=275, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/20049-4-lines.png  used
- on input line 295.
+ on input line 299.
 (pdftex.def)             Requested size: 397.48233pt x 221.70328pt.
 
 (./test-sample/plotqa/jsons/line/20049.tex
@@ -1463,108 +1463,52 @@ e for Gem-ini Flash pre-dic-tions where it
  []
 
 )
-<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=272, 663.47874pt x
- 492.84125pt>
-File: test-sample/icpr22/images/scatter/PMC2279396___g002.jpg Graphic file (typ
-e jpg)
-<use test-sample/icpr22/images/scatter/PMC2279396___g002.jpg>
-Package pdftex.def Info: test-sample/icpr22/images/scatter/PMC2279396___g002.jp
-g  used on input line 308.
-(pdftex.def)             Requested size: 397.48288pt x 295.25581pt.
 
-Overfull \hbox (39.05331pt too wide) in paragraph at lines 316--316
-[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/deplot/sca
-tter/PMC2279396___g002.csv}[] 
- []
-
-
-Overfull \hbox (161.28404pt too wide) in paragraph at lines 318--318
-[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/gemini-1.5
--flash/1st_prompt/scatter/PMC2279396___g002.csv}[] 
- []
+LaTeX Warning: Reference `app:other-plots' on page 13 undefined on input line 3
+13.
 
 [13] [14 <./test-sample/plotqa/images/vertical-bar/25905.png>] [15 <./test-samp
 le/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/PM
 C5882956___1_HTML.jpg>] [16] [17 <./test-sample/plotqa/images/line/21673.png>]
-[18 <./test-sample/plotqa/images/line/20049-4-lines.png>] [19] [20 <./test-samp
-le/icpr22/images/scatter/PMC2279396___g002.jpg>]
-Overfull \hbox (213.66864pt too wide) in paragraph at lines 320--320
-[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/ahmed-masr
-y/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}[] 
- []
-
-<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=327, 499.8675
-pt x 448.67625pt>
-File: test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg Graphic file
- (type jpg)
-<use test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>
-Package pdftex.def Info: test-sample/icpr22/images/vertical-box/PMC1855992___g0
-01.jpg  used on input line 328.
-(pdftex.def)             Requested size: 397.49954pt x 356.79176pt.
-
-Overfull \hbox (73.97638pt too wide) in paragraph at lines 334--334
-[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/csvs/ve
-rtical-box/PMC1855992___g001.csv}[] 
- []
-
-
-Overfull \hbox (155.46353pt too wide) in paragraph at lines 336--336
-[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
-ions/deplot/vertical-box/PMC1855992___g001.csv}[] 
- []
-
-[21 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
-Overfull \hbox (312.61732pt too wide) in paragraph at lines 338--338
-[]               \T1/SourceCodePro-TLF/m/n/11 \input{cat  test-sample/icpr22/pr
-edictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}[] 
- []
-
-
-Overfull \hbox (330.07886pt too wide) in paragraph at lines 340--340
-[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
-ions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}[]
- 
- []
-
-[22]
-Overfull \hbox (10.93463pt too wide) in paragraph at lines 372--372
+[18 <./test-sample/plotqa/images/line/20049-4-lines.png>] [19]
+Overfull \hbox (10.93463pt too wide) in paragraph at lines 336--336
 [][]\T1/pplj/m/n/11 (-10) PACE, M (2017). ^^P  Part-ner-ship for an ad-vanced c
 om-put-ing en-vi-ron-ment (PACE)^^Q.
  []
 
-
-Overfull \hbox (10.67169pt too wide) in paragraph at lines 372--372
+[20]
+Overfull \hbox (10.67169pt too wide) in paragraph at lines 336--336
 [][]\T1/pplj/m/n/11 (-10) Herzig, Jonathan, Nowak, Paweª Krzysztof, Müller, Tho
 mas, Pic-cinno, Francesco,
  []
 
 
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 372--372
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 336--336
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
-[23]
-Overfull \hbox (2.9494pt too wide) in paragraph at lines 372--372
+[21]
+Overfull \hbox (2.9494pt too wide) in paragraph at lines 336--336
 \T1/pplj/m/n/11 (-10) A uni-fied frame-work for chart deren-der-ing and com-pre
 -hen-sion with-out heuris-
  []
 
-[24]
-Overfull \hbox (6.89139pt too wide) in paragraph at lines 372--372
+
+Overfull \hbox (6.89139pt too wide) in paragraph at lines 336--336
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 391--395
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 355--359
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
  []
 
-[26]
-Overfull \hbox (19.55138pt too wide) in paragraph at lines 422--423
+[23]
+Overfull \hbox (19.55138pt too wide) in paragraph at lines 386--387
 \T1/pplj/m/n/11 (-10) Let $\U/zeur/m/n/11 P \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 x
 []\T1/pplj/m/n/11 (-10) , \U/zeur/m/n/11 y[]\U/zeus/m/n/11 ©\T1/pplj/m/n/11 (-1
 0) , [] , \U/zeus/m/n/11 ¨\U/zeur/m/n/11 x[]\T1/pplj/m/n/11 (-10) , \U/zeur/m/n
@@ -1574,13 +1518,78 @@ U/zeur/m/n/11 G \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 u[]\T1/pplj/m/n/11 (-10) , \U
 /zeur/m/n/11 u[]\T1/pplj/m/n/11 (-10) , \U/zeur/m/n/11 v[]\U/zeus/m/n/11 ©g$
  []
 
-[27] [28] (./main.aux)
+[24]
+<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=382, 663.47874pt x
+ 492.84125pt>
+File: test-sample/icpr22/images/scatter/PMC2279396___g002.jpg Graphic file (typ
+e jpg)
+<use test-sample/icpr22/images/scatter/PMC2279396___g002.jpg>
+Package pdftex.def Info: test-sample/icpr22/images/scatter/PMC2279396___g002.jp
+g  used on input line 441.
+(pdftex.def)             Requested size: 397.48288pt x 295.25581pt.
+ [25] [26 <./test-sample/icpr22/images/scatter/PMC2279396___g002.jpg>]
+Overfull \hbox (39.05331pt too wide) in paragraph at lines 449--449
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/deplot/sca
+tter/PMC2279396___g002.csv}[] 
+ []
+
+
+Overfull \hbox (161.28404pt too wide) in paragraph at lines 451--451
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/gemini-1.5
+-flash/1st_prompt/scatter/PMC2279396___g002.csv}[] 
+ []
+
+
+Overfull \hbox (213.66864pt too wide) in paragraph at lines 453--453
+[]\T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predictions/ahmed-masr
+y/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}[] 
+ []
+
+<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=394, 499.8675
+pt x 448.67625pt>
+File: test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg Graphic file
+ (type jpg)
+<use test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>
+Package pdftex.def Info: test-sample/icpr22/images/vertical-box/PMC1855992___g0
+01.jpg  used on input line 461.
+(pdftex.def)             Requested size: 397.49954pt x 356.79176pt.
+
+Overfull \hbox (73.97638pt too wide) in paragraph at lines 467--467
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/csvs/ve
+rtical-box/PMC1855992___g001.csv}[] 
+ []
+
+
+Overfull \hbox (155.46353pt too wide) in paragraph at lines 469--469
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
+ions/deplot/vertical-box/PMC1855992___g001.csv}[] 
+ []
+
+
+Overfull \hbox (312.61732pt too wide) in paragraph at lines 471--471
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{cat  test-sample/icpr22/pr
+edictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}[] 
+ []
+
+
+Overfull \hbox (330.07886pt too wide) in paragraph at lines 473--473
+[]               \T1/SourceCodePro-TLF/m/n/11 \input{test-sample/icpr22/predict
+ions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}[]
+ 
+ []
+
+[27] [28 <./test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>]
+(./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: ED95F117C269FD6ECDDB91FC53073817;4173.
+(rerunfilecheck)             Checksum: 73CE96D3608DB7AB4CCE40621C812AD5;4393.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1590,13 +1599,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 19 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31316 strings out of 474116
- 607618 string characters out of 5743682
+ 31318 strings out of 474116
+ 607632 string characters out of 5743682
  1966187 words of memory out of 5000000
- 52605 multiletter control sequences out of 15000+600000
+ 52606 multiletter control sequences out of 15000+600000
  658840 words of font info for 454 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,131p,997b,2763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,10n,131p,997b,2783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecod
 epro/SourceCodePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
@@ -1616,10 +1625,10 @@ j8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (28 pages, 733712 bytes).
+Output written on main.pdf (28 pages, 735016 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 141 named destinations out of 1000 (max. 500000)
- 113929 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 113937 words of extra memory for PDF output out of 128383 (max. 10000000)
 
