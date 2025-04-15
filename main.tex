@@ -58,7 +58,7 @@ In this section, we review related work in Traditional Computer Vision, Deep Lea
 
 %TODO: add subsection for datasets
 
-\subsection{Computer Vision and Deep Learning}\label{ssect:cv-and-dl}
+\subsection{Computer Vision and Deep Learning for Chart-to-Table Conversion}\label{ssect:cv-and-dl}
     It all begins with computer vision (CV)-based methods.
     Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}.
     These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions.
@@ -80,7 +80,7 @@ In this section, we review related work in Traditional Computer Vision, Deep Lea
     Their approach shows promising direction in utilizing synthetic data in improving models on real world test images.
     This direction of research highlights challenges of each kind of chart, but it has many disconnected componenets and their results are not necessarily comparable.
 
-    \subsection{Pretraining and Fine-tuning}\label{ssect:pretraining-and-fine-tuning}
+    \subsection{Transformer Models}\label{ssect:pretraining-and-fine-tuning}
 After the introduction of transformers~\cite{vaswani2017attention}, Pretraining and Fine-tuning paradigm caught researchers attention.
 ~\cite{masry2023unichart} gathered a large dataset of 6.9M questions and charts, and used it to pre-train UniChart model.
 Another group of researchers~\cite{liu2022matcha} introduced Matcha model, which was a fine-tuned version of Pix2Struct~\cite{lee2023pix2struct} on many tasks including Chart-to-Table.
@@ -224,8 +224,15 @@ Many columns in tables of the testset contain "unnamed data series 0", which has
 In a future work, we would also take into account computing RMS both with and without considering normalized edit distance.
 Another reason for those low scores is the failure of all models in properly extracting data from scatter plots and vertical box plots, as illustrated in section~\ref{par:scatter} and section~\ref{par:box} respectively.
 
-
 \subsection{Qualitative Analysis}\label{ssect:qualitative}
+\subsubsection{Text Recognition}\label{ssect:qualitative-text-recognition}
+As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
+Other than that, all text was correctly recognized by all models.
+However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input image similar to figure~\ref{fig:plotqa-line-21673}..
+\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
+\footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
+%TODO: move figure and referenced tables here.
+
 \subsubsection{Values Extraction}\label{sssect:values-extraction}
 For PlotQA and ICPR22 samples, it is frequent to find errors like:
 \begin{enumerate}
@@ -243,19 +250,6 @@ However, DePlot was found to be the most robust against this error.
 
 In the remaining part of this section, we illustrate issues related to each kind of graphs.
 
-\paragraph{Bar Charts}\label{par:bar-errors}
-\begin{enumerate}
-    \item All models are good in extracting data points of Horizontal and Vertical bar charts.
-        However, DePlot seams better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
-       \end{enumerate}
-       \begin{figure}
-            \includegraphics{test-sample/plotqa/images/vertical-bar/32640.png}
-            \caption{PlotQA Vertical Bar no. 32640.}
-            \label{fig:plotqa-vbar-32640}
-             \end{figure}
-             \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/32640.tex}
-             \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/32640.tex}
-             \input{ test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex}
        \paragraph{Line Charts}\label{par:line-errors}
        \begin{enumerate}
   \item Tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show that both models are very good in extracting data points from line charts.
@@ -305,11 +299,23 @@ In the remaining part of this section, we illustrate issues related to each kind
 
 \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.tex}
 
-%TODO: make a note for scatter and verticdal box only and include examples in appendix
+\paragraph{Bar Charts}\label{par:bar-errors}
+\begin{enumerate}
+    \item All models are good in extracting data points of Horizontal and Vertical bar charts.
+        However, DePlot seams better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
+       \end{enumerate}
+       \begin{figure}
+            \includegraphics{test-sample/plotqa/images/vertical-bar/32640.png}
+            \caption{PlotQA Vertical Bar no. 32640.}
+            \label{fig:plotqa-vbar-32640}
+             \end{figure}
+             \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/32640.tex}
+             \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/32640.tex}
+             \input{ test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex}
 
 \paragraph{Other Types of Charts:}
 ICPR22 testset includes scatter and vertical box plots.
-The performance of all models is very poor in extracting underlying data points in both types.
+However, the performance of all models is very poor in extracting underlying data points in both types.
 Appendix~\ref{app:other-plots} include examples for predictions of all models.
 
 \section{Conclusion and Recommendations}\label{sect:conclusion}
@@ -434,24 +440,19 @@ with $\text{score}(0, j) = \text{score}(i, 0) = 0$ for all $i, j$. The final nor
 \section{Examples for Failing Plot Types}\label{app:other-plot-types}
 This section includes examples for all chart types that can not be processed by any of tested models.
 \subsection{Scatter Plots}\label{par:scatter}
-\begin{enumerate}
-         \item There is no model capable of handling scatter plots correctly!
-          \end{enumerate}
           \begin{figure}
                \includegraphics{test-sample/icpr22/images/scatter/PMC2279396___g002.jpg}
                \caption{Scatter Plot from ICPR22 testset \#2279}
                \label{fig:icpr22-scatter-2279}
                 \end{figure}
-\begin{verbatim}
 Ground Truth csv:
-\input{test-sample/icpr22/csvs/scatter/PMC2279396___g002.csv}
+\input{test-sample/icpr22/csvs/scatter/PMC2279396___g002}
 DePlot output csv:
-\input{test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002.csv}
+\input{test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002}
 Gemini 1.5 Flash output json:
-\input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/scatter/PMC2279396___g002.csv}
+\input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/scatter/PMC2279396___g002}
 ChartGemma output text:
-\input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/scatter/PMC2279396___g002.md}
-\end{verbatim}
+\input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/scatter/PMC2279396___g002}
 \subsection{Box Plots}\label{par:box}
 \begin{enumerate}
          \item Gemini 1.5 Flash was the only model to correctly extract data points from vertical box plots.
@@ -462,22 +463,13 @@ ChartGemma output text:
                    \caption{Vertical Box Plot from ICPR22 testset \#1855}
                    \label{fig:icpr22-box-185}
                     \end{figure}
-               \begin{verbatim}
                Ground Truth csv:
-               \input{test-sample/icpr22/csvs/vertical-box/PMC1855992___g001.csv}
+               \input{test-sample/icpr22/csvs/vertical-box/PMC1855992___g001}
                DePlot prediction:
-               \input{test-sample/icpr22/predictions/deplot/vertical-box/PMC1855992___g001.csv}
+               \input{test-sample/icpr22/predictions/deplot/vertical-box/PMC1855992___g001}
                Gemini 1.5 Flash prediction:
-               \input{cat  test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001.json}
+               \input{test-sample/icpr22/predictions/gemini-1.5-flash/1st_prompt/vertical-box/PMC1855992___g001}
                ChartGemma's  output markdown:
-               \input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001.md}
-               \end{verbatim}
-
-\subsubsection{Text Recognition}\label{sssect:text-recognition}
-As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
-Other than that, all text was correctly recognized by all models.
-However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input figure~\ref{fig:plotqa-line-21673}.
-\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
-\footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
+               \input{test-sample/icpr22/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-box/PMC1855992___g001}
 
 \end{document}
