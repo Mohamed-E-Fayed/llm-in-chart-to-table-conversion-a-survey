@@ -111,7 +111,7 @@ Others concentrated on Chart Question Answering and Chart Summarization.
 In this work, we focus on Chart-to-Table Conversion, which requires tackling Optical Character Recognition (OCR) and comprehensive Visual Understanding.
 In this section, we review related work in Traditional Computer Vision, Deep Learning and Multimodal Large Language Models and how they influenced the evolution of this task.
 
-\subsection{Computer Vision and Deep Learning}\label{ssect:cv-and-dl}
+\subsection{Computer Vision and Deep Learning for Chart-to-Table Conversion}\label{ssect:cv-and-dl}
     It all begins with computer vision (CV)-based methods.
     Early attempts to extract tabular data from charts utilized traditional image processing techniques like segmentation and edge detection that could identify visual elements like bars, axes, and legends~\cite{sreevalsan2021tensor}.
     These approaches were effective to some extent, but they struggled with the many variations found in chart styles and occlusions.
@@ -133,7 +133,7 @@ In this section, we review related work in Traditional Computer Vision, Deep Lea
     Their approach shows promising direction in utilizing synthetic data in improving models on real world test images.
     This direction of research highlights challenges of each kind of chart, but it has many disconnected componenets and their results are not necessarily comparable.
 
-    \subsection{Pretraining and Fine-tuning}\label{ssect:pretraining-and-fine-tuning}
+    \subsection{Transformer Models}\label{ssect:pretraining-and-fine-tuning}
 After the introduction of transformers~\cite{vaswani2017attention}, Pretraining and Fine-tuning paradigm caught researchers attention.
 ~\cite{masry2023unichart} gathered a large dataset of 6.9M questions and charts, and used it to pre-train UniChart model.
 Another group of researchers~\cite{liu2022matcha} introduced Matcha model, which was a fine-tuned version of Pix2Struct~\cite{lee2023pix2struct} on many tasks including Chart-to-Table.
@@ -216,7 +216,7 @@ One major issue is the absence of labels on many line charts.
 Many columns in tables of the testset contain "unnamed data series 0", which has 1 normalized edit distance with whatever models generate as columns names, thus 0 RMS score occurs frequently.
 In a future work, we would also take into account computing RMS both with and without considering normalized edit distance.
 Another reason for those low scores is the failure of all models in properly extracting data from scatter plots and vertical box plots, as illustrated in section~\ref{sssect:scatter} and section~\ref{sssect:box} respectively.
-
+%TODO: make subsecttion for qualitative analysis 
 \subsection{Text Recognition}\label{ssect:qualitative-text-recognition}
 As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
 Other than that, all text was correctly recognized by all models.
