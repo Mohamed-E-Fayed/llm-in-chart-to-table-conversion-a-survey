@@ -229,7 +229,6 @@ Another reason for those low scores is the failure of all models in properly ext
 As per the analyzed sample, we found a single error in DePlot's output in  recognizing name of second row in table 28308 in PlotQA.
 Other than that, all text was correctly recognized by all models.
 However, tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show models' tendency to labelize even if there are no labels in the input image similar to figure~\ref{fig:plotqa-line-21673}..
-\footnote{the prediction of Gemini and Ground Truth have no labels for x-axis, but ChartGemma made years as labels.}
 \footnote{In some cases, the ground truth is mislabelled. The reference has no values for x-axis, but the image includes them as in~\ref{fig:plotqa-line-20049}.}
 %TODO: move figure and referenced tables here.
 
@@ -253,32 +252,7 @@ In the remaining part of this section, we illustrate issues related to each kind
        \paragraph{Line Charts}\label{par:line-errors}
        \begin{enumerate}
   \item Tables~\ref{tab:deplot-plotqa-line-21673}, ~\ref{tab:chartgemma-plotqa-line-21673} and~\ref{tab:gemini-plotqa-line-21673} show that both models are very good in extracting data points from line charts.
-     \item There are some graphs, like~\ref{fig:icpr22-line-6339}, the Gemini API just fails with no clear response message.
-       However, it is suspected that the large number of data points might be the reason.
-               It is noticable for the same chart to cause DePlot to repeat some rows as shown in table~\ref{tab:deplot-icpr22-line-6339}.
-     \item Table~\ref{tab:chartgemma-plotqa-line-20049} shows that ChartGemma may fail in extracting data points from slightly complex graphs.
-       It fails in both extracting correct values as well as mapping them to the correct label.
-              \end{enumerate}
-       Tables~\ref{tab:gemini-plotqa-vbar-25905} and~\ref{tab:chartgemma-plotqa-vbar-25905} include Gemini 1.5 Flash and ChartGemma predictions for figure~\ref{fig:plotqa-vbar-25905} respectively.
-\begin{figure}
-   \includegraphics{test-sample/plotqa/images/vertical-bar/25905.png}
-   \caption{Vertical Bar Chart example from PlotQA testset.}\label{fig:plotqa-vbar-25905}
-   \end{figure}
-\input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/25905.tex}
-\input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/25905.tex}
-\input{test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex}
-
-\begin{figure}
-    \includegraphics[width=10cm]{test-sample/icpr22/images/line/PMC6339093___05.jpg}
-   \caption{Example for charts that causes the API to fail.}
-   \label{fig:icpr22-line-6339}
-   \end{figure}
-   \input{test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex}
-\begin{figure}
-   \includegraphics{test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg}
-   \caption{A good example for graph in the wild that causes Gemini 1.5 Flash to fail.}
-   \label{fig:icpr22-line-5882}
-   \end{figure}
+       \end{enumerate}
 \begin{figure}
    \includegraphics{test-sample/plotqa/images/line/21673.png}
    \caption{Example for Line Chart from PlotQA testset \# 21673 about Portfolio Investment}
@@ -289,6 +263,21 @@ In the remaining part of this section, we illustrate issues related to each kind
 \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21673.tex}
 \input{test-sample/plotqa/predictions/deplot/line/21673.tex}
 
+       \begin{enumerate}
+     \item There are some graphs, like~\ref{fig:icpr22-line-6339}, the Gemini API just fails with no clear response message.
+       However, it is suspected that the large number of data points might be the reason.
+               It is noticable for the same chart to cause DePlot to repeat some rows as shown in table~\ref{tab:deplot-icpr22-line-6339}.
+       \end{enumerate}
+\begin{figure}
+    \includegraphics[width=10cm]{test-sample/icpr22/images/line/PMC6339093___05.jpg}
+   \caption{Example for line charts that causes the API to fail.}
+   \label{fig:icpr22-line-6339}
+   \end{figure}
+   \input{test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex}
+       \begin{enumerate}
+     \item Table~\ref{tab:chartgemma-plotqa-line-20049} shows that ChartGemma may fail in extracting data points from slightly complex graphs.
+       It fails in both extracting correct values as well as mapping them to the correct label.
+              \end{enumerate}
 \begin{figure}
    \includegraphics{test-sample/plotqa/images/line/20049-4-lines.png}
    \caption{PlotQA \# 20049: Line chart containing 4 lines.}\label{fig:plotqa-line-20049}
@@ -296,14 +285,27 @@ In the remaining part of this section, we illustrate issues related to each kind
    \input{test-sample/plotqa/jsons/line/20049.tex}
    \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/20049.tex}
    \input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20049-4-lines.tex}
-
+\begin{figure}
+   \includegraphics{test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg}
+   \caption{A good example for graph in the wild that causes Gemini 1.5 Flash to fail.}
+   \label{fig:icpr22-line-5882}
+   \end{figure}
 \input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.tex}
 
 \paragraph{Bar Charts}\label{par:bar-errors}
 \begin{enumerate}
     \item All models are good in extracting data points of Horizontal and Vertical bar charts.
-        However, DePlot seams better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
+    Tables~\ref{tab:gemini-plotqa-vbar-25905} and~\ref{tab:chartgemma-plotqa-vbar-25905} include Gemini 1.5 Flash and ChartGemma predictions for figure~\ref{fig:plotqa-vbar-25905} respectively.
+        However, DePlot is better in precision and in extracting negative points as in Figure~\ref{fig:plotqa-vbar-32640}.
        \end{enumerate}
+\begin{figure}
+   \includegraphics{test-sample/plotqa/images/vertical-bar/25905.png}
+   \caption{Vertical Bar Chart example from PlotQA testset.}\label{fig:plotqa-vbar-25905}
+   \end{figure}
+\input{test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/25905.tex}
+\input{test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertical-bar/25905.tex}
+\input{test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex}
+
        \begin{figure}
             \includegraphics{test-sample/plotqa/images/vertical-bar/32640.png}
             \caption{PlotQA Vertical Bar no. 32640.}

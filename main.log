@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  15 APR 2025 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  16 APR 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1368,24 +1368,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--32
 [][] []
  []
 
-) [8] (./scores.tex) [9] [10] [11]
-<test-sample/plotqa/images/vertical-bar/25905.png, id=269, 706.64pt x 702.625pt
->
-File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
-<use test-sample/plotqa/images/vertical-bar/25905.png>
-Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
- on input line 264.
-(pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
-
-(./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
-5.tex)
-(./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
-l-bar/25905.tex
-Overfull \hbox (1178.66582pt too wide) in paragraph at lines 2--14
+) [8] (./scores.tex) [9] [10]
+<test-sample/plotqa/images/line/21673.png, id=241, 1119.18124pt x 652.4375pt>
+File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
+<use test-sample/plotqa/images/line/21673.png>
+Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
+t line 257.
+(pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
+ (./test-sample/plotqa/jsons/line/21673.tex
+Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
 [][] 
  []
 
-) (./test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex)
+) (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.tex)
+
+(./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
+673.tex) (./test-sample/plotqa/predictions/deplot/line/21673.tex) [11] [12 <./t
+est-sample/plotqa/images/line/21673.png>]
 <test-sample/icpr22/images/line/PMC6339093___05.jpg, id=271, 81.906pt x 78.2925
 pt>
 File: test-sample/icpr22/images/line/PMC6339093___05.jpg Graphic file (type jpg
@@ -1396,36 +1395,12 @@ ed on input line 272.
 (pdftex.def)             Requested size: 81.90828pt x 78.29468pt.
 
 (./test-sample/icpr22/predictions/deplot/line/PMC6339093___05.tex)
-<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=272, 160.4394pt x 1
-38.0357pt>
-File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
- jpg)
-<use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
-Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
-  used on input line 278.
-(pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
-<test-sample/plotqa/images/line/21673.png, id=273, 1119.18124pt x 652.4375pt>
-File: test-sample/plotqa/images/line/21673.png Graphic file (type png)
-<use test-sample/plotqa/images/line/21673.png>
-Package pdftex.def Info: test-sample/plotqa/images/line/21673.png  used on inpu
-t line 283.
-(pdftex.def)             Requested size: 397.49144pt x 231.72145pt.
-
-(./test-sample/plotqa/jsons/line/21673.tex
-Overfull \hbox (487.68881pt too wide) in paragraph at lines 2--9
-[][] 
- []
-
-) (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/21673.tex)
-
-(./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/21
-673.tex) (./test-sample/plotqa/predictions/deplot/line/21673.tex)
-<test-sample/plotqa/images/line/20049-4-lines.png, id=274, 1259.70625pt x 702.6
+<test-sample/plotqa/images/line/20049-4-lines.png, id=273, 1259.70625pt x 702.6
 25pt>
 File: test-sample/plotqa/images/line/20049-4-lines.png Graphic file (type png)
 <use test-sample/plotqa/images/line/20049-4-lines.png>
 Package pdftex.def Info: test-sample/plotqa/images/line/20049-4-lines.png  used
- on input line 293.
+ on input line 282.
 (pdftex.def)             Requested size: 397.48233pt x 221.70328pt.
 
 (./test-sample/plotqa/jsons/line/20049.tex
@@ -1437,6 +1412,15 @@ Overfull \hbox (775.16301pt too wide) in paragraph at lines 2--12
 
 (./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/line/20
 049-4-lines.tex)
+<test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg, id=274, 160.4394pt x 1
+38.0357pt>
+File: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg Graphic file (type
+ jpg)
+<use test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg>
+Package pdftex.def Info: test-sample/icpr22/images/line/PMC5882956___1_HTML.jpg
+  used on input line 289.
+(pdftex.def)             Requested size: 160.43901pt x 138.03535pt.
+
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/line/18806.tex
 Overfull \hbox (355.35078pt too wide) in paragraph at lines 2--13
 [][] 
@@ -1444,20 +1428,34 @@ Overfull \hbox (355.35078pt too wide) in paragraph at lines 2--13
 
 
 Underfull \hbox (badness 1603) in paragraph at lines 13--13
-[]\T1/pplj/b/it/8.5/20ls (+10) Table 14^^V|[]\T1/pplj/m/n/8.5/20ls (+10) Exampl
+[]\T1/pplj/b/it/8.5/20ls (+10) Table 11^^V|[]\T1/pplj/m/n/8.5/20ls (+10) Exampl
 e for Gem-ini Flash pre-dic-tions where it
  []
 
-) [12] [13 <./test-sample/plotqa/images/vertical-bar/25905.png>] [14 <./test-sa
-mple/icpr22/images/line/PMC6339093___05.jpg> <./test-sample/icpr22/images/line/
-PMC5882956___1_HTML.jpg> <./test-sample/plotqa/images/line/21673.png>] [15]
-[16] [17 <./test-sample/plotqa/images/line/20049-4-lines.png>]
-<test-sample/plotqa/images/vertical-bar/32640.png, id=319, 1042.89626pt x 652.4
+)
+<test-sample/plotqa/images/vertical-bar/25905.png, id=279, 706.64pt x 702.625pt
+>
+File: test-sample/plotqa/images/vertical-bar/25905.png Graphic file (type png)
+<use test-sample/plotqa/images/vertical-bar/25905.png>
+Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/25905.png  used
+ on input line 302.
+(pdftex.def)             Requested size: 397.48402pt x 395.22559pt.
+
+(./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/2590
+5.tex)
+(./test-sample/plotqa/predictions/ahmed-masry/chartgemma/initial_prompt/vertica
+l-bar/25905.tex
+Overfull \hbox (1178.66582pt too wide) in paragraph at lines 2--14
+[][] 
+ []
+
+) (./test-sample/plotqa/predictions/deplot/vertical-bar/25905.tex)
+<test-sample/plotqa/images/vertical-bar/32640.png, id=280, 1042.89626pt x 652.4
 375pt>
 File: test-sample/plotqa/images/vertical-bar/32640.png Graphic file (type png)
 <use test-sample/plotqa/images/vertical-bar/32640.png>
 Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
- on input line 308.
+ on input line 310.
 (pdftex.def)             Requested size: 397.48228pt x 248.66551pt.
 
 (./test-sample/plotqa/predictions/gemini-1.5-flash/1st_prompt/vertical-bar/3264
@@ -1466,48 +1464,51 @@ Package pdftex.def Info: test-sample/plotqa/images/vertical-bar/32640.png  used
 l-bar/32640.tex)
 (./test-sample/plotqa/predictions/deplot/vertical-bar/32640.tex)
 
-LaTeX Warning: Reference `app:other-plots' on page 18 undefined on input line 3
-19.
+LaTeX Warning: Reference `app:other-plots' on page 13 undefined on input line 3
+21.
 
-[18 <./test-sample/plotqa/images/vertical-bar/32640.png>] [19] [20]
-Overfull \hbox (10.93463pt too wide) in paragraph at lines 342--342
+[13 <./test-sample/icpr22/images/line/PMC6339093___05.jpg>] [14] [15 <./test-sa
+mple/plotqa/images/line/20049-4-lines.png>] [16 <./test-sample/icpr22/images/li
+ne/PMC5882956___1_HTML.jpg>] [17 <./test-sample/plotqa/images/vertical-bar/2590
+5.png>] [18] [19 <./test-sample/plotqa/images/vertical-bar/32640.png>]
+Overfull \hbox (10.93463pt too wide) in paragraph at lines 344--344
 [][]\T1/pplj/m/n/11 (-10) PACE, M (2017). ^^P  Part-ner-ship for an ad-vanced c
 om-put-ing en-vi-ron-ment (PACE)^^Q.
  []
 
-
-Overfull \hbox (10.67169pt too wide) in paragraph at lines 342--342
+[20]
+Overfull \hbox (10.67169pt too wide) in paragraph at lines 344--344
 [][]\T1/pplj/m/n/11 (-10) Herzig, Jonathan, Nowak, Paweª Krzysztof, Müller, Tho
 mas, Pic-cinno, Francesco,
  []
 
 
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 342--342
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 344--344
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
 [21]
-Overfull \hbox (2.9494pt too wide) in paragraph at lines 342--342
+Overfull \hbox (2.9494pt too wide) in paragraph at lines 344--344
 \T1/pplj/m/n/11 (-10) A uni-fied frame-work for chart deren-der-ing and com-pre
 -hen-sion with-out heuris-
  []
 
 
-Overfull \hbox (6.89139pt too wide) in paragraph at lines 342--342
+Overfull \hbox (6.89139pt too wide) in paragraph at lines 344--344
 \T1/pplj/m/n/11 (-10) Zarrie, Sina, and La-wonn, Kai (2023). ^^P  VIST5: An ada
 p-tive, retrieval-augmented
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 361--365
+Underfull \hbox (badness 10000) in paragraph at lines 363--367
 []\T1/pplj/b/n/11 (+10) end for$\U/zeur/m/n/11 RMS[] \U/zeus/m/n/11 ½ [][] [][]
  \U/zeur/m/n/11 d[]=len\U/zeus/m/n/11 ¨\U/zeur/m/n/11 p\U/zeus/m/n/11 ©$ $\U/ze
 ur/m/n/11 RMS[] \U/zeus/m/n/11 ½
  []
 
 [23]
-Overfull \hbox (19.55138pt too wide) in paragraph at lines 392--393
+Overfull \hbox (19.55138pt too wide) in paragraph at lines 394--395
 \T1/pplj/m/n/11 (-10) Let $\U/zeur/m/n/11 P \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 x
 []\T1/pplj/m/n/11 (-10) , \U/zeur/m/n/11 y[]\U/zeus/m/n/11 ©\T1/pplj/m/n/11 (-1
 0) , [] , \U/zeus/m/n/11 ¨\U/zeur/m/n/11 x[]\T1/pplj/m/n/11 (-10) , \U/zeur/m/n
@@ -1518,13 +1519,13 @@ U/zeur/m/n/11 G \U/zeus/m/n/11 ½ f¨\U/zeur/m/n/11 u[]\T1/pplj/m/n/11 (-10) , \U
  []
 
 [24]
-<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=393, 663.47874pt x
+<test-sample/icpr22/images/scatter/PMC2279396___g002.jpg, id=390, 663.47874pt x
  492.84125pt>
 File: test-sample/icpr22/images/scatter/PMC2279396___g002.jpg Graphic file (typ
 e jpg)
 <use test-sample/icpr22/images/scatter/PMC2279396___g002.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/scatter/PMC2279396___g002.jp
-g  used on input line 444.
+g  used on input line 446.
 (pdftex.def)             Requested size: 397.48288pt x 295.25581pt.
  (./test-sample/icpr22/csvs/scatter/PMC2279396___g002.tex)
 (./test-sample/icpr22/predictions/deplot/scatter/PMC2279396___g002.tex [25]
@@ -1575,13 +1576,13 @@ ociated 'Days to Osse' value.[]
  []
 
 )
-<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=409, 499.8675
+<test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg, id=406, 499.8675
 pt x 448.67625pt>
 File: test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg Graphic file
  (type jpg)
 <use test-sample/icpr22/images/vertical-box/PMC1855992___g001.jpg>
 Package pdftex.def Info: test-sample/icpr22/images/vertical-box/PMC1855992___g0
-01.jpg  used on input line 462.
+01.jpg  used on input line 464.
 (pdftex.def)             Requested size: 397.49954pt x 356.79176pt.
  (./test-sample/icpr22/csvs/vertical-box/PMC1855992___g001.tex
 Overfull \hbox (4.13025pt too wide) in paragraph at lines 2--2
@@ -1643,11 +1644,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 19 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31385 strings out of 474116
- 612924 string characters out of 5743682
- 1966187 words of memory out of 5000000
- 52646 multiletter control sequences out of 15000+600000
- 658840 words of font info for 454 fonts, out of 8000000 for 9000
+ 31376 strings out of 474116
+ 612818 string characters out of 5743682
+ 1965187 words of memory out of 5000000
+ 52645 multiletter control sequences out of 15000+600000
+ 658434 words of font info for 449 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,131p,2477b,2783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecod
@@ -1669,10 +1670,10 @@ j8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (30 pages, 737725 bytes).
+Output written on main.pdf (30 pages, 737969 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 450 compressed objects within 5 object streams
- 143 named destinations out of 1000 (max. 500000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
  113937 words of extra memory for PDF output out of 128383 (max. 10000000)
 
