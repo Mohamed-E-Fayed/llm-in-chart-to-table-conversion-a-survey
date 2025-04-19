@@ -1,30 +1,31 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Chart-to-Table in Literature}{3}{section.2}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Chart-to-Table in Literature}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Computer Vision and Deep Learning for Chart-to-Table Conversion}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Transformer Models}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Multimodal Large Language Models (MLLMs)}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Experiments}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Datasets}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Models}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Prompts}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Evaluation}{8}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Results and Discussion}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Quantitative Analysis}{9}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Scores}{9}{subsubsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.2}Qualitative Analysis}{11}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Text Recognition}{11}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Values Extraction}{11}{subsubsection.4.2.2}%
-\contentsline {section}{\numberline {5}Conclusion and Recommendations}{13}{section.5}%
-\contentsline {section}{\numberline {6}Limitations}{20}{section.6}%
-\contentsline {section}{\numberline {7}Acknowledgments}{20}{section.7}%
-\contentsline {section}{\numberline {8}References}{20}{section.8}%
-\contentsline {section}{\numberline {A}Evaluation Metrics}{23}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{23}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}metrics introduced in ChartOCR}{23}{subsection.A.2}%
-\contentsline {subsubsection}{\numberline {A.2.1}Bar Chart Metric}{23}{subsubsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {A.2.2}Line Chart Metric}{24}{subsubsection.A.2.2}%
-\contentsline {subsubsection}{\numberline {A.2.3}Pie Chart Metric}{25}{subsubsection.A.2.3}%
-\contentsline {section}{\numberline {B}Examples for Failing Plot Types}{25}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Scatter Plots}{25}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Box Plots}{28}{subsection.B.2}%
+\contentsline {subsection}{\numberline {2.4}Datasets}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experiments}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Datasets}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Models}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Prompts}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Evaluation}{9}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results and Discussion}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Quantitative Analysis}{10}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Scores}{10}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Qualitative Analysis}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Text Recognition}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Values Extraction}{12}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Conclusion and Recommendations}{14}{section.5}%
+\contentsline {section}{\numberline {6}Limitations}{21}{section.6}%
+\contentsline {section}{\numberline {7}Acknowledgments}{21}{section.7}%
+\contentsline {section}{\numberline {8}References}{21}{section.8}%
+\contentsline {section}{\numberline {A}Evaluation Metrics}{25}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Relative Mapping Similarity (RMS)}{25}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}metrics introduced in ChartOCR}{25}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Bar Chart Metric}{25}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Line Chart Metric}{26}{subsubsection.A.2.2}%
+\contentsline {subsubsection}{\numberline {A.2.3}Pie Chart Metric}{26}{subsubsection.A.2.3}%
+\contentsline {section}{\numberline {B}Examples for Failing Plot Types}{27}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Scatter Plots}{27}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Box Plots}{29}{subsection.B.2}%

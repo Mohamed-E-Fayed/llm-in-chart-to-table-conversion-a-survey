@@ -319,6 +319,35 @@
       \field{pages}{1527\bibrangedash 1536}
       \range{pages}{10}
     \endentry
+    \entry{obeid2020chart}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4b7b26c51c78d682c5f21b6354e5ff77}{%
+           family={Obeid},
+           familyi={O\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9130769957787e035fa07a35615cc30c}{%
+           family={Hoque},
+           familyi={H\bibinitperiod},
+           given={Enamul},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3226fe02aae31735556e583ec359c502}
+      \strng{fullhash}{3226fe02aae31735556e583ec359c502}
+      \strng{bibnamehash}{3226fe02aae31735556e583ec359c502}
+      \strng{authorbibnamehash}{3226fe02aae31735556e583ec359c502}
+      \strng{authornamehash}{3226fe02aae31735556e583ec359c502}
+      \strng{authorfullhash}{3226fe02aae31735556e583ec359c502}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2010.09142}
+      \field{title}{Chart-to-text: Generating natural language descriptions for charts by adapting the transformer model}
+      \field{year}{2020}
+    \endentry
     \entry{raffel2020exploring}{article}{}
       \name{author}{9}{}{%
         {{hash=81a5a94e2388c149a73a86381db45e07}{%
@@ -466,6 +495,42 @@
       \field{year}{2021}
       \field{pages}{219\bibrangedash 241}
       \range{pages}{23}
+    \endentry
+    \entry{bajic2022data}{article}{}
+      \name{author}{2}{}{%
+        {{hash=09a159e3eac9d98e64a53901f17be5a0}{%
+           family={Bajić},
+           familyi={B\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ef2c02ed0837792d093630aa671d7f68}{%
+           family={Job},
+           familyi={J\bibinitperiod},
+           given={Josip},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \strng{fullhash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \strng{bibnamehash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \strng{authorbibnamehash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \strng{authornamehash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \strng{authorfullhash}{1fbbf44704e918f5c4656a9d49f23e46}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of imaging}
+      \field{number}{5}
+      \field{title}{Data extraction of circular-shaped and grid-like chart images}
+      \field{volume}{8}
+      \field{year}{2022}
+      \field{pages}{136}
+      \range{pages}{1}
     \endentry
     \entry{kumar2022chartparser}{article}{}
       \name{author}{3}{}{%
@@ -1434,6 +1499,78 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2502.00989}
       \field{title}{ChartCitor: Multi-Agent Framework for Fine-Grained Chart Visual Attribution}
+      \field{year}{2025}
+    \endentry
+    \entry{masry2025chartqapro}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=d9969b82a9bd6e43d63bb4695b0da9f4}{%
+           family={Masry},
+           familyi={M\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df52d35f4eff1fd7c65fb591d99b4c1b}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Mohammed\bibnamedelima Saidul},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cd3fa65a76da0de5dbf3538998931263}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Mahir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=db146e329c7f0c6c506020a3a4e65b3b}{%
+           family={Bajaj},
+           familyi={B\bibinitperiod},
+           given={Aayush},
+           giveni={A\bibinitperiod}}}%
+        {{hash=363d82f03a77eb45d9983f35552a59ad}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Firoz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a9fe8045b21ed8121f9aad31f53fb82d}{%
+           family={Kartha},
+           familyi={K\bibinitperiod},
+           given={Aaryaman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fd747cc8f50393611ad69d538bd61db7}{%
+           family={Laskar},
+           familyi={L\bibinitperiod},
+           given={Md\bibnamedelima Tahmid\bibnamedelima Rahman},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=06bcf6e60a5628928cd2f343981b6b22}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Mizanur},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78bfdf2903bcb8751f70f323d3a017e1}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Shadikur},
+           giveni={S\bibinitperiod}}}%
+        {{hash=43730af446290e66ed003478c8c64315}{%
+           family={Shahmohammadi},
+           familyi={S\bibinitperiod},
+           given={Mehrad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{fullhash}{587312adf50e064eba545d38f4747f07}
+      \strng{bibnamehash}{587312adf50e064eba545d38f4747f07}
+      \strng{authorbibnamehash}{587312adf50e064eba545d38f4747f07}
+      \strng{authornamehash}{dab9893327e2449383bb724f2c66d56b}
+      \strng{authorfullhash}{587312adf50e064eba545d38f4747f07}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2504.05506}
+      \field{title}{ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering}
       \field{year}{2025}
     \endentry
     \entry{zhao2025chartcoder}{article}{}
